@@ -6,3 +6,20 @@ body {
     background-color: gray;
 }
 
+#input-word {
+    margin-bottom: 6%;
+}
+
+#div-words {
+    margin-bottom: 1%;
+}
+
+#div-verbs {
+    margin-bottom: 3%;
+}
+
+#div-sentences {
+    margin-top: 5%;
+    margin-right: 5%;
+    
+}
