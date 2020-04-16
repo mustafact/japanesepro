@@ -4,7 +4,796 @@
 
 const data = [
 
-    { japanese : "こちら" , meaning : "this one", type : "vocab" },
+
+    // MINNA
+
+    { japanese : "nikai" , meaning : "second floor", type : "vocab" },
+{ japanese : "jimusho" , meaning : "office", type : "vocab" },
+{ japanese : "shinsitsu" , meaning : "room", type : "vocab" },
+{ japanese : "hako" , meaning : "box", type : "vocab" },
+{ japanese : "ushiro" , meaning : "back", type : "vocab" },
+{ japanese : "soto" , meaning : "outside", type : "vocab" },
+{ japanese : "shita" , meaning : "under", type : "vocab" },
+{ japanese : "yasai" , meaning : "vegetables", type : "vocab" },
+{ japanese : "kudamono" , meaning : "fruits", type : "vocab" },
+{ japanese : "memori kaado" , meaning : "memory card", type : "vocab" },
+{ japanese : "kazoku" , meaning : "family", type : "vocab" },
+
+
+{ japanese : "kakitome de" , meaning : "registered post", type : "vocab" },
+{ japanese : "kyoudai" , meaning : "siblings", type : "vocab" },
+{ japanese : "…kai" , meaning : "…floor", type : "vocab" },
+{ japanese : "…dake" , meaning : "…only", type : "vocab" },
+{ japanese : "faasuto fuudo" , meaning : "fast food", type : "vocab" },
+
+
+{ japanese : "shiken" , meaning : "test, exam", type : "vocab" },
+{ japanese : "kantan" , meaning : "easy", type : "vocab" },
+{ japanese : "shinkansen" , meaning : "fast train", type : "vocab" },
+{ japanese : "futsuu densha" , meaning : "ordinary train", type : "vocab" },
+{ japanese : "zutto" , meaning : "much", type : "vocab" },
+{ japanese : "hansamu" , meaning : "handsome", type : "vocab" },
+{ japanese : "karee" , meaning : "curry", type : "vocab" },
+{ japanese : "karai" , meaning : "spicy", type : "vocab" },
+{ japanese : "haru" , meaning : "spring", type : "vocab" },
+{ japanese : "aki" , meaning : "autumn", type : "vocab" },
+{ japanese : "dochiramo" , meaning : "nothing", type : "vocab" },
+{ japanese : "yasashi" , meaning : "gentle, kind", type : "vocab" },
+
+
+{ japanese : "ikemen kareshi" , meaning : "cool boyfriend", type : "vocab" },
+{ japanese : "kankoku" , meaning : "korea", type : "vocab" },
+{ japanese : "onaka ga sukimashita" , meaning : "I'm hungry", type : "vocab" },
+{ japanese : "hanbaagaa" , meaning : "hamburger", type : "vocab" },
+{ japanese : "ryoushin" , meaning : "parents", type : "vocab" },
+{ japanese : "yuki matsuri" , meaning : "snow festival", type : "vocab" },
+{ japanese : "maitoshi" , meaning : "every year", type : "vocab" },
+{ japanese : "sutoa" , meaning : "store", type : "vocab" },
+{ japanese : "mise" , meaning : "shop", type : "vocab" },
+{ japanese : "nodo ga kawakimashita" , meaning : "I'm thirsty", type : "vocab" },
+
+
+
+{ japanese : "kumori desu" , meaning : "cloudy", type : "vocab" },
+{ japanese : "ame desu" , meaning : "rainy", type : "vocab" },
+{ japanese : "nimotsu" , meaning : "luggage", type : "vocab" },
+{ japanese : "kekkou desu" , meaning : "it is ok, alright, enough", type : "vocab" },
+{ japanese : "shitsurei desu" , meaning : "sorry for disturbing", type : "vocab" },
+{ japanese : "shio" , meaning : "salt", type : "vocab" },
+{ japanese : "kaze ga fuite imasu" , meaning : "wind is blowing", type : "vocab" },
+
+
+
+{ japanese : "nimotsu" , meaning : "luggage", type : "vocab" },
+{ japanese : "dame desu" , meaning : "forbidden", type : "vocab" },
+{ japanese : "dokushin" , meaning : "single", type : "vocab" },
+{ japanese : "sutaa bakkusu" , meaning : "starbucks", type : "vocab" },
+{ japanese : "denki seihin" , meaning : "electric products", type : "vocab" },
+{ japanese : "denki jidousha" , meaning : "electric car", type : "vocab" },
+{ japanese : "mada" , meaning : "still", type : "vocab" },
+
+
+{ japanese : "shawa o abimasu" , meaning : "to take a shower", type : "vocab" },
+{ japanese : "yuushoku" , meaning : "dinner", type : "vocab" },
+{ japanese : "atama ga ii" , meaning : "smart", type : "vocab" },
+{ japanese : "suzushii" , meaning : "cool", type : "vocab" },
+{ japanese : "sugoku osusume" , meaning : "highly recommend", type : "vocab" },
+{ japanese : "omoshiroi mono" , meaning : "interesting things", type : "vocab" },
+{ japanese : "betonamu jin" , meaning : "vietnamese", type : "vocab" },
+{ japanese : "ryuugakusei" , meaning : "foreign student", type : "vocab" },
+{ japanese : "pairotto" , meaning : "pilot", type : "vocab" },
+{ japanese : "kangoshi" , meaning : "nurse", type : "vocab" },
+{ japanese : "kado" , meaning : "card", type : "vocab" },
+{ japanese : "this button" , meaning : "kono botan", type : "vocab" },
+{ japanese : "sekai" , meaning : "world", type : "vocab" },
+{ japanese : "kaigi" , meaning : "meeting", type : "vocab" },
+{ japanese : "me" , meaning : "eyes", type : "vocab" },
+{ japanese : "kami" , meaning : "hair", type : "vocab" },
+{ japanese : "senshu" , meaning : "player", type : "vocab" },
+{ japanese : "se ga hikui" , meaning : "short", type : "vocab" },
+{ japanese : "ashi ga hayai" , meaning : "fast", type : "vocab" },
+{ japanese : "sekaijuu de" , meaning : "all over the world", type : "vocab" },
+{ japanese : "douyatte" , meaning : "how", type : "vocab" },
+{ japanese : "jinja" , meaning : "shrine", type : "vocab" },
+{ japanese : "jidouhanbaiki" , meaning : "vending machine", type : "vocab" },
+{ japanese : "mazu" , meaning : "first", type : "vocab" },
+{ japanese : "okane" , meaning : "money", type : "vocab" },
+{ japanese : "oniisan" , meaning : "brother", type : "vocab" },
+
+
+{ japanese : "chiketto" , meaning : "ticket", type : "vocab" },
+{ japanese : "shinpai shimasu" , meaning : "to worry", type : "vocab" },
+{ japanese : "pasupooto" , meaning : "passport", type : "vocab" },
+{ japanese : "raishuu" , meaning : "next week", type : "vocab" },
+{ japanese : "otto" , meaning : "husband", type : "vocab" },
+
+
+{ japanese : "onrain" , meaning : "online", type : "vocab" },
+{ japanese : "yoyaku shimasu" , meaning : "to reserve", type : "vocab" },
+{ japanese : "porutogaru" , meaning : "portuguese", type : "vocab" },
+{ japanese : "shumi" , meaning : "hobby", type : "vocab" },
+{ japanese : "tsuri" , meaning : "fishing", type : "vocab" },
+{ japanese : "konpyuutaa geemu" , meaning : "computer game", type : "vocab" },
+{ japanese : "te" , meaning : "hand", type : "vocab" },
+{ japanese : "hoteru no yoyaku" , meaning : "hotel reservation", type : "vocab" },
+{ japanese : "kakunin shimasu" , meaning : "to confirm", type : "vocab" },
+{ japanese : "shokuji" , meaning : "meal", type : "vocab" },
+{ japanese : "inori o shimasu" , meaning : "to pray", type : "vocab" },
+{ japanese : "shiryou" , meaning : "documents, materials", type : "vocab" },
+{ japanese : "kopii" , meaning : "copy", type : "vocab" },
+{ japanese : "nakanaka" , meaning : "quite, pretty, fairly", type : "vocab" },
+{ japanese : "tesuto" , meaning : "test", type : "vocab" },
+{ japanese : "ooganiku sutoaa" , meaning : "organic store", type : "vocab" },
+{ japanese : "zehi" , meaning : "definitely", type : "vocab" },
+{ japanese : "asobi ni ikimasu" , meaning : "to go out to play", type : "vocab" },
+
+
+{ japanese : "baniku" , meaning : "horse meat", type : "vocab" },
+{ japanese : "ikkai dake" , meaning : "once only", type : "vocab" },
+{ japanese : "ichidomo arimasen" , meaning : "not even once ", type : "vocab" },
+{ japanese : "sentaku shimasu" , meaning : "to do laundry", type : "vocab" },
+{ japanese : "sooji shimasu" , meaning : "to do cleaning", type : "vocab" },
+{ japanese : "tsuyoi" , meaning : "strong", type : "vocab" },
+{ japanese : "musuko" , meaning : "my son", type : "vocab" },
+{ japanese : "karada" , meaning : "health", type : "vocab" },
+{ japanese : "sashimi" , meaning : "raw fish", type : "vocab" },
+
+
+{ japanese : "kuni" , meaning : "country", type : "vocab" },
+
+
+{ japanese : "jikan no muda" , meaning : "waste of time", type : "vocab" },
+{ japanese : "… ni suite" , meaning : "about …", type : "vocab" },
+{ japanese : "yakuni" , meaning : "helpful", type : "vocab" },
+{ japanese : "end of meal" , meaning : "shokuji no owari", type : "vocab" },
+{ japanese : "yotei" , meaning : "plan", type : "vocab" },
+{ japanese : "kakkoii" , meaning : "cool", type : "vocab" },
+{ japanese : "hontou ni" , meaning : "really, indeed", type : "vocab" },
+{ japanese : "konsaato" , meaning : "concert", type : "vocab" },
+{ japanese : "tsugi" , meaning : "next", type : "vocab" },
+{ japanese : "orinpikku" , meaning : "olympics", type : "vocab" },
+{ japanese : "jishin" , meaning : "earthquake", type : "vocab" },
+{ japanese : "iken" , meaning : "opinion", type : "vocab" },
+{ japanese : "matsuri" , meaning : "festival", type : "vocab" },
+{ japanese : "… demo" , meaning : "… etc", type : "vocab" },
+{ japanese : "ranchi" , meaning : "lunch", type : "vocab" },
+{ japanese : "sorosoro" , meaning : "almost", type : "vocab" },
+{ japanese : "mou" , meaning : "already", type : "vocab" },
+{ japanese : "saigo" , meaning : "last", type : "vocab" },
+{ japanese : "chansu" , meaning : "chance", type : "vocab" },
+
+
+{ japanese : "suteki-na" , meaning : "nice", type : "vocab" },
+{ japanese : "tonari ni" , meaning : "next", type : "vocab" },
+{ japanese : "akarui" , meaning : "cheerful", type : "vocab" },
+{ japanese : "kooto" , meaning : "coat", type : "vocab" },
+{ japanese : "renshuu shimasu" , meaning : "to practise (speech etc)", type : "vocab" },
+{ japanese : "yakusoku" , meaning : "promise, arrangement, appointment", type : "vocab" },
+{ japanese : "tsuma" , meaning : "wife", type : "vocab" },
+{ japanese : "later" , meaning : "ato de", type : "vocab" },
+{ japanese : "yotei" , meaning : "plan", type : "vocab" },
+{ japanese : "haisha" , meaning : "dentist", type : "vocab" },
+
+
+{ japanese : "shiyakusho" , meaning : "city hall", type : "vocab" },
+{ japanese : "zairyuu kaado" , meaning : "residence card", type : "vocab" },
+{ japanese : "ongaku" , meaning : "music", type : "vocab" },
+{ japanese : "onigiri" , meaning : "onigiri (a kind of meal)", type : "vocab" },
+{ japanese : "yoku" , meaning : "often, usually", type : "vocab" },
+{ japanese : "oto" , meaning : "sound, noise", type : "vocab" },
+{ japanese : "tsumami" , meaning : "knob (of the door etc)", type : "vocab" },
+{ japanese : "kousaten" , meaning : "intersection", type : "vocab" },
+{ japanese : "migi" , meaning : "right", type : "vocab" },
+{ japanese : "hidari" , meaning : "left", type : "vocab" },
+{ japanese : "shingou" , meaning : "traffic light", type : "vocab" },
+{ japanese : "otsuri" , meaning : "change", type : "vocab" },
+{ japanese : "sanpo shimasu" , meaning : "to take a walk, to stroll", type : "vocab" },
+{ japanese : "michi" , meaning : "road", type : "vocab" },
+{ japanese : "hashi" , meaning : "bridge", type : "vocab" },
+
+
+
+{ japanese : "ototo" , meaning : "brother", type : "vocab" },
+{ japanese : "ressun" , meaning : "lesson", type : "vocab" },
+{ japanese : "ojiisan" , meaning : "grandpa", type : "vocab" },
+{ japanese : "obaasan" , meaning : "grandma", type : "vocab" },
+{ japanese : "annai shimasu" , meaning : "to guide, to show the way", type : "vocab" },
+{ japanese : "ani" , meaning : "brother", type : "vocab" },
+{ japanese : "shoukai shimasu" , meaning : "to introduce", type : "vocab" },
+{ japanese : "kotae" , meaning : "answer", type : "vocab" },
+{ japanese : "setsumei shimasu" , meaning : "to explain", type : "vocab" },
+{ japanese : "obentou" , meaning : "lunch", type : "vocab" },
+{ japanese : "ane" , meaning : "sister", type : "vocab" },
+{ japanese : "hikkoshi" , meaning : "moving", type : "vocab" },
+{ japanese : "junbi shimasu" , meaning : "to prepare", type : "vocab" },
+{ japanese : "mondai" , meaning : "trouble, problem", type : "vocab" },
+{ japanese : "yokattara " , meaning : "if you like", type : "vocab" },
+
+
+{ japanese : "toshi" , meaning : "age", type : "vocab" },
+{ japanese : "ooi" , meaning : "many", type : "vocab" },
+{ japanese : "sumaho" , meaning : "smart phone", type : "vocab" },
+{ japanese : "byouki" , meaning : "ill, sick", type : "vocab" },
+{ japanese : "jibun de" , meaning : "myself, in person, oneself", type : "vocab" },
+
+
+{ japanese : "yarikata" , meaning : "manner of doing, method", type : "vocab" },
+{ japanese : "" , meaning : "", type : "vocab" },
+{ japanese : "" , meaning : "", type : "vocab" },
+{ japanese : "shika" , meaning : "only, except, haricinde, dışında (sonrasında olumsuz cümle)", type : "vocab" },
+{ japanese : "setsumei" , meaning : "explanation", type : "vocab" },
+{ japanese : "chuumon" , meaning : "order (an item)", type : "vocab" },
+{ japanese : "fushigina" , meaning : "strange, weird", type : "vocab" },
+{ japanese : "ribingu ruumu" , meaning : "living room", type : "vocab" },
+{ japanese : "" , meaning : "", type : "vocab" },
+{ japanese : "" , meaning : "", type : "vocab" },
+{ japanese : "" , meaning : "", type : "vocab" },
+{ japanese : "bangumi" , meaning : "tv programı, tv show", type : "vocab" },
+{ japanese : "arubaito" , meaning : "part time work", type : "vocab" },
+{ japanese : "jogingu" , meaning : "jogging", type : "vocab" },
+{ japanese : "sore ni…" , meaning : "buna ek, ayrıca…", type : "vocab" },
+{ japanese : "sore de.." , meaning : "bundan dolayı, bu sebeple…", type : "vocab" },
+{ japanese : "succhou" , meaning : "business trip", type : "vocab" },
+{ japanese : "ninki" , meaning : "popular", type : "vocab" },
+{ japanese : "keiken" , meaning : "experience", type : "vocab" },
+{ japanese : "nesshinna" , meaning : "zealous, keen, ardent", type : "vocab" },
+{ japanese : "manshon" , meaning : "house", type : "vocab" },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{ japanese : "watashi wa kuruma ga hoshii desu" , meaning : "araba istiyorum", type : "sentence" },
+{ japanese : "watashi wa kareshi ga hoshii desu" , meaning : "erkek arkadaş istiyorum", type : "sentence" },
+{ japanese : "watashi wa kuruma ga hoshikunai desu" , meaning : "araba istemiyorum", type : "sentence" },
+{ japanese : "watashi wa kareshi ga hoshikunai desu" , meaning : "erkek arkadaş istemiyorum", type : "sentence" },
+{ japanese : "anata wa kuruma ga hoshii desu ka" , meaning : "araba istiyor musun", type : "sentence" },
+{ japanese : "ja, nani ga hoshii desu ka" , meaning : "o zaman, ne istiyorsun", type : "sentence" },
+{ japanese : "donna kareshi ga hoshii desu ka" , meaning : "nasıl bir erkek arkadaş istiyorsun", type : "sentence" },
+{ japanese : "eeto ikemen kareshi ga ichiban hoshii desu" , meaning : "hot bir erkek arkadaş istiyorum", type : "sentence" },
+{ japanese : "watashi wa kuruma ga hoshikatta desu" , meaning : "araba istiyordum", type : "sentence" },
+{ japanese : "watashi wa kuruma ga hoshikunakatta desu, demo ima wa hoshii desu" , meaning : "araba istemiyordum ama şimdi istiyorum", type : "sentence" },
+{ japanese : "kare wa atarashii kuruma o hoshigatte imasu" , meaning : "o yeni bir araba istiyor", type : "sentence" },
+{ japanese : "koohii ga ikaga desu ka" , meaning : "kahve ister miydin (kahve nasıl olur)", type : "sentence" },
+{ japanese : "watashi wa kuruma ga/o kaitai desu" , meaning : "araba almak istiyorum", type : "sentence" },
+{ japanese : "watashi wa biyonse ni aitai desu" , meaning : "beyonce ile tanışmak istiyorum", type : "sentence" },
+{ japanese : "watashi wa kankoku e ikitai desu" , meaning : "koreye gitmek istiyorum", type : "sentence" },
+{ japanese : "onaka ga sukimashita hambaagaa ga/o tabetai desu" , meaning : "karnım acıktı hamburger yemek istiyorum", type : "sentence" },
+{ japanese : "watashi wa benkyoo o shitakunai desu" , meaning : "ders çalışmak istemiyorum", type : "sentence" },
+{ japanese : "watashi wa asobitakunai desu" , meaning : "oynamak istemiyorum", type : "sentence" },
+{ japanese : "watashi wa oyogitakunai desu" , meaning : "yüzmek istemiyorum", type : "sentence" },
+{ japanese : "watashi wa kekkon shitakunai desu" , meaning : "evlenmek istemiyorum", type : "sentence" },
+{ japanese : "anata wa nani o kaitai desu ka" , meaning : "ne satın almak istiyosun", type : "sentence" },
+{ japanese : "anata wa dare ni aitai desu ka" , meaning : "kimle buluşmak istiyosun", type : "sentence" },
+{ japanese : "anata wa doko e ikitai desu ka" , meaning : "nereye gitmek istiyosun", type : "sentence" },
+{ japanese : "anata wa itsu kankoku e ikitai desu ka" , meaning : "ne zaman koreye gitmek istiosun", type : "sentence" },
+{ japanese : "anata wa nani o shitai desu ka" , meaning : "ne yapmak istiyosun", type : "sentence" },
+{ japanese : "kankoku e ikitakatta desu" , meaning : "koreye gitmek istedim", type : "sentence" },
+{ japanese : "kekkon shitakunakatta desu" , meaning : "evelenmek istemedim", type : "sentence" },
+{ japanese : "kanojo wa roshia e ikitagatte imasu" , meaning : "o rusyaya gitmek istiyor", type : "sentence" },
+{ japanese : "koohii o nomimasen ka" , meaning : "kahve içelim mi", type : "sentence" },
+{ japanese : "koohii o nomitakunai desu ka" , meaning : "kehve içmek istemez miydin", type : "sentence" },
+{ japanese : "watashi wa honkon e kaimono ni ikimasu" , meaning : "hong konga alışverişe gidiyorum", type : "sentence" },
+{ japanese : "watashi wa nihon e benkyou ni kimashita" , meaning : "i came to japan to study", type : "sentence" },
+{ japanese : "watashi wa uchi e ryooshin ni ai ni kaerimashita" , meaning : "i went back home to see my parents", type : "sentence" },
+{ japanese : "tomodachi to sakkaa o shi ni ikimasu" , meaning : "arkadaşımla futbol oynamaya gidiyorum", type : "sentence" },
+{ japanese : "kazoku wa nihon de hajimete kara, kuukou e mukae ni ikimasu" , meaning : "ailem japonyaya ilk kez geldiğinden (başladığından), alana karşılamaya gidiyorum", type : "sentence" },
+{ japanese : "hokkaido e sukii ni ikimasu" , meaning : "hokkaidoya kayağa gidiyorum", type : "sentence" },
+{ japanese : "maitoshi sapporo no yuki matsuri ni ikimasu" , meaning : "her sene sapporo kar festivaline gidiyorum", type : "sentence" },
+{ japanese : "doko e benkyou ni ikimasu ka" , meaning : "nereye çalışmaya gidiyosun", type : "sentence" },
+{ japanese : "sutoa e nani o kaini ikimasu ka" , meaning : "dükkana ne almaya gidiosun", type : "sentence" },
+{ japanese : "dare ni ai ni kimashita ka" , meaning : "kimi görmeye (kimle buluşmaya) geldin", type : "sentence" },
+{ japanese : "nanji goro watashi o mukae ni kimasu ka" , meaning : "saat kaç civarı beni almaya (alandan) geleceksin", type : "sentence" },
+{ japanese : "anata wa nani o shi ni ikimasu ka" , meaning : "ne yapmaya gidiyosun", type : "sentence" },
+{ japanese : "ano mise ni hairimashou" , meaning : "o dükkana girelim", type : "sentence" },
+{ japanese : "kare wa shichiji goro uchi o demashita" , meaning : "saat 7'de evi terk etti (evden çıktı)", type : "sentence" },
+{ japanese : "densha ni norimasu" , meaning : "trene biniyor", type : "sentence" },
+{ japanese : "densha o orimasu" , meaning : "trenden iniyor", type : "sentence" },
+{ japanese : "nanika (o) tabemasen ka" , meaning : "(herhangi) bir şey yemez misin", type : "sentence" },
+{ japanese : "nodo ga kawakimashita nanika nomitai desu" , meaning : "susadım, bir şey içmek istiyorum", type : "sentence" },
+{ japanese : "kono shumatsu ni dokoka e asobimasu" , meaning : "bu hafta sonu biryerde eğleniyorum", type : "sentence" },
+{ japanese : "natsu yasumi wa dokoka ikimashita ka" , meaning : "yaz tatilinde biryere gittin mi", type : "sentence" },
+
+
+
+
+{ japanese : "sumimasen onamae o oshiete kudasai" , meaning : "afedersin ismi söyleyin lütfen", type : "sentence" },
+{ japanese : "samui kara mado o shimete kudasai" , meaning : "sağuk olduğundan pencereyi kapayın lütfen", type : "sentence" },
+{ japanese : "rozu to yonde kudasai" , meaning : "rose ile (ismi ile) çağırın lütfen)", type : "sentence" },
+{ japanese : "ashita koko ni kite kudasai" , meaning : "yarın buraya gelin lütfen", type : "sentence" },
+{ japanese : "isoide kudasai" , meaning : "acele edin lütfen", type : "sentence" },
+{ japanese : "ganbatte kudasai" , meaning : "gayret edin lütfen", type : "sentence" },
+{ japanese : "chotto matte kudasai" , meaning : "biraz bekleyin lütfen", type : "sentence" },
+{ japanese : "minnasan kiite kudasai" , meaning : "herkes dinlesin lütfen", type : "sentence" },
+{ japanese : "ame ga futte imasu" , meaning : "yağmur yağıyor", type : "sentence" },
+{ japanese : "tegami o kaite imasu" , meaning : "mektup yazıyor", type : "sentence" },
+{ japanese : "akachan ga nete imasu" , meaning : "bebek uyuyor", type : "sentence" },
+{ japanese : "yamadasan wa denwa o kakete imasu" , meaning : "yamadasan telefon açıyor", type : "sentence" },
+{ japanese : "ame ga futte imasu ka" , meaning : "yağmur yağıyor mu?", type : "sentence" },
+{ japanese : "nani o kaite imasu ka" , meaning : "ne yazıyorsun?", type : "sentence" },
+{ japanese : "anata wa kiite imasu ka" , meaning : "sen dinliyor musun?", type : "sentence" },
+{ japanese : "anata wa ima nani o shite imasu ka" , meaning : "sen şimdi ne yapıyorsun?", type : "sentence" },
+{ japanese : "ame ga futte imasen" , meaning : "yağmur yağmıyor", type : "sentence" },
+{ japanese : "watashi wa kiite imashita" , meaning : "dinliyordum", type : "sentence" },
+{ japanese : "watashi wa kinoo nani mo shite imasen deshita" , meaning : "dün hiçbirşey yapmıyordum", type : "sentence" },
+{ japanese : "nimotsu o mochimashou ka?" , meaning : "valizinizi taşıyayım mı?", type : "sentence" },
+{ japanese : "Atsukunai desu ka? Mado o akemashou ka? Soo desu ne. Sukoshi akete kudasai." , meaning : "sıcak değil mi? (sıcak olmadı mı?) Pencereyi açalım mı? Evet, öyle, biraz açın lütfen.", type : "sentence" },
+{ japanese : "shigoto o tetsudaimashou ka? İie, kekkoo desu." , meaning : "işe yardım edeyim mi? Hayır, gerek yok / böyle iyi", type : "sentence" },
+{ japanese : "nihon no tabemono wa oishii desu ga totemo takai desu" , meaning : "japon yemekleri lezzetli ama çok pahalı", type : "sentence" },
+{ japanese : "shitsurei desu ga, onamae wa?" , meaning : "rahatsız ediyorum ama isminiz?", type : "sentence" },
+{ japanese : "sumimasen ga, shio o totte kudasai?" , meaning : "afedersiniz, tuzu alabilir miyim lütfen?", type : "sentence" },
+{ japanese : "yuki ga futte imasu" , meaning : "kar yağıyor", type : "sentence" },
+{ japanese : "kaze ga fuite imasu" , meaning : "rüzgar esiyor", type : "sentence" },
+
+
+{ japanese : "watashi no pasokon o tsukatte mo ii desu" , meaning : "bnim bilgisayarımı kullansan olur", type : "sentence" },
+{ japanese : "asoko de suwatte mo ii desu" , meaning : "orada otursan olur", type : "sentence" },
+{ japanese : "sono heya no naka ni nimotsu o oite mo ii desu" , meaning : "şu odanın içine valizini koysan olur", type : "sentence" },
+{ japanese : "haitte mo ii desu" , meaning : "girsen olur", type : "sentence" },
+{ japanese : "tabako o sutte mo ii desu ka? Ee, ii desu, douzo / sumimasen, chotto" , meaning : "sigara içsem olur mu? Evet, olur buyur / afedersin, olmaz", type : "sentence" },
+{ japanese : "kono shashin o moratte mo ii desu ka?" , meaning : "bu resmi alsam olur mu?", type : "sentence" },
+{ japanese : "pen o karite mo ii desu ka?" , meaning : "kalem ödünç alsam olur mu?", type : "sentence" },
+{ japanese : "koko de tabako o sutte wa ikemasen" , meaning : "burada sigara içmek olmaz", type : "sentence" },
+{ japanese : "bijutsukan no naka de shashin o totte wa ikemasen" , meaning : "müzenin içinde foto çekmek olur mu? Hayır, olmaz / evet olur", type : "sentence" },
+{ japanese : "koko de kuruma o tomete mo ii desu ka? iie, ikemasen / iie, dame desu" , meaning : "burada araba parketmek olur mu? Hayır olmaz / hayır, yasak", type : "sentence" },
+{ japanese : "kare wa kekkon shite imasu" , meaning : "o evlidir (evli durumda)", type : "sentence" },
+{ japanese : "kazoku wa nagoya ni sunde imasu" , meaning : "ailem nagoya'da yaşamakta", type : "sentence" },
+{ japanese : "ninen nihongo o benkyou shite imasu" , meaning : "iki yıldır japonca çalışmaktayım", type : "sentence" },
+{ japanese : "iphone10 o motte imasu" , meaning : "iphone 10um var", type : "sentence" },
+{ japanese : "anata wa kekkon shite imasu ka? Hai, kekkon shite imasu / iie, dokushin desu" , meaning : "sen evli misin? Evet, evliyim / hayır bekarım", type : "sentence" },
+{ japanese : "doko ni sunde imasu ka? Saitama ken ni sunde imasu" , meaning : "nerede yaşamaktasın? Saitama semtinde yaşıyorum", type : "sentence" },
+{ japanese : "mainichi sutaa bakkusu no koohii o katte imasu" , meaning : "hergün starbucks kahvesi satın alıyorum", type : "sentence" },
+{ japanese : "maiasa hashitte imasu" , meaning : "her sabah koşuyorum", type : "sentence" },
+{ japanese : "oosaka no nippon bashi de yasui denki seihin o utte imasu" , meaning : "osaka nippon bashi'de ucuz elektronik ürünleri satın alıyorum", type : "sentence" },
+{ japanese : "tesla wa denki jidousha o tsukutte imasu." , meaning : "tesla elektrikli arama üretiyor", type : "sentence" },
+{ japanese : "nani o shite imasu ka" , meaning : "ne yapıyorsun? / ne iş yapıyorsun?", type : "sentence" },
+{ japanese : "o shigoto wa nan desu ka" , meaning : "işin nedir?", type : "sentence" },
+{ japanese : "guuguru de hataraite imasu" , meaning : "google'da çalışıyorum", type : "sentence" },
+{ japanese : "watashi wa toudai de benkyou shite imasu" , meaning : "tokyo üniversitesinde okuyorum", type : "sentence" },
+{ japanese : "enjiniabu no hashimotosan o shitte imasu ka? Hai, shitte imasu / iie, shirimasen" , meaning : "mühendislik bölümünden hashimotosanı tanıyo musun? Evet tanıyorum / hayır tanımıyorum.", type : "sentence" },
+{ japanese : "watashi no juusho o shitte imasu ka? Hai, shitte imasu / iie, shirimasen." , meaning : "benim adresimi biliyo musun? Evet biliyorum / hayır, bilmiyorum", type : "sentence" },
+{ japanese : "shuumatsu wa nani o shimasu ka? Kaimono ni ikimasu / eeto, mada wakarimasen. (shirimasen would be rude here)" , meaning : "haftasonu ne yapıyorsun? Alışverişe gidiyorum / hmm, hala bilmiyorum", type : "sentence" },
+{ japanese : "eigo ga wakarimasu ka? Hai, wakarimasu / iie, wakarimasen." , meaning : "ingilizce bilio musun? Evet biliyorum / hayır bilmiyorum", type : "sentence" },
+
+
+{ japanese : "asa (wa) shawa o abite, asagohan o tabete, shigoto o shimasu" , meaning : "sabah duş alıp, kahvaltı yiyip, iş yaparım", type : "sentence" },
+{ japanese : "shibuya de tomodachi ni atte, eiga o mite, yuushoku o tabemashita" , meaning : "shibuyada arkadaşla buluşup, film izleyip, akşam yemeği yedik", type : "sentence" },
+{ japanese : "yokohama eki kara, jr densha ni notte, shimbashi de orite, sorekara chikatetsu ni norikaete, ginza eki de orite kudasai" , meaning : "yokohama durağından jr trenine binip, shimbaşi'de inip, ondan sonra metroya geçip, ginza durağında inin lütfen", type : "sentence" },
+{ japanese : "otoosan wa yasashi kute atama ga ii hito desu" , meaning : "babam kibar ve zeki bir insandır", type : "sentence" },
+{ japanese : "hokkaido wa tenki ga yokute, suzushikatta desu" , meaning : "hokkaidoda hava güzel ve serindir", type : "sentence" },
+{ japanese : "tabemono wa oishikute, yasukute, sugoku osusume desu" , meaning : "yemek lezzetli ucuz ve tavsiye edilebilir", type : "sentence" },
+{ japanese : "kyooto wa kirei de, omoshiroi mono ga takusan arimasu" , meaning : "kyoto güzel ve ilginç şeyler çok vardır", type : "sentence" },
+{ japanese : "guensan wa betonamu jin de, ryuugakusei desu" , meaning : "nguyen vietnamlı ve yabancı öğrencidir", type : "sentence" },
+{ japanese : "chichi wa pairotto de, haha wa kangoshi desu" , meaning : "babam pilot annem ise hemşiredir", type : "sentence" },
+{ japanese : "shinkansen wa hayai desu ga, takai desu" , meaning : "hızlı tren hızlı ama pahalıdır", type : "sentence" },
+{ japanese : "kaado o irete kara, kono botan o oshite kudasai" , meaning : "kartı soktukan sonra, bu düğmeye basınız", type : "sentence" },
+{ japanese : "daigaku o dete kara, sekai o ryokou shimasu" , meaning : "üniversiteden mezun olduktan sonra, dünya seyahati yapıcam", type : "sentence" },
+{ japanese : "shigoto o owatte kara, biiru o nomimasen ka" , meaning : "iş bittikten sonra bira içmeyelim mi", type : "sentence" },
+{ japanese : "shigoto o yamete kara, nani o shimasu ka" , meaning : "işten ayrıldıktan sonra (quit), ne yapacaksın", type : "sentence" },
+{ japanese : "kyouto e itte (kara), nani o shimashita ka" , meaning : "kyotoya gidip ne yaptın", type : "sentence" },
+{ japanese : "kaigi ga owatte kare, dokoka e ikimasu ka" , meaning : "toplantı bittikten sonra, biryere gidiyor musun?", type : "sentence" },
+{ japanese : "annasan wa kami ga kurokute me ga ookii desu" , meaning : "anna'nın saçı siyah, gözleri büyüktür", type : "sentence" },
+{ japanese : "sono senshu wa se ga hikui desu ga ashi ga hayai desu" , meaning : "bu oyuncudun boyu kısa ama ayakları hızlıdır", type : "sentence" },
+{ japanese : "furansu (de)wa tabemono ga oishikute, wain ga sekaijuu de yuumei desu" , meaning : "fransız yemekleri lezzetli, şarabı da dünyaca ünlüdür", type : "sentence" },
+{ japanese : "gakkou made douyatte ikimasu ka? Eki kara ichiban no basu ni notte, jinja no mae de orimasu. Soko kara gakkou made gofun furai arukimasu. " , meaning : "okula kadar nasıl gidersin? Duraktan ilk önce otobüse binerim, tapınağın önünde inerim. Oradan okula 5 dakika yürürüm.", type : "sentence" },
+{ japanese : "kono jidouhanbaiki wa douyatte tsukaimasu ka" , meaning : "bu vending machine nasıl kullanılır?", type : "sentence" },
+{ japanese : "mazu okane o irete, suki na dorinku no botan o oshite kudasai" , meaning : "ilk önce parayı girip, sevdiğiniz içeceğin düğmesine basın lütfen", type : "sentence" },
+{ japanese : "oniisan wa dono hito desu ka? Ano ichiban se ga takai hito desu" , meaning : "ağbin hangi kişidir? O en uzun boylu olan kişidir", type : "sentence" },
+{ japanese : "anata no kuruma wa dono kuruma desu ka? Sono kuruma wa watashi no kuruma desu" , meaning : "senin araban hangi arabadır? Şu araba benim arabamdır", type : "sentence" },
+{ japanese : "anata no kuruma wa dore desu ka" , meaning : "senin araban hangisidir?", type : "sentence" },
+
+
+
+{ japanese : "chiketto o nakusanaide kudasai" , meaning : "biletleri kaybetme lütfen", type : "sentence" },
+{ japanese : "naka de shashin o toranaide kudasai" , meaning : "içerde foto çekme lütfen", type : "sentence" },
+{ japanese : "watashi wa daijoubu desu, shinpai shinaide kudasai" , meaning : "ben iyiyim, endişelenme lütfen", type : "sentence" },
+{ japanese : "anata no pasupooto o wasurenaide kudasai" , meaning : "pasaportunu unutma lütfen", type : "sentence" },
+{ japanese : "raishuu made ni kono hon o kaesana kereba narimasen" , meaning : "gelecek haftaya kadar bu kitabı iade etmezsem olmaz", type : "sentence" },
+{ japanese : "yasai o tabena kereba narimasen" , meaning : "sebze yemezsen olmaz", type : "sentence" },
+{ japanese : "otto to dekakemasu kara, hayaku kaerana kereba narimasen" , meaning : "kocamla dışarı çıktığımızdan, eve erken dönmezsem olmaz", type : "sentence" },
+{ japanese : "tabete kara kusuri o nomana kereba narimasen" , meaning : "yemekten itibaren (sonra) ilacını içmezsen olmaz", type : "sentence" },
+{ japanese : "raishuu made ni kono hon o kaesana kereba narimasen ka" , meaning : "bu kitabı haftaya kadar iade etmezsem olmaz mı?", type : "sentence" },
+{ japanese : "yasai o tabena kereba narimasen ka" , meaning : "sebze yemezsem olmaz mı?", type : "sentence" },
+{ japanese : "nanji ni kaerana kereba narimasen ka" , meaning : "saat kaçta dönmem lazım?", type : "sentence" },
+{ japanese : "nankai kusuri o nomana kereba narimasen ka" , meaning : "ilacı kaç kere almam lazım", type : "sentence" },
+{ japanese : "daijoubu, harawana kute mo ii desu" , meaning : "tamam, ödemesen de olur", type : "sentence" },
+{ japanese : "nani mo mottekona kute mo ii desu" , meaning : "hiçbişey almasan(getirmesen) da olur", type : "sentence" },
+{ japanese : "douzo oagari kudasai, kutsu o nogana kute mo ii desu" , meaning : "girin lütfen, ayakkabıları çıkarmasanız da olur", type : "sentence" },
+{ japanese : "ashita youji ga arimasu kara, watashi wa ikana kute mo ii desu ka" , meaning : "yarın yapacak işler olduğundan, gelmesem olur mu", type : "sentence" },
+{ japanese : "keeki wa tabenaide kudasai" , meaning : "keki (söz konusuysa) yemeyin lütfen", type : "sentence" },
+{ japanese : "repooto wa kinyobi made ni dashite kudasai" , meaning : "rapor (söz konusuysa) cumaya kadar teslim et lütfen", type : "sentence" },
+{ japanese : "getsuyoubi made ni kite kudasai" , meaning : "pazartesiye kadar gel lütfen", type : "sentence" },
+{ japanese : "paatii wa juuji made ni owarimasu" , meaning : "parti saat 10a kadar bitecek", type : "sentence" },
+{ japanese : "ashita made ni repooto o dasana kereba narimasen kara, zangyou shimasu" , meaning : "yarına kadar bu raporu teslim etmezsem olmayacağından, fazla mesai yapacağım", type : "sentence" },
+
+
+
+{ japanese : "lilisan wa utau koto ga dekimasu" , meaning : "lili şarkı söyleyebilir", type : "sentence" },
+{ japanese : "adamsan wa oyogu koto ga dekimasu" , meaning : "adam yüzme yapabilir", type : "sentence" },
+{ japanese : "natarisan wa kanji o yomu koto ga dekimasu" , meaning : "natali kanji okuyabilir", type : "sentence" },
+{ japanese : "onrain de chiketto o yoyakusuru koto ga dekimashita" , meaning : "online bilet reservasyonu yapabilirim", type : "sentence" },
+{ japanese : "watashi wa gorufu ga dekimasu" , meaning : "golf oynayabilirim", type : "sentence" },
+{ japanese : "otto wa ryouri ga jouzu ni dekimasu" , meaning : "kocam gerçekten iyi yemek yapabilir", type : "sentence" },
+{ japanese : "watashi wa piano ga dekimasu" , meaning : "piano çalabilirim", type : "sentence" },
+{ japanese : "watashi wa porutogarugo ga dekimasu" , meaning : "portkeizce konuşabilirim", type : "sentence" },
+{ japanese : "anata wa unten suru koto ga dekimasu ka" , meaning : "araba kullanabilir misin", type : "sentence" },
+{ japanese : "unten ga dekimasu ka? Hai, unten ga dekimasu / iie, unten ga dekimasen" , meaning : "araba kullanabilir misin", type : "sentence" },
+{ japanese : "kinoo (wa) benkyou ga dekimashita ka? Hai, dekimashita / iie, dekimasen deshita" , meaning : "dün ders çalışabildin mi? Evet çalışabildim / hayır çalışamadım", type : "sentence" },
+{ japanese : "watashi wa kuukoo de en o doru ni kaeru koto ga dekimasu ka? Hai, dekimasu yo" , meaning : "havalimanında yeni dolara çevirebilir miyim? Evet, yapabilirsin", type : "sentence" },
+{ japanese : "anata wa nan meetoru oyogu koto ga dekimasu ka? 50 meetoru gurai oyogu koto ga dekimasu" , meaning : "sen kaç metre yüzebilirsin? Yaklaşık 50 metre yüzebilirim", type : "sentence" },
+{ japanese : "anata wa nanigo o hanasu koto ga dekimasu ka? Porutogaru ga dekimasu" , meaning : "hangi dili konuşabilirsin? Portekizce konuşabilirim", type : "sentence" },
+{ japanese : "watashi no shumi wa  tsuri desu" , meaning : "hobim balık tutmaktır", type : "sentence" },
+{ japanese : "watashi no shumi wa konpyuutaa geemu desu" , meaning : "hobim bilgisayar oyunlarıdır", type : "sentence" },
+{ japanese : "watashi no shumi wa shashin o toru koto desu" , meaning : "hobim resim çekmektir", type : "sentence" },
+{ japanese : "watashi no shumi wa akushon figyua o atsumeru koto desu" , meaning : "hobim action figürleri biriktirmektir", type : "sentence" },
+{ japanese : "neru mae ni shawa o abimasu" , meaning : "uyumadan önce duş alacağım", type : "sentence" },
+{ japanese : "taberu mae ni te o aratte kudasai" , meaning : "yemekten önce elleri yıka lütfen", type : "sentence" },
+{ japanese : "gakkou e iku mae ni, inu no sanpo o shimasu" , meaning : "okula gitmeden önce köpeği yürüteceğim (köpeğin yürüyüşünü yapacağım)", type : "sentence" },
+{ japanese : "neru mae ni nani o shimasu ka" , meaning : "uyumadan önce ne yaparsın?", type : "sentence" },
+{ japanese : "ryoou no mae ni, hoteru no yoyaku o kakunin shimasu" , meaning : "geziden önce otel rezervasyonunu onaylıyorum", type : "sentence" },
+{ japanese : "shokuji no mae ni, inori o shimasu" , meaning : "yemekten önce dua ederim", type : "sentence" },
+{ japanese : "kaigi no mae ni, kono shiryou o kopii shite kudasai" , meaning : "toplantıdan önce bu dokümanı kopyapa lütfen", type : "sentence" },
+{ japanese : "watashi wa junen mae ni, amerika ni kimashita" , meaning : "10 yıl önce amerikaya geldim", type : "sentence" },
+{ japanese : "rokka-getsu mae ni kaisha o yamemashita" , meaning : "6 ay önce şirketten emekli oldum", type : "sentence" },
+{ japanese : "kusuri wa sanjuu-pun mae ni nomimashita" , meaning : "ilacı 30 dakika önce içtim", type : "sentence" },
+{ japanese : "keeki wa nakanaka oishii desu" , meaning : "kek oldukça/bayağı lezzetli", type : "sentence" },
+{ japanese : "kareshi wa nakanaka hansamu desu ne" , meaning : "erken arkadaşın bayağı/oldukça yakışıklı", type : "sentence" },
+{ japanese : "tesuto wa nakanaka muzukashikatta desu" , meaning : "test oldukça/bayağı zordu", type : "sentence" },
+{ japanese : "nakanaka hito no namae o oboeru koto ga dekimasen" , meaning : "insanların ismini hatırlamayı  pek beceremem", type : "sentence" },
+{ japanese : "nihon dewa nakanaka furui pasokon o suteru koto ga dekimasen" , meaning : "eski bilgisayarlardan kurtulmak biraz zordur (pek mümkün değildir)", type : "sentence" },
+{ japanese : "nihon dewa ooganiku sutoaa ga nakanaka arimasen" , meaning : "japonyada organik mağaza pek yoktur", type : "sentence" },
+{ japanese : "watashi wa hawai de zehi kekkon shitai desu" , meaning : "kesin hawaide evlenmeyi isterim", type : "sentence" },
+{ japanese : "watashi no tanjoubi desu kara, zehi paati ni kite kudasai ne" , meaning : "benim yaşgünüm olduğundan, kesin partime gelin.", type : "sentence" },
+{ japanese : "keeki o zehi tabete kudasai, oishii desu yo" , meaning : "kesin kekten yiyin, lezzetli ha", type : "sentence" },
+{ japanese : "issho ni asobi ni ikimasen ka? Ee, zehi" , meaning : "birlikte dışarı çıkalım mı (gezelim mi) ? Evet, kesin / mutlaka", type : "sentence" },
+
+
+
+
+{ japanese : "fujisan ni nobotta koto ga arimasu" , meaning : "fuji dağına (tepesine) tırmanmışlığım vardır", type : "sentence" },
+{ japanese : "itaria ni itta koto ga arimasu" , meaning : "italyaya gitmişliğim vardır", type : "sentence" },
+{ japanese : "baniku o tabeta koto ga arimasen" , meaning : "at eti yemişiğim yoktur", type : "sentence" },
+{ japanese : "pachinko o shita koto ga arimasen" , meaning : "pachinko çalmışlığım yoktur", type : "sentence" },
+{ japanese : "shinkansen o notta koto ga arimasu ka" , meaning : "hızlı trene binmişliğin var mıdır", type : "sentence" },
+{ japanese : "sushi o tabeta koto ga arimasu ka? Hai, ikkai dake arimasu / iie, ichidomo arimasen" , meaning : "sushi yemişlğin var mıdır? Evet, bir kere / hayır hiç yoktur", type : "sentence" },
+{ japanese : "shumatsu wa sentaku shitari, souji shitari, kaimono shitari shimasu" , meaning : "hafta sonu çamaşır yıkar, temizlik yapar, alışveriş yapar yaparım.", type : "sentence" },
+{ japanese : "toukyou e ittari, tomodachi to asondari, geemu o shitari shimashita" , meaning : "tokyoya gider, arkadaşlarla eğlenir, oyun oynar yaptım.", type : "sentence" },
+{ japanese : "anata wa atarashii kaban o kattari, hoteru no yoyaku o kakunishitari, puran o tsukuttari, shina kereba narimasen." , meaning : "yeni bir çanta satın alma, otel rezervasyonu yapma, gezi planı yapma, yapmazsan olmaz.", type : "sentence" },
+{ japanese : "watashi no shumi wa hon o yondari, ongaku o kiitari, geemu o shitari suru koto desu" , meaning : "hobilerim kitap okumak, müzik dinlemek, oyun oynamak yapmakdır", type : "sentence" },
+{ japanese : "watashi wa tsuyoku naritai desu" , meaning : "güçlü olmak istiyorum (güçlenmek)", type : "sentence" },
+{ japanese : "anata wa nihongo ga jouzu ni narimashita" , meaning : "japoncan iyileşmiş (gelişmiş)", type : "sentence" },
+{ japanese : "kotoshi 30 sai ni narimasu" , meaning : "bu yıl 30 yaşıma giriyorum", type : "sentence" },
+{ japanese : "musuko wa pairotto ni naritagatte imasu" , meaning : "oğlum pilot olmak istiyor", type : "sentence" },
+{ japanese : "tabako o suu koto ga karada ni yokunai desu yo. Sou desu ne" , meaning : "sigara içmek sağlığa iyi değil. Katılıyorum (evet öyle ya)", type : "sentence" },
+{ japanese : "mou osoku narimasu kaeranaito. Aa, sou desu ne." , meaning : "geç oldu dönmem lazım. Ya, öyle.", type : "sentence" },
+{ japanese : "aihon ten wa aihon eitto yori ii desu ne? Sou desu ne." , meaning : "iphone 10 iphone 8'den daha iyi di mi? Öyle.", type : "sentence" },
+{ japanese : "dochira mo tsukatta koto ga arimasen kara, wakarimasen" , meaning : "ikisini de kullanmışlığım olmadığından, bilmiyorum", type : "sentence" },
+
+
+
+{ japanese : "10ji ni nemasu / 10ji ni neru" , meaning : "saat 10da uyurum", type : "sentence" },
+{ japanese : "mainichi benkyou shimasen / mainichi benkyou shinai" , meaning : "hergün ders çalışıyorum", type : "sentence" },
+{ japanese : "asagohan o tamemashita / asagohan o tabeta" , meaning : "kahvaltıyı yedim", type : "sentence" },
+{ japanese : "asagohan o tabemasu ka? / asagohan o taberu ? Hai tabemasu / un taberu, iie, tabemasen / iie, tabenai" , meaning : "kahvaltı ediyor musun? Evet ediyorum / hayır etmiyorum", type : "sentence" },
+{ japanese : "kyoo hatarakimasen deshita / kyoo hatarakanakatta " , meaning : "dün çalışmadım", type : "sentence" },
+{ japanese : "issho ni biiru o nomimasen ka / issho ni biiru o nomanai  " , meaning : "birlikte bira içmeyelim mi", type : "sentence" },
+{ japanese : "ikimashou / ikou" , meaning : "gidelim", type : "sentence" },
+{ japanese : "tabemashou / tabeyou" , meaning : "yiyelim", type : "sentence" },
+{ japanese : "benkyou shimashou / benkyou shyou" , meaning : "ders yapalım", type : "sentence" },
+{ japanese : "kirei desu / kirei da" , meaning : "güzel", type : "sentence" },
+{ japanese : "ashita hima ja arimasen / ashita hima janai" , meaning : "yarın boş değilim", type : "sentence" },
+{ japanese : "kare wa yumei deshita / kare wa yumei datta" , meaning : "o ünlüydü", type : "sentence" },
+{ japanese : "suteki ja arimasen deshita / suteki ja nakatta" , meaning : "güzel değildi", type : "sentence" },
+{ japanese : "ii desu / ii" , meaning : "iyi", type : "sentence" },
+{ japanese : "yokunai desu / yokunai" , meaning : "iyiydi", type : "sentence" },
+{ japanese : "osihikatta desu / oishikatta" , meaning : "ilginçti", type : "sentence" },
+{ japanese : "omoshirokunakatta desu / omoshirokunakatta" , meaning : "ilginç değildi", type : "sentence" },
+{ japanese : "dou desu ka / dou" , meaning : "nasıl?", type : "sentence" },
+{ japanese : "dou deshita ka / dou datta" , meaning : "nasıldı?", type : "sentence" },
+{ japanese : "kamera ga arimasu / kamera ga aru" , meaning : "kamera var", type : "sentence" },
+{ japanese : "pasokon ga arimasen / pasokon ga nai" , meaning : "bilgisayar yok", type : "sentence" },
+{ japanese : "kuruma ga arimashita / kuruma ga atta" , meaning : "araba vardı", type : "sentence" },
+{ japanese : "wakarimashita / wakatta" , meaning : "anladım", type : "sentence" },
+{ japanese : "inu ga oshii desu / inu ga oshii" , meaning : "köpek istiyorum", type : "sentence" },
+{ japanese : "supein e ikitai desu / supein e ikitai" , meaning : "ispanyaya gitmek istiyorum", type : "sentence" },
+{ japanese : "koko ni kite kudasai / kochi ni kite" , meaning : "buraya gel", type : "sentence" },
+{ japanese : "wasurenaide kudasai / wasurenai de ne" , meaning : "unutma", type : "sentence" },
+{ japanese : "kore o tsukatte mo ii desu ka / kore o tsukatte ii" , meaning : "bunu kullanabilir miyim", type : "sentence" },
+{ japanese : "koko de tabako o sutte wa ikemasen / koko de tabako o sutte wa ikenai" , meaning : "burada sigara içmek olmaz", type : "sentence" },
+{ japanese : "ikana kereba narimasen / ikana kereba naranai" , meaning : "gitmezsek olmaz", type : "sentence" },
+{ japanese : "isogonaito ikemasen / isogonaito ikenai" , meaning : "acele etmezsek olmaz", type : "sentence" },
+{ japanese : "harawana kute mo ii desu / harawana kute mo ii" , meaning : "ödemezsen de olur", type : "sentence" },
+{ japanese : "unten ga dekimasu ka / unten ga dekiru? Hai dekimasu / un, dekiru" , meaning : "araba kullanabilir misin? Evet, kullanabilirim", type : "sentence" },
+{ japanese : "unten ga dekimasu ka / unten ga dekiru? İie dekimasen / uun, dekinai" , meaning : "araba kullanabilir misin? Hayır kullanamam", type : "sentence" },
+{ japanese : "fujisan ni nobotta koto ga arimasu ka / fujisan ni nobotta koto ga aru" , meaning : "fujisana çıkmışlığın (tepesine) var mı?", type : "sentence" },
+{ japanese : "hai nobotta koto ga arimasu / un, nobotta koto ga aru" , meaning : "evet çokmışlığım var", type : "sentence" },
+{ japanese : "iie nobotta koto ga arimasen / uun nobotta koto ga nai" , meaning : "hayır çıkmışlığım yok", type : "sentence" },
+{ japanese : "keeki o tabemasu ka / keeki o taberu" , meaning : "kek yer misin?", type : "sentence" },
+{ japanese : "hai tabemasu / iie tabemasen" , meaning : "yes i eat / no i dont eat", type : "sentence" },
+{ japanese : "un taberu / uun tabenai" , meaning : "yes i eat / no i dont eat", type : "sentence" },
+{ japanese : "ie ni dare ka arimasu ka / iie ni dare ka aru?" , meaning : "evde kimse var mı? ", type : "sentence" },
+{ japanese : "hai yuki ga imasu / iie dare mo imasen" , meaning : "evet yuki var / hayır kimse yok", type : "sentence" },
+{ japanese : "un, yuki ga iru (yo) / uun, dare mo inai" , meaning : "evet yuki var / hayır kimse yok", type : "sentence" },
+{ japanese : "doko ikimasu ka / doko iku?" , meaning : "where r u going?", type : "sentence" },
+{ japanese : "tokyou e ikimasu / tokyou e iku" , meaning : "tokyo'ya gidiyorum", type : "sentence" },
+{ japanese : "genki desu ka / genki ?" , meaning : "sağlıklı mi?", type : "sentence" },
+{ japanese : "hai genki desu / un, genki" , meaning : "evet sağlıklıyım", type : "sentence" },
+{ japanese : "iie, genki ja arimasen / uun, genki janai" , meaning : "hayır, sağlıklı değilim", type : "sentence" },
+{ japanese : "sou desu ka / souka" , meaning : "haa demek öyle", type : "sentence" },
+
+
+
+{ japanese : "kare de tariru to omoimasu" , meaning : "bu yeter diye düşünüyorum", type : "sentence" },
+{ japanese : "nihonjin wa bisa ga iranai to omoimasu" , meaning : "japon vizeye ihtiyaç yok diye düşünüyorum", type : "sentence" },
+{ japanese : "densha wa totemo benri da to omoimasu" , meaning : "tren çok pratiktir diye düşünüyorum", type : "sentence" },
+{ japanese : "terebi o miru koto wa jikan no muda da to omoimasu" , meaning : "tv izlemenin zaman kaybı olduğunu düşünüyorum", type : "sentence" },
+{ japanese : "soosharu media wa ii to omoimasu ka? Hai, ii to omoimasu / iie, yokunai to omoimasu" , meaning : "sosyal medyanın iyi olduğunu düşünüo musun? Evet, iyi olduğunu düşünüyorum / hayır kötü olduğunu düşünüyorum ", type : "sentence" },
+{ japanese : "jasutisu riigu to abenjaazu to dochira ga katsu to omoimasu ka? Abenjaazu ga katsu to omoimasu" , meaning : "justice league ve avengers arasından hangisi kazanır diye düşünüosun? Avnegers kazanır diye düşünüyorum", type : "sentence" },
+{ japanese : "firipinjin ni tsuite dou omoimasu ka" , meaning : "filipinliler hakkında ne/nasıl düşünüosun", type : "sentence" },
+{ japanese : "fakusuki ga yakunitatanaku natta to omoimasu! Watashi mo sou omoimasu / watashi wa sou omoimasen" , meaning : "faks makinesi gereksiz oldu diye düşünüyo musun? Evet, öyle düşünüyorum / hayır, öyle düşünmüyorum.", type : "sentence" },
+{ japanese : "nihonjin wa shokuji mae ni 'itadakimasu' to iimasu" , meaning : "japonlar yemek yemeden önce 'itadakimasu' derler", type : "sentence" },
+{ japanese : "shingusan wa 'mata atodo denwa shimasu' to iimashita" , meaning : "shingusan 'daha sonra tekrar ararım' diye söyledi.", type : "sentence" },
+{ japanese : "shingusan wa mata atodo denwa suru to iimashita" , meaning : "shingusan daha sonra tekrar ararım diye söyledi.", type : "sentence" },
+{ japanese : "shokuji no owari ni nan to iimasu ka" , meaning : "yemek bittikten sonra ne diye söylersin", type : "sentence" },
+{ japanese : "gochisou samadeshita to iimasu" , meaning : "gochisou samadeshita diye söylerim", type : "sentence" },
+{ japanese : "you're welcome' wa nihongo de nan to iimasu ka? Dou itashimashite to iimasu" , meaning : "you're welcome' japoncada nasıl söylenir? 'dou itashimashite' diye söylenir", type : "sentence" },
+{ japanese : "suuzii wa ashita no yotei ni tsuite nan to iimashita ka? Daijoubu da to iimashita" , meaning : "suzy yarının planı üzerine ne diye söylüyor? Tamam diye söylüyor.", type : "sentence" },
+{ japanese : "asatte yuki ga furu deshou?" , meaning : "yarın kar yağar di mi? (yağar mı)", type : "sentence" },
+{ japanese : "jettokoosutaa wa tanoshii deshou?" , meaning : "kaykay eğlenceli di mi?", type : "sentence" },
+{ japanese : "watashi no kanojo wa kirei deshou?" , meaning : "benim kız arkadaşım güzel di mi?", type : "sentence" },
+{ japanese : "jonsonsan wa daigakusei deshou?" , meaning : "jonson üniversite öğrencisi di mi?", type : "sentence" },
+{ japanese : "kyou wa yuki ga furu deshou" , meaning : "bugün kar yağabilir", type : "sentence" },
+{ japanese : "kare wa kakkoii. Kanojo ga mou iru deshou" , meaning : "o çok cool. Kız arkadaşı olmalı (vardır)", type : "sentence" },
+{ japanese : "juu-nen ni nihon ni sunde iru kara, anatawa hontou ni nihongo ga jouzu deshou" , meaning : "10 yıldır japonyada yaşadığından, senin gerçekten japoncan iyi olmalı.", type : "sentence" },
+{ japanese : "maitoshi sapporo de yuki matsuri ga arimasu" , meaning : "her sene sapporo'da kar festivali vardır", type : "sentence" },
+{ japanese : "teiraa suuifuto wa manira de konsaato ga arimashita" , meaning : "taylor swift manila'da konseri vardı", type : "sentence" },
+{ japanese : "nisen nijuu nen ni toukyou de tsugi no orinpikku ga arimasu" , meaning : "2020 yılında tokya'da gelecek olimpiyatlar var", type : "sentence" },
+{ japanese : "nijusan nen mae ni koube de ookii jishin ga arimashita" , meaning : "23 yıl önce kobe'de deprem olmuştu", type : "sentence" },
+{ japanese : "paatii de kare ni aimashita ka" , meaning : "partide onunla karşılaştım/tanıştım", type : "sentence" },
+{ japanese : "kaigi de iken o iimasu" , meaning : "toplantıda fikrimi söyleyeceğim", type : "sentence" },
+{ japanese : "omatsuri de kaimashita" , meaning : "festivalde satın aldım", type : "sentence" },
+{ japanese : "eiga demo mimasen ka" , meaning : "film falan izlemeyelim mi", type : "sentence" },
+{ japanese : "koohii demo nomimasen ka" , meaning : "kahve falan içmeyelim mi", type : "sentence" },
+{ japanese : "ranchi demo ikanai" , meaning : "öğle yemeğine falan gitmeyelim mi", type : "sentence" },
+{ japanese : "mou ikanaito" , meaning : "artık gitmem lazım", type : "sentence" },
+{ japanese : "sorosoro jikan da, shito o owaranai to" , meaning : "neredeyse zaman geldi, işi bitirmem lazım", type : "sentence" },
+{ japanese : "saigo no chansu da, ganbaranai to" , meaning : "en son şansım, elimden geleni yapmam lazım", type : "sentence" },
+
+
+
+{ japanese : "yuki no kaban" , meaning : "yukinin çantası", type : "sentence" },
+{ japanese : "suteki na kaban" , meaning : "güzel çanta", type : "sentence" },
+{ japanese : "furui kaban" , meaning : "eski çanta", type : "sentence" },
+{ japanese : "niku o taberu hito" , meaning : "et yiyen insan", type : "sentence" },
+{ japanese : "niku o tabenai hito" , meaning : "et yemeyen insan", type : "sentence" },
+{ japanese : "niku o tabeta hito" , meaning : "et yemiş olan insan", type : "sentence" },
+{ japanese : "niku o tabenakatta hito" , meaning : "et yememiş olan insan", type : "sentence" },
+{ japanese : "akai kooto o kite iru hito" , meaning : "kırmızı mont giymekte olan insan", type : "sentence" },
+{ japanese : "boushi o kabutte iru hito" , meaning : "şapka takmakta olan insan", type : "sentence" },
+{ japanese : "hon o yonde iru hito" , meaning : "kitap okumakta olan insan", type : "sentence" },
+{ japanese : "kimurasan no tonari ni iru hito" , meaning : "kimurusan'ın yanında (duran) insan", type : "sentence" },
+{ japanese : "akarukute ii hito" , meaning : "neşeli ve iyi insan", type : "sentence" },
+{ japanese : "kirei de yuumei na hito" , meaning : "güzel ve ünlü insan", type : "sentence" },
+{ japanese : "kyujuu-sai no hito" , meaning : "90 yaşındaki insan", type : "sentence" },
+{ japanese : "eigo no sensei" , meaning : "ingilizce öğretmeni", type : "sentence" },
+{ japanese : "watashi wa toshokan kara hon o karimashita" , meaning : "ben kütüphaneden kitap ödünç aldım", type : "sentence" },
+{ japanese : "watashi ga toshokan kara karita hon" , meaning : "kütüphaneden ödünç aldığım kitap", type : "sentence" },
+{ japanese : "chichi wa resutoran de hataraite imasu" , meaning : "babam restoranda çalışmaktadır", type : "sentence" },
+{ japanese : "chichi ga harataite iru resutoran" , meaning : "bababım çalışmakta olduğu restoran", type : "sentence" },
+{ japanese : "watashi wa dareka ni agemasu" , meaning : "ben birisine veriyorum", type : "sentence" },
+{ japanese : "watashi ga ageru hito" , meaning : "benim verdiğim insan", type : "sentence" },
+{ japanese : "akai kooto o kite iru hito wa jonson san desu" , meaning : "kırmızı mont giymekte olan insan jonsondur", type : "sentence" },
+{ japanese : "jonsonsan wa akai kooto o kite iru hito desu" , meaning : "jonson kırmızı mont giymekte olan insandır", type : "sentence" },
+{ japanese : "watashi wa watashi ga toshokan kara karita hon o nakushimashita" , meaning : "ben kütüphaneden ödünç aldığım kitabı kaybettim", type : "sentence" },
+{ japanese : "anata wa nisen nen ni umareta hito o shitte imasu ka" , meaning : "sen 2000 yıldında doğmuş birini tanıyo musun", type : "sentence" },
+{ japanese : "kimurasan no tonari ni iru hito wa dare desu ka" , meaning : "kimurusan'ın yanında (duran) insan kimdir?", type : "sentence" },
+{ japanese : "anata ga sunde ita apaato wa doko desu ka" , meaning : "senin yaşamış olduğun apartman nerededir?", type : "sentence" },
+{ japanese : "suki na kuruma ga dore desu ka" , meaning : "beğendiğin hoşuna giden araba hangisidir?", type : "sentence" },
+{ japanese : "kinoo mita eiga wa doo deshita ka" , meaning : "dün izlediğin film nasıldı", type : "sentence" },
+{ japanese : "watashi wa toshokan kara hon o karimashita" , meaning : "kütüphaneden kitap ödünç aldım", type : "sentence" },
+{ japanese : "watashi ga toshokan kara karita hon o nakushimashita" , meaning : "kütüphaneden ödünç aldığım kitabı kaybettim", type : "sentence" },
+{ japanese : "chichi wa resutoran de hataraite imasu" , meaning : "babam restoranda çalışmaktadır", type : "sentence" },
+{ japanese : "chichi ga harataite iru resutoran e ikimasu" , meaning : "babamın çalışmakta olduğu restorana gidiyorum", type : "sentence" },
+{ japanese : "anata wa byouin de umaremashita" , meaning : "sen hastanede doğdun", type : "sentence" },
+{ japanese : "anata ga umareta byouin o shitte imasu ka" , meaning : "sen doğduğun hastaneyi biliyor musun?", type : "sentence" },
+{ japanese : "supiichi o renshuusuru jikan ga arimasen" , meaning : "konuşma pratiği zamanı yoktur", type : "sentence" },
+{ japanese : "atode tsuma to shokujisuru yakusoku o omoidashimashita" , meaning : "sonra karımla yemek yeme sözümü hatırladım", type : "sentence" },
+{ japanese : "haisha ni iku yotei o wasurenaide" , meaning : "dişçiye gitme planını unutma", type : "sentence" },
+
+
+
+{ japanese : "shiyakusho ni iku toki, zairyuu kaado o mottekite" , meaning : "valiliğe gittiğin zaman, oturma izni kartını alıp git", type : "sentence" },
+{ japanese : "benkyou suru toki, ongaku o kikimasu" , meaning : "çalıştığım zaman, müzik dinlerim", type : "sentence" },
+{ japanese : "wakaranai koto ga aru toki, watashi ni kiite kudasai" , meaning : "anlamadığın birşey olduğu zaman, bana sor lütfen", type : "sentence" },
+{ japanese : "uchi de asagohan o taberu jikan ga nai toki, onigiri o densha de tabemasu" , meaning : "evde kahvaltı yeme zamanı olmadığı zaman, onigiriyi trende yerim", type : "sentence" },
+{ japanese : "samui toki, amari dekakemasen" , meaning : "soğuk olduğu zaman, pek dışarı çıkmam", type : "sentence" },
+{ japanese : "hima na toki, nomini ikimasu" , meaning : "boş olduğum zaman, içmeye giderim", type : "sentence" },
+{ japanese : "kodomo no toki, yoku anime o mimashita" , meaning : "çocuk zamanı, sık sık anime izlerdim", type : "sentence" },
+{ japanese : "yasumi no toki, nani o shimasu ka" , meaning : "tatil olduğu zaman, ne yaparsın?", type : "sentence" },
+{ japanese : "unten shite iru toki, keitai denwa o tsukaimasen" , meaning : "araba kullanıyor olduğum zaman, cep telefonu kullanmam", type : "sentence" },
+{ japanese : "nete iru toki, jishin ga arimashita" , meaning : "uyuyorken (uğuduğum esnada), deprem oldu", type : "sentence" },
+{ japanese : "uchi e kaeru toki, denwa shimashita" , meaning : "eve dönerken (varmadan önce), telefon ediyorum", type : "sentence" },
+{ japanese : "uchie e kaetta toki, denwa shimashita" , meaning : "eve döndüğümde (dönünce), telefon ettim", type : "sentence" },
+{ japanese : "kuni e kaetta toki, fuku o kaimasu" , meaning : "ülkeme döndüğümde, giysi satın alıcam", type : "sentence" },
+{ japanese : "taberu toki, 'itadakimasu' to iimasu" , meaning : "yemek yerken (öncesinde), 'itadakimasu' deriz", type : "sentence" },
+{ japanese : "tabeta toki, 'gochisousama deshita' to iimasu" , meaning : "yemek yediğimizde (sonrasında)'afiyet olsun' deriz.", type : "sentence" },
+{ japanese : "dekakeru toki, ittekimasu to iimasu" , meaning : "evi terkederken 'ittekimasu' deriz", type : "sentence" },
+{ japanese : "uchi e kaetta toki, tadaima to iimasu" , meaning : "eve geri geldiğimiz zaman 'tadaima' deriz", type : "sentence" },
+{ japanese : "akai botan o osu to, kaado ga demasu" , meaning : "kırmızı düğmeye basmanla, kart çıkar", type : "sentence" },
+{ japanese : "tsunami o hidari e mawasu to, oto ga ookiku narimasu" , meaning : "kolu sola döndürmenle ses büyük olur (ses yükselir)", type : "sentence" },
+{ japanese : "kousaten o migi e magaru to, shiyakusho ga arimasu" , meaning : "dört yol ağzında sola dönmenle, valiliği göreceksin (valilik var)", type : "sentence" },
+{ japanese : "asagohan o tabenai to, atama ga itakunaru" , meaning : "kahvaltıyı yememekle,başım ağırır", type : "sentence" },
+{ japanese : "shingou ga aka ni narimashita" , meaning : "trafik ışığı kırmızı oldu (kırmızı yandı)", type : "sentence" },
+{ japanese : "atama ga itai" , meaning : "başım ağrıyor", type : "sentence" },
+{ japanese : "tokei ga ugoite inai" , meaning : "saat hareket etmiyo (saat çalışmıyo)", type : "sentence" },
+{ japanese : "kono botan o osu to, otsuri ga demasu" , meaning : "bu düğmeye basmanla, bozuk çıkar (makineden)", type : "sentence" },
+{ japanese : "kouen o sampo shimasu" , meaning : "i take a stroll in the park", type : "sentence" },
+{ japanese : "michi o arukimasu" , meaning : "i walk along the road", type : "sentence" },
+{ japanese : "hashi o watarimasu" , meaning : "i go across the bridge", type : "sentence" },
+{ japanese : "kousaten o migi e magatte kudasai" , meaning : "turn right at the intersection", type : "sentence" },
+
+
+
+{ japanese : "ramasan wa watashi ni kono hon o kuremashita" , meaning : "ramasan bana bu kitabı verdi", type : "sentence" },
+{ japanese : "samitasan wa ototo ni kono hon o kuremashita" , meaning : "samitasan ağbime bu kitabı verdi", type : "sentence" },
+{ japanese : "obaasan wa watashi ni kono hon o kuremashita" , meaning : "büyükannem bana bu kitabı verdi", type : "sentence" },
+{ japanese : "ramasan wa samitasan ni kono hon o agemashita" , meaning : "ramasan samitasana bu kitabı verdi", type : "sentence" },
+{ japanese : "watashi wa ramsan ni kono hon o agemashita" , meaning : "ben ramsana bu kitabı verdim", type : "sentence" },
+{ japanese : "watashi wa ototo ni kono hon o agemashita" , meaning : "ben ağbime bu kitabı verdim", type : "sentence" },
+{ japanese : "sensei wa watashi ni ressun o oshiemashita" , meaning : "öğretmen bana ders verdi (öğretti anlamı)", type : "sentence" },
+{ japanese : "sensei wa watashi ni ressun o oshiete kuremashita / kureta" , meaning : "öğretmen bana ders verdi (ahlaki anlamda)", type : "sentence" },
+{ japanese : "amiru wa  yoshidasan ni kuruma o kashite agemasu" , meaning : "amir yoshidasana arabayı ödünç verdi", type : "sentence" },
+{ japanese : "watashi wa ojiichan ni koohii o irete agemashita" , meaning : "ben büyükbabaya kahve verdim", type : "sentence" },
+{ japanese : "watashi wa tanakasan o kuukoo e okutte agemasu" , meaning : "tanakasan'ı havalimanına götürdüm (geçirdim, yolcu ettim)", type : "sentence" },
+{ japanese : "tanakasan kuukoo e okurimashou ka" , meaning : "tanaksan (sizi) havalimanına götüreyim mi? (saygılı)", type : "sentence" },
+{ japanese : "obaachan kaban o motte ageru yo, omoi kara." , meaning : "büyükanne çantanı taşıyayım mı, ağır çünkü (olduğundan)", type : "sentence" },
+{ japanese : "watashi wa samita ni basu noriba made annaishite moraimashita" , meaning : "samita bana otobüs durağına kadar eşlik etti (verdi)", type : "sentence" },
+{ japanese : "watashi wa ani ni koko ni tsuretekite moraimashita" , meaning : "abim beni buraya getirdi (verdi)", type : "sentence" },
+{ japanese : "watashi wa tomodachi ni anime o shoukaishite moraimashita" , meaning : "arkadaşın beni animeyle tanıştırdı (verdi)", type : "sentence" },
+{ japanese : "sensei wa (watashi ni) kotae o setsumeishite kuremashita" , meaning : "öğretmen bana cevabı açıkladı", type : "sentence" },
+{ japanese : "haha wa mainichi obentou o tsukette kuremasu  " , meaning : "annem hergün yemeği bana hazırladı (yaptı)", type : "sentence" },
+{ japanese : "ane wa hikkoshi o tetsudatte kuremasu" , meaning : "kız kardeşim hareket etmeme yardım etti (verdi)", type : "sentence" },
+{ japanese : "watashi wa ane ni hikkoshi o tetsudatte moraimasu" , meaning : "ben kız kardeşimden hareket etmede yardımı aldım (verdim)", type : "sentence" },
+{ japanese : "ane wa watashi ni hikkoshi o tetsudatte kuremasu" , meaning : "kız kardeşim hareket etmeme yardım etti (verdi)", type : "sentence" },
+{ japanese : "okaasan ga katte kuremashita" , meaning : "annem (bana) satın aldı (satın alıp verdi)", type : "sentence" },
+{ japanese : "tanaka sensei ga oshiete kuremashita" , meaning : "tanaka hoca (bana) öğretti (verdi)", type : "sentence" },
+{ japanese : "dare ga anata ni kono hon o kuremashita ka / agemashita ka? Rama san ga kuremashita" , meaning : "kim sana bu kitabı verdi? ramasan verdi", type : "sentence" },
+{ japanese : "dare ga shiryou o junbishimasu ka? haradasan ga junbi shimasu" , meaning : "kim belgeleri hazırladı? Haradasan hazırladı", type : "sentence" },
+{ japanese : "dare ga barentain choko o moraimashita ka? Jon dake ga moraimashita" , meaning : "kim valentine çikolatası aldı? Jon sadece aldı", type : "sentence" },
+{ japanese : "dare ni/kara moraimashita ka?" , meaning : "kimden aldın?", type : "sentence" },
+{ japanese : "dare ni kono hon o moraimashita ka? " , meaning : "kimden bu kitabı aldın?", type : "sentence" },
+{ japanese : "dare ni eigo o oshiete moraimashita ka? Simusu sensei ni oshiete moraimashita" , meaning : "kimden ingilizce öğrendin (aldın)? Sumisu hocadan öğrendim", type : "sentence" },
+{ japanese : "dare kara/ni barentain choko o moraimashita ka? Maria kara moraimashita" , meaning : "kimden valentine çikolatası aldın? Maria'dan aldım", type : "sentence" },
+
+
+
+{ japanese : "ichi-oku en ga attara, shigoto o yamemasu" , meaning : "yüz milyon yenim olursa, işimi bırakacağım", type : "sentence" },
+{ japanese : "jikan ga nakattara, konakute mo ii desu" , meaning : "eğer zaman yoksa, gelmesen de olur", type : "sentence" },
+{ japanese : "yokattara, douzo" , meaning : "istersen buyur (al)", type : "sentence" },
+{ japanese : "hima dattara, asobimashou" , meaning : "eğer boşsan, dışarı çıkıp oynayalım", type : "sentence" },
+{ japanese : "genki ni nattara, ippai nomimashou" , meaning : "iylişence, bir kadeh içelim", type : "sentence" },
+{ japanese : "toshi o tottara, inaka ni sumitai" , meaning : "yaşım ilerleyince, kırsala (köye) yerleşmek istiyorum", type : "sentence" },
+{ japanese : "eki ni tsuitara, denwa shite kudasai" , meaning : "durağa vardığında, telefon aç lütfen", type : "sentence" },
+{ japanese : "shigoto ga owattara, kaette mo ii desu" , meaning : "işi bitirdikten sonra, eve gidebilirsin", type : "sentence" },
+{ japanese : "watashi wa benkyou shite mo, wakarimasen" , meaning : "çalışsam da, anlamıyorum", type : "sentence" },
+{ japanese : "yasukute mo watashi wa guruupu ryokou ga sukijanai" , meaning : "ucuz olsa da, grup seyahatlerini sevmiyorum", type : "sentence" },
+{ japanese : "benri demo sumaho o kaimasen" , meaning : "kullanışlı olsa da akıllı telefonları sevmiyorum", type : "sentence" },
+{ japanese : "yasumi demo, isogashi desu" , meaning : "tatil olsam da, meşgulum", type : "sentence" },
+{ japanese : "moshi ichi-oku en ga attara, shigoto o yamemasu" , meaning : "ola ki yüz milyon yenim olsa, işi terkederim", type : "sentence" },
+{ japanese : "moshi yokattara, douzo" , meaning : "ola ki istersen, buyur", type : "sentence" },
+{ japanese : "moshi nihon ni ittara, fankopoppu o katte kuremasen ka" , meaning : "ola ki japonyaya gittin, bana fankopop oyuncağı alıp vermez misin?", type : "sentence" },
+{ japanese : "ikura kangaete mo, kanojo no koto o omoida shimasen" , meaning : "ne kadar düşünsem de, onu hatırlayamıyorum", type : "sentence" },
+{ japanese : "ikura takakute mo anata ni katte agemasu" , meaning : "ne kadar pahalı olsa da, sana alıp vereceğim", type : "sentence" },
+{ japanese : "ikura benri demo, sumaho o kaimasen" , meaning : "ne kadar kullanışlı olsa da, akıllı telefon satın almıyorum", type : "sentence" },
+{ japanese : "migeru ga tsuitara, watashi ni oshiete kudasai" , meaning : "miguel vardığında, bana söyle lütfen (haber ver)", type : "sentence" },
+{ japanese : "sumaho ga benri demo, kaimasen" , meaning : "akıllı telefon kullanışlı olsa da, almıyorum", type : "sentence" },
+{ japanese : "okaasan ga byouki no toki, jibunde ryouri o shimasu" , meaning : "annem hasta olduğu zaman, ben kendim yemek yapıyorum", type : "sentence" },
+{ japanese : "yuki ga furu to, densha ga tomarimasu" , meaning : "kar yağmasıyla, trene bindik", type : "sentence" },
+{ japanese : "akachan ga umareru mae ni, iroiro junbi shinai to" , meaning : "bebeğim doğmasından önce, onubunu hazırlamak zorundayım", type : "sentence" },
+
+
+{ japanese : "samuin desu" , meaning : "because it is cold", type : "sentence" },
+{ japanese : "kireinan desu" , meaning : "because it is beautiful", type : "sentence" },
+{ japanese : "yamaguchisan eigo ga jouzu desu ne. Kaigai ni sunde itan desu ka / ee, amerika de benkyou o shimashita" , meaning : "yamaguchisan ingilizceniz çok iyi? Acaba yurt dışında yaşadığınız için mi? / evet, amerika'da öğrenim gördüm.", type : "sentence" },
+{ japanese : "sutekina shatsu desu ne. Doko de kattan desu ka? / harajuku de kaimashita" , meaning : "tshirtün güzelmiş. Nereden aldın acaba? / harajuku'da aldım", type : "sentence" },
+{ japanese : "doushite okuretan desu ka / densha ga okeretan desu" , meaning : "neden geç kaldın acaba? / tren geç kaldığından", type : "sentence" },
+{ japanese : "doushitan desu ka / atama ga itain desu" , meaning : "ne oldu acaba? Problem ne ki? / başım ağırıyor da", type : "sentence" },
+{ japanese : "mainichi hirugohan o tsukurimasu ka / iie, jikan ga nain desu" , meaning : "her gün akşam yemeği yapar mısın / hayır, zamanım olmadığından", type : "sentence" },
+{ japanese : "okane ga nain desu ga, ashita haratte mo ii desu ka" , meaning : "ummm, param yok da, yarın ödesem olur mu?", type : "sentence" },
+{ japanese : "watashi wa kristinasan no paatii ikun desu ga, issho ni ikimasen ka" , meaning : "kristinasan'ın partisine gidiyorum da, birlikte gidelim mi?", type : "sentence" },
+{ japanese : "yarikata ga wakaranain desu ga, oshiete itadakemasen ka" , meaning : "I don't know how to do it, could you please help me? (very polite)", type : "sentence" },
+{ japanese : "repooto o owarimashita, dasu mae ni mite itadakemasen ka" , meaning : "I finished the report, before submitting could you please have a look?", type : "sentence" },
+{ japanese : "sochira de denwa o wasuremashita ga, sogashite itadakemasen ka" , meaning : "I forgot my phone there, could you please search for it?", type : "sentence" },
+{ japanese : "onaka ga suita, doko de tabetara ii desu ka" , meaning : "karnım acıktı, nerde yesem iyi olur?", type : "sentence" },
+{ japanese : "omiyage o kaitain desu ga, nani o kattara ii desu ka" , meaning : "souvenir almak istiyorum da, ne alsam iyi olur?", type : "sentence" },
+{ japanese : "pasupooto o nakukarimashita, dou shitara ii desu ka" , meaning : "pasaportumu kaybettim, nasıl yapsam acaba?", type : "sentence" },
+{ japanese : "kanojo ni kudamono o ageta hou ga ii desu ka / ummm, kudamono wa suki jya nai to omoimasu" , meaning : "ona meyve versek daha ii olur mu? / umm, meyve sevmez diye düşünüyorum", type : "sentence" },
+{ japanese : "basuketto booru o shimashou / gomen, supootsu wa jouzu ja nain desu" , meaning : "basketbol oynayalım hadi / üzgünüm, spora yeteneğim yok da", type : "sentence" },
+{ japanese : "tesuto wa nain desu ka / iie, tesuto wa arimasu" , meaning : "test yok mu acaba? / hayır, test var", type : "sentence" },
+
+
+
+{ japanese : "watashi wa eigo o hanasemasu" , meaning : "I can speak english", type : "sentence" },
+{ japanese : "hitori de kuukoo de ikemasu ka" , meaning : "tek başına alana gidebilir misin?", type : "sentence" },
+{ japanese : "ashita roku ji ni okiraremasu ka" , meaning : "yarın saat 6da kalkabilir misin?", type : "sentence" },
+{ japanese : "chuumon ga mada kaeraremasu ka" , meaning : "can I still change my order?", type : "sentence" },
+{ japanese : "ashita kara sono eiga ga miraremasu" , meaning : "you can watch the movie staring tomorrow", type : "sentence" },
+{ japanese : "kono machi kara fujiyama ga miemasu" , meaning : "from this road fujiyama can be seen", type : "sentence" },
+{ japanese : "oodyoo gaido de setsumei ga kikemasu " , meaning : "audio guide ile açıklamayı dinleyebilirsin", type : "sentence" },
+{ japanese : "ano heya kara fushigina oto ga kikoemasu" , meaning : "o odadan tuhaf bir ses duyuluyor", type : "sentence" },
+{ japanese : "gakkou no chikaku ni atarashii biru ga dekimashita" , meaning : "okulun yakınında yeni bir bina yapıldı", type : "sentence" },
+{ japanese : "bangohan ga dekimashita" , meaning : "dinner is ready", type : "sentence" },
+{ japanese : "heya ni wa terebi ga arimasu" , meaning : "odada tv var (vurgu odada)", type : "sentence" },
+{ japanese : "heya ni terebi ga arimasu" , meaning : "odada tv var (vurgu tvde)", type : "sentence" },
+{ japanese : "mise dewa sake ga kaemasu" , meaning : "dükkanda içki alabilirsin", type : "sentence" },
+{ japanese : "kono biru kara wa hanabi ga miemasu" , meaning : "from this building fireworks can be seen", type : "sentence" },
+{ japanese : "sarada o tabemashita, keeki mo tabemashita" , meaning : "salata yedim, kek de yedim", type : "sentence" },
+{ japanese : "shimizusan wa eigo ga hanasemasu, chuugokugo mo hanasemasu" , meaning : "shumizu ingilizce konuşabilir, çince de konuşabilir", type : "sentence" },
+{ japanese : "heya ni wa terebi ga arimasu, ribinguruumu ni mo terebi ga arimasu" , meaning : "odada tv var, oturma odasında da tv var", type : "sentence" },
+{ japanese : "kopii wa hitotsu shika arimasen" , meaning : "bir tane dışında fotokopi yok", type : "sentence" },
+{ japanese : "kopiiwa hitotsu dake arimasu" , meaning : "sadece bir tane fotokopi var", type : "sentence" },
+{ japanese : "kanojo ni shika katte agenai" , meaning : "onun haricinde kimseye almıyorum", type : "sentence" },
+{ japanese : "kanojo dake ni katte ageru" , meaning : "sadece ona alıyorum", type : "sentence" },
+
+
+
+{ japanese : "warai nagara, omoshiroi bangumi o mimashita" , meaning : "gülerek, ilginç bir tv programı izledim", type : "sentence" },
+{ japanese : "arubaito o yari nagara, daigaku de benkyou shimasu" , meaning : "bir yandan part time çalışarak, diğer yandan üniversitede okuyorum", type : "sentence" },
+{ japanese : "hon o kaki nagara, eigo o oshiemashita" , meaning : "bir yandan kitap yazarak, diğer yandan ingilizce öğretiyordum.", type : "sentence" },
+{ japanese : "maiasa, gohan o taberu mae ni, jogingu o shite imasu" , meaning : "her sabah, kahvaltı yemeden önce koşu yapıyorum", type : "sentence" },
+{ japanese : "do nichi wa sentaku o shite imasu" , meaning : "Her Cumartesi Pazar çamaşır yıkıyorum", type : "sentence" },
+{ japanese : "maiban biiru o nonde imashita" , meaning : "her akşam bira içiyordum", type : "sentence" },
+{ japanese : "ane no apaato wa atarashii shi, niwa mo arimasu" , meaning : "kız kardeşimin apartmanı yeni ve (ayrıca), bahçesi de var.", type : "sentence" },
+{ japanese : "sukina hito wa yasashii shi, kirei da shi, ninki ga arimasu" , meaning : "sevdiğim insan, nazik, güzel ve popülerdir", type : "sentence" },
+{ japanese : "shachou wa garciasan o erabimashita. Kanojo wa eigo ga hanaseru shi, nesshin da shi, keiken mo arimasu" , meaning : "müdür garciasan'ı seçti. O ingilizce konuşablir, çalışkandır ve tecrübelidir (başka da çok özelliği vardır)", type : "sentence" },
+{ japanese : "koohii demo nomimasen ka / gomen, haha o tetsudau shi, repooto o yarana kereba naranai" , meaning : "kahve falan içmesek mi / üzgünüm, anneme yarım etmem (bunun yaında), raporu halletmezsem olmaz", type : "sentence" },
+{ japanese : "eki kara mo chikai shi, kono manshon o kaimasu" , meaning : "istanyona yakın falan (ve başka özelliklerden), bu evi satın alıyorum", type : "sentence" },
+{ japanese : "doushite kono manshon o erandan desu ka / jimu ga aru shi, yasui shi, sore ni eki kara mo chikai desu" , meaning : "neden bu evi seçtiniz acaba? / gym var, ucuz ve istasyona yakındır (ve daha başka)", type : "sentence" },
+{ japanese : "Kanojo wa eigo ga hanaseru shi, nesshin da shi, keiken mo arimasu, sore de shachou wa garciasan o erabimashita." , meaning : "", type : "sentence" },
+{ japanese : "yoku kono kissaten ni kurun desu ka" , meaning : "sık sık bu kafeye kelir misin acaba?", type : "sentence" },
+
+
+
+{ japanese : "doa ga aite imasu" , meaning : "kapı açıktır (açık durumda)", type : "sentence" },
+{ japanese : "mado ga warete imasu" , meaning : "pencere bozuktur (kırıktır)", type : "sentence" },
+{ japanese : "denki ga tsuite imasu" , meaning : "lamba açık (açık halde)", type : "sentence" },
+{ japanese : "densha ga konde imasu" , meaning : "tren kalabalıktır", type : "sentence" },
+{ japanese : "kono jidouhanbaiki wa kowarate imasu" , meaning : "bu vending machine bozuktur", type : "sentence" },
+{ japanese : "ano fukuro wa yaburete imasu" , meaning : "bu torba yırtık", type : "sentence" },
+{ japanese : "sono esukareetaa wa koshou shite imasu" , meaning : "o asansör bozuk (arızalı)", type : "sentence" },
+{ japanese : "inouesan ga kureta kureta keeki wa zenbu tabete shimaimashita" , meaning : "inouesan'ın bana verdiği keki yiyip bitirdim (tamamen hepsini yedim)", type : "sentence" },
+{ japanese : "shukudai wa mou yatte shimaimashita ka" , meaning : "ödevini artık bitirdin mi (tamamen)", type : "sentence" },
+{ japanese : "kaeru jikan made ni repooto o kaite shimaimasu" , meaning : "gitme zamanım gelene kadar raporu (tamamlamış) bitirmiş olurum", type : "sentence" },
+{ japanese : "kippu o nakushite shimaimashita ga, dou shitara ii desu ka" , meaning : "bileti kaybettim (mahçup), ne yapsam iyi olur?", type : "sentence" },
+{ japanese : "machigaete shimaimashita, mou ikkai yarimasu" , meaning : "yanlış yaptım (mahçup), bir kere daha deniyim", type : "sentence" },
+{ japanese : "hito ga ookatta desu, sore de supiichi o wasurete shimaimashita" , meaning : "çok insan vardı, bu yüzden konuşmamı unuttum (mahçup)", type : "sentence" },
+{ japanese : "kippu ga arimashita, otoshimashita yo" , meaning : "bilet (çıktı ortaya) buldum, düşürdün mü ki.", type : "sentence" },
+{ japanese : "atta!, aa, yokatta" , meaning : "buldum (ortaya çıktı, işte burda), yaşasın", type : "sentence" },
+{ japanese : "nanka iitai koto ga arimasu, dokoka de hanasemasu ka" , meaning : "konuşmak istediğim bir şey var, biryerde konuşabilir miyiz", type : "sentence" },
+{ japanese : "haha wa souji shita toki, ii osara ga dokoka ni katazukemashita" , meaning : "annem temizlik yaptığında, tabakları kaldırır (başka yere koyar)", type : "sentence" },
+
+
+
+
+// JFBP
+
+
+
+
+
+{ japanese : "こちら" , meaning : "this one", type : "vocab" },
 { japanese : "はじめまして" , meaning : "how do you do", type : "vocab" },
 { japanese : "どうぞ　よろしく" , meaning : "please favor me", type : "vocab" },
 { japanese : "べんごし" , meaning : "lawyer", type : "vocab" },
@@ -192,7 +981,6 @@ const data = [
 { japanese : "sore" , meaning : "that", type : "vocab" },
 { japanese : "o" , meaning : "particle", type : "vocab" },
 { japanese : "misete kudasai" , meaning : "show me please", type : "vocab" },
-{ japanese : "misemasu(miseru)" , meaning : "to show", type : "vocab" },
 { japanese : "ikura" , meaning : "how much", type : "vocab" },
 { japanese : "senzen-en" , meaning : "3000 yen", type : "vocab" },
 { japanese : "mo" , meaning : "de da eki", type : "vocab" },
@@ -262,14 +1050,12 @@ const data = [
 
 { japanese : "shutcho" , meaning : "business trip", type : "vocab" },
 { japanese : "ni" , meaning : "to", type : "vocab" },
-{ japanese : "ikimasu" , meaning : "to go", type : "vocab" },
 { japanese : "Kyooto" , meaning : "Kyoto", type : "vocab" },
 { japanese : "shisha" , meaning : "branch office", type : "vocab" },
 { japanese : "hitori de" , meaning : "alone", type : "vocab" },
 { japanese : "to" , meaning : "with", type : "vocab" },
 { japanese : "Oosaka" , meaning : "Osaka", type : "vocab" },
 { japanese : "Tookyoo" , meaning : "Tokyo", type : "vocab" },
-{ japanese : "kaerimasu (kaeru)" , meaning : "to return ", type : "vocab" },
 { japanese : "asatte" , meaning : "the day after tomorrow", type : "vocab" },
 { japanese : "soshite" , meaning : "and then, besides", type : "vocab" },
 { japanese : "densha" , meaning : "train", type : "vocab" },
@@ -277,7 +1063,6 @@ const data = [
 { japanese : "senshuu" , meaning : "last week", type : "vocab" },
 { japanese : "kyonen" , meaning : "last year", type : "vocab" },
 { japanese : "kara" , meaning : "from", type : "vocab" },
-{ japanese : "kimasu (kuru)" , meaning : "to come", type : "vocab" },
 { japanese : "rainen" , meaning : "next year", type : "vocab" },
 { japanese : "tomodachi" , meaning : "friend", type : "vocab" },
 { japanese : "basu" , meaning : "bus", type : "vocab" },
@@ -292,16 +1077,13 @@ const data = [
 { japanese : "yoku irasshaimashita" , meaning : "welcome", type : "vocab" },
 { japanese : "yoku" , meaning : "well", type : "vocab" },
 { japanese : "irrashaimashita" , meaning : "came", type : "vocab" },
-{ japanese : "irrashaimasu (irassharu)" , meaning : "to come (polite)", type : "vocab" },
 { japanese : "ohairi kudasai" , meaning : "do come in", type : "vocab" },
-{ japanese : "hairimasu (hairu)" , meaning : "to enter", type : "vocab" },
 { japanese : "shitsurei shimasu" , meaning : "may I? (I'm afraid I'll be disturbing you)", type : "vocab" },
 { japanese : "kochira e" , meaning : "this way", type : "vocab" },
 { japanese : "kochira" , meaning : "this direction", type : "vocab" },
 { japanese : "de" , meaning : "by", type : "vocab" },
 { japanese : "takushi" , meaning : "taxi", type : "vocab" },
 { japanese : "okake kudasai" , meaning : "please have a seat", type : "vocab" },
-{ japanese : "kakemasu (kakeru)" , meaning : "sit", type : "vocab" },
 { japanese : "ni" , meaning : "on", type : "vocab" },
 { japanese : "Kanada" , meaning : "Canada", type : "vocab" },
 { japanese : "ototoi" , meaning : "the day before yesterday", type : "vocab" },
@@ -317,12 +1099,10 @@ const data = [
 { japanese : "isu" , meaning : "chair", type : "vocab" },
 { japanese : "ya" , meaning : "and (etc.)", type : "vocab" },
 { japanese : "teeburu" , meaning : "table", type : "vocab" },
-{ japanese : "arimasu (aru)" , meaning : "to exist, to be (inanimate)", type : "vocab" },
 { japanese : "ue" , meaning : "above, top", type : "vocab" },
 { japanese : "to" , meaning : "and", type : "vocab" },
 { japanese : "hana" , meaning : "flower", type : "vocab" },
 { japanese : "okusan" , meaning : "wife", type : "vocab" },
-{ japanese : "imasu (iru)" , meaning : "to exist, to be (animate)", type : "vocab" },
 { japanese : "niwa" , meaning : "garden", type : "vocab" },
 { japanese : "otoko no ko" , meaning : "boy (male child)", type : "vocab" },
 { japanese : "ko" , meaning : "child", type : "vocab" },
@@ -359,7 +1139,6 @@ const data = [
 { japanese : "tonari" , meaning : "next to", type : "vocab" },
 { japanese : "posuto" , meaning : "mail box, post box", type : "vocab" },
 { japanese : "kara" , meaning : "so, because", type : "vocab" },
-{ japanese : "wakarimasu (wakaru)" , meaning : "understand, see", type : "vocab" },
 { japanese : "tatemono" , meaning : "building", type : "vocab" },
 { japanese : "takusan" , meaning : "many, lots of", type : "vocab" },
 { japanese : "hon-ya" , meaning : "book store", type : "vocab" },
@@ -398,23 +1177,18 @@ const data = [
 
 
 { japanese : "shuumatsu" , meaning : "weekend", type : "vocab" },
-{ japanese : "shimasu (suru)" , meaning : "to do", type : "vocab" },
 { japanese : "kabuki" , meaning : "kabuki (japanese theater)", type : "vocab" },
-{ japanese : "mimasu (miru)" , meaning : "see", type : "vocab" },
 { japanese : "ii desu ne" , meaning : "it's nice (all right)", type : "vocab" },
 { japanese : "mou" , meaning : "already", type : "vocab" },
 { japanese : "kaimashita" , meaning : "bought", type : "vocab" },
-{ japanese : "kaimasu (kau)" , meaning : "to buy", type : "vocab" },
 { japanese : "pureigaido" , meaning : "theater booking agency", type : "vocab" },
 { japanese : "de" , meaning : "at (particle)", type : "vocab" },
 { japanese : "mainichi" , meaning : "everyday", type : "vocab" },
-{ japanese : "benkyoo o shimasu (suru)" , meaning : "to study", type : "vocab" },
+{ japanese : "benkyoo o shimasu" , meaning : "to study", type : "vocab" },
 { japanese : "resutoran" , meaning : "restaurant", type : "vocab" },
 { japanese : "gohan" , meaning : "meal", type : "vocab" },
 { japanese : "hiru-gohan" , meaning : "lunch", type : "vocab" },
-{ japanese : "tabemasu (taberu)" , meaning : "eat", type : "vocab" },
 { japanese : "e" , meaning : "picture", type : "vocab" },
-{ japanese : "kikimasu (kiku)" , meaning : "to listen", type : "vocab" },
 { japanese : "nyuusu" , meaning : "news", type : "vocab" },
 { japanese : "ongaku" , meaning : "music", type : "vocab" },
 { japanese : "rekoodoo" , meaning : "record", type : "vocab" },
@@ -430,14 +1204,12 @@ const data = [
 { japanese : "suupu" , meaning : "soup", type : "vocab" },
 { japanese : "zasshi" , meaning : "magazine", type : "vocab" },
 { japanese : "chizu" , meaning : "map", type : "vocab" },
-{ japanese : "yomimasu (yomu)" , meaning : "to read", type : "vocab" },
 { japanese : "tegami" , meaning : "letter", type : "vocab" },
 { japanese : "kaimono" , meaning : "shopping", type : "vocab" },
 { japanese : "tenisu" , meaning : "tennis", type : "vocab" },
 { japanese : "komban" , meaning : "this evening", type : "vocab" },
 { japanese : "kissaten" , meaning : "coffee shop", type : "vocab" },
 { japanese : "koohii" , meaning : "coffee", type : "vocab" },
-{ japanese : "nomimasu (nomu)" , meaning : "drink", type : "vocab" },
 { japanese : "maiasa" , meaning : "every morning", type : "vocab" },
 { japanese : "koocha" , meaning : "black tea", type : "vocab" },
 { japanese : "miruku" , meaning : "milk", type : "vocab" },
@@ -461,35 +1233,26 @@ const data = [
 { japanese : "moshi moshi" , meaning : "hello", type : "vocab" },
 { japanese : "o-taku" , meaning : "(his) residence", type : "vocab" },
 { japanese : "go-shujin" , meaning : "(your) husband", type : "vocab" },
-{ japanese : "irasshaimasu" , meaning : "is (polite for imasu)", type : "vocab" },
 { japanese : "mata" , meaning : "again", type : "vocab" },
 { japanese : "ato de" , meaning : "afterwards", type : "vocab" },
-{ japanese : "onegaishimasu" , meaning : "please do", type : "vocab" },
 { japanese : "shitsurei shimasu" , meaning : "good-bye", type : "vocab" },
-{ japanese : "aimasu" , meaning : "meet", type : "vocab" },
 { japanese : "denwa o shimasu" , meaning : "make a phone call", type : "vocab" },
 { japanese : "yoku" , meaning : "often", type : "vocab" },
-{ japanese : "kakimasu" , meaning : "to write", type : "vocab" },
 { japanese : "amari … masen" , meaning : "does not … often", type : "vocab" },
-{ japanese : "kikimasu" , meaning : "to ask", type : "vocab" },
-{ japanese : "oshiemasu" , meaning : "to tell", type : "vocab" },
 { japanese : "mainen" , meaning : "every year", type : "vocab" },
 { japanese : "kurisumasu kaadı" , meaning : "christmas card", type : "vocab" },
 { japanese : "nengajoo" , meaning : "new year's card", type : "vocab" },
 { japanese : "haha" , meaning : "mother", type : "vocab" },
 { japanese : "hoteru" , meaning : "hotel", type : "vocab" },
-{ japanese : "oshiemasu" , meaning : "to tell", type : "vocab" },
 { japanese : "mise" , meaning : "store, shop", type : "vocab" },
 { japanese : "naisen-bango" , meaning : "extension number", type : "vocab" },
 { japanese : "sensei" , meaning : "teacher", type : "vocab" },
 { japanese : "otoosan" , meaning : "(your) father", type : "vocab" },
 { japanese : "okaasan" , meaning : "(your) mother", type : "vocab" },
 { japanese : "zenzen …masen" , meaning : "never", type : "vocab" },
-{ japanese : "chigaimasu" , meaning : "that's wrong", type : "vocab" },
 { japanese : "kookanshu" , meaning : "switchboard operator", type : "vocab" },
 { japanese : "shooshoo" , meaning : "a moment", type : "vocab" },
 { japanese : "omachi kudasai" , meaning : "please wait", type : "vocab" },
-{ japanese : "machimasu" , meaning : "to wait", type : "vocab" },
 { japanese : "jogingu o shimasu" , meaning : "to do jogging", type : "vocab" },
 
 
@@ -497,7 +1260,6 @@ const data = [
 { japanese : "o-kashi" , meaning : "cake", type : "vocab" },
 { japanese : "ikaga desu ka?" , meaning : "how about?", type : "vocab" },
 { japanese : "ikaga" , meaning : "how?", type : "vocab" },
-{ japanese : "itadakimasu" , meaning : "to eat (polite for tabemasu)", type : "vocab" },
 { japanese : "kirei-na" , meaning : "pretty", type : "vocab" },
 { japanese : "meshiagatte kudasai" , meaning : "please eat, have some", type : "vocab" },
 { japanese : "totemo" , meaning : "very", type : "vocab" },
@@ -539,7 +1301,6 @@ const data = [
 
 { japanese : "doo deshita ka?" , meaning : "how was it?", type : "vocab" },
 { japanese : "doo" , meaning : "how", type : "vocab" },
-{ japanese : "wakarimasu" , meaning : "to understand", type : "vocab" },
 { japanese : "zenzen… masen" , meaning : "not at all", type : "vocab" },
 { japanese : "iyahoon" , meaning : "earphones", type : "vocab" },
 { japanese : "ei-go" , meaning : "english", type : "vocab" },
@@ -556,10 +1317,8 @@ const data = [
 
 
 { japanese : "kabin" , meaning : "vase", type : "vocab" },
-{ japanese : "moraimasu" , meaning : "to receive", type : "vocab" },
 { japanese : "iro" , meaning : "color", type : "vocab" },
 { japanese : "suki-na" , meaning : "likable, favorite", type : "vocab" },
-{ japanese : "agemasu" , meaning : "to give", type : "vocab" },
 { japanese : "jisho" , meaning : "dictionary", type : "vocab" },
 { japanese : "chichi" , meaning : "(my) father", type : "vocab" },
 { japanese : "ane" , meaning : "(my) elder sister", type : "vocab" },
@@ -593,16 +1352,12 @@ const data = [
 { japanese : "dochira" , meaning : "where (polite)", type : "vocab" },
 { japanese : "kakimashoo ka" , meaning : "shall I draw?", type : "vocab" },
 { japanese : "akemashoo ka" , meaning : "shall I open?", type : "vocab" },
-{ japanese : "akemasu" , meaning : "to open", type : "vocab" },
-{ japanese : "keshimasu" , meaning : "to turn off", type : "vocab" },
 { japanese : "doa" , meaning : "door", type : "vocab" },
-{ japanese : "shimemasu" , meaning : "close", type : "vocab" },
 { japanese : "kangeikai" , meaning : "welcome party", type : "vocab" },
 { japanese : "demo" , meaning : "but", type : "vocab" },
 { japanese : "bideo" , meaning : "video", type : "vocab" },
 { japanese : "kurai" , meaning : "dark", type : "vocab" },
 { japanese : "denki" , meaning : "electric (light)", type : "vocab" },
-{ japanese : "tsukemasu" , meaning : "to turn on", type : "vocab" },
 { japanese : "urusai" , meaning : "noisy", type : "vocab" },
 { japanese : "hiitaa" , meaning : "heater", type : "vocab" },
 { japanese : "kopii" , meaning : "photocopy", type : "vocab" },
@@ -610,7 +1365,6 @@ const data = [
 
 
 
-{ japanese : "arimasu" , meaning : "to have", type : "vocab" },
 { japanese : "jikan" , meaning : "time", type : "vocab" },
 { japanese : "kyoodai" , meaning : "brothers, sisters", type : "vocab" },
 { japanese : "o-kane" , meaning : "money", type : "vocab" },
@@ -632,7 +1386,6 @@ const data = [
 
 
 
-{ japanese : "imasu" , meaning : "to stay, to be", type : "vocab" },
 { japanese : "konshuu" , meaning : "this week", type : "vocab" },
 { japanese : "mikka" , meaning : "for 3 days", type : "vocab" },
 { japanese : "dake" , meaning : "only", type : "vocab" },
@@ -650,12 +1403,9 @@ const data = [
 
 
 { japanese : "mottekite kudasai" , meaning : "please bring", type : "vocab" },
-{ japanese : "mottekimasu" , meaning : "to bring", type : "vocab" },
 { japanese : "nan-ji made ni" , meaning : "by what time?", type : "vocab" },
 { japanese : "made ni" , meaning : "by", type : "vocab" },
-{ japanese : "todokemasu" , meaning : "to deliver", type : "vocab" },
 { japanese : "todokete kudasai" , meaning : "please deliver", type : "vocab" },
-{ japanese : "iimasu" , meaning : "to say", type : "vocab" },
 { japanese : "itte kudasai" , meaning : "please say", type : "vocab" },
 { japanese : "maido" , meaning : "each time", type : "vocab" },
 { japanese : "maido arigatoo kudasai" , meaning : "thank you each time", type : "vocab" },
@@ -664,7 +1414,6 @@ const data = [
 { japanese : "kado" , meaning : "corner", type : "vocab" },
 { japanese : "migi" , meaning : "right", type : "vocab" },
 { japanese : "magatte kudasai" , meaning : "please turn", type : "vocab" },
-{ japanese : "magarimasu" , meaning : "turn", type : "vocab" },
 { japanese : "taipu" , meaning : "typing", type : "vocab" },
 { japanese : "menyuu" , meaning : "menu", type : "vocab" },
 { japanese : "yukkuri" , meaning : "slowly", type : "vocab" },
@@ -680,14 +1429,12 @@ const data = [
 { japanese : "massugu" , meaning : "straight ahead", type : "vocab" },
 { japanese : "temae" , meaning : "just before", type : "vocab" },
 { japanese : "tomete kudasai" , meaning : "stop please", type : "vocab" },
-{ japanese : "tomemasu" , meaning : "to stop", type : "vocab" },
 { japanese : "otsuri" , meaning : "change", type : "vocab" },
 { japanese : "doomo" , meaning : "thanks (colloquial)", type : "vocab" },
 { japanese : "yoyaku" , meaning : "reservation", type : "vocab" },
 { japanese : "nan nin-sama" , meaning : "how many people?", type : "vocab" },
 { japanese : "sama" , meaning : "polite form of san", type : "vocab" },
 { japanese : "kuriningu" , meaning : "dry cleaning", type : "vocab" },
-{ japanese : "dekimasu" , meaning : "be ready (finished, done)", type : "vocab" },
 { japanese : "mada desu" , meaning : "not yet", type : "vocab" },
 { japanese : "mada" , meaning : "yet", type : "vocab" },
 
@@ -695,13 +1442,7 @@ const data = [
 
 
 { japanese : "dooyatte" , meaning : "how?", type : "vocab" },
-{ japanese : "norimasu" , meaning : "to take, to get on", type : "vocab" },
-{ japanese : "orimasu" , meaning : "to get off", type : "vocab" },
 { japanese : "made" , meaning : "to, as far as", type : "vocab" },
-{ japanese : "arukimasu" , meaning : "to walk", type : "vocab" },
-{ japanese : "kakarimasu" , meaning : "to take (it takes)", type : "vocab" },
-{ japanese : "demasu" , meaning : "to leave", type : "vocab" },
-{ japanese : "tsukimasu" , meaning : "to arrive", type : "vocab" },
 { japanese : "yuugata" , meaning : "late afternoon, early evening", type : "vocab" },
 
 
@@ -714,7 +1455,6 @@ const data = [
 { japanese : "shashin o totte mo ii desu ka?" , meaning : "may I take a photograph?", type : "vocab" },
 { japanese : "shashin o torimasu" , meaning : "to take a photo", type : "vocab" },
 { japanese : "tsukatte mo ii desu" , meaning : "you may use it", type : "vocab" },
-{ japanese : "tsukaimasu" , meaning : "to use", type : "vocab" },
 { japanese : "pen" , meaning : "pen", type : "vocab" },
 { japanese : "subarashii" , meaning : "wonderful", type : "vocab" },
 { japanese : "saa" , meaning : "well", type : "vocab" },
@@ -726,12 +1466,10 @@ const data = [
 { japanese : "moshi moshi" , meaning : "I say", type : "vocab" },
 { japanese : "chuusha kinshi" , meaning : "no parking", type : "vocab" },
 { japanese : "tomenaide kudasai" , meaning : "do not park", type : "vocab" },
-{ japanese : "tomemasu" , meaning : "to park", type : "vocab" },
 { japanese : "chuushajoo" , meaning : "parking lot", type : "vocab" },
 { japanese : "hidari-gawa" , meaning : "left handside", type : "vocab" },
 { japanese : "tabako" , meaning : "tobacco", type : "vocab" },
 { japanese : "suwanaide kudasai" , meaning : "do nor smoke", type : "vocab" },
-{ japanese : "suimasu" , meaning : "to smoke, to inhale", type : "vocab" },
 { japanese : "deguchi" , meaning : "exit", type : "vocab" },
 
 
@@ -762,8 +1500,6 @@ const data = [
 { japanese : "ani" , meaning : "(my) older brother", type : "vocab" },
 { japanese : "o-niisan" , meaning : "(your) older brother", type : "vocab" },
 { japanese : "ryokoo-gaisha" , meaning : "travel agency", type : "vocab" },
-{ japanese : "tsutomemasu" , meaning : "to hold a post, to be employed", type : "vocab" },
-{ japanese : "sumimasu" , meaning : "to live", type : "vocab" },
 { japanese : "shitte imasu" , meaning : "I know", type : "vocab" },
 { japanese : "chika 1-kai" , meaning : "first basement", type : "vocab" },
 { japanese : "chika" , meaning : "basement (underground)", type : "vocab" },
@@ -781,7 +1517,6 @@ const data = [
 { japanese : "mise ni tsuite" , meaning : "about stores", type : "vocab" },
 { japanese : "...ni tsuite" , meaning : "…about", type : "vocab" },
 { japanese : "joozuna" , meaning : "good at", type : "vocab" },
-{ japanese : "dekimasu" , meaning : "to be able", type : "vocab" },
 { japanese : "atama" , meaning : "head", type : "vocab" },
 { japanese : "itai" , meaning : "aching", type : "vocab" },
 { japanese : "yooroppa" , meaning : "europe", type : "vocab" },
@@ -789,7 +1524,6 @@ const data = [
 { japanese : "onaka" , meaning : "stomach", type : "vocab" },
 { japanese : "ha" , meaning : "tooth", type : "vocab" },
 { japanese : "okuritai" , meaning : "I want to send", type : "vocab" },
-{ japanese : "okurimasu" , meaning : "to send", type : "vocab" },
 { japanese : "yama" , meaning : "mountain", type : "vocab" },
 { japanese : "toshokan" , meaning : "library", type : "vocab" },
 { japanese : "kudamono" , meaning : "fruit", type : "vocab" },
@@ -820,12 +1554,9 @@ const data = [
 
 
 { japanese : "sensei" , meaning : "teacher", type : "vocab" },
-{ japanese : "konde imasu" , meaning : "crowded", type : "vocab" },
-{ japanese : "komimasu" , meaning : "to be crowded", type : "vocab" },
 { japanese : "tokoro" , meaning : "place", type : "vocab" },
 { japanese : "hoka" , meaning : "other", type : "vocab" },
 { japanese : "guruupu" , meaning : "group", type : "vocab" },
-{ japanese : "tsukurimasu" , meaning : "form", type : "vocab" },
 { japanese : "maitsuki" , meaning : "every month", type : "vocab" },
 { japanese : "shakai" , meaning : "society, social conditions", type : "vocab" },
 { japanese : "bunka" , meaning : "culture", type : "vocab" },
@@ -1340,807 +2071,162 @@ const data = [
 { japanese : "dewa, shokuji no mae ni niwa de shashin o torimasen ka?" , meaning : "o zaman, yenekten önce bahçede fotoğraf çekmeyelim mi?", type : "sentence" },
 
 
-
-{ japanese : "nikai" , meaning : "second floor", type : "vocab" },
-{ japanese : "jimusho" , meaning : "office", type : "vocab" },
-{ japanese : "shinsitsu" , meaning : "room", type : "vocab" },
-{ japanese : "hako" , meaning : "box", type : "vocab" },
-{ japanese : "ushiro" , meaning : "back", type : "vocab" },
-{ japanese : "soto" , meaning : "outside", type : "vocab" },
-{ japanese : "shita" , meaning : "under", type : "vocab" },
-{ japanese : "yasai" , meaning : "vegetables", type : "vocab" },
-{ japanese : "kudamono" , meaning : "fruits", type : "vocab" },
-{ japanese : "memori kaado" , meaning : "memory card", type : "vocab" },
-{ japanese : "kazoku" , meaning : "family", type : "vocab" },
-
-
-{ japanese : "kakarimasu" , meaning : "to take (distance, time)", type : "vocab" },
-{ japanese : "kakitome de" , meaning : "registered post", type : "vocab" },
-{ japanese : "kyoudai" , meaning : "siblings", type : "vocab" },
-{ japanese : "…kai" , meaning : "…floor", type : "vocab" },
-{ japanese : "…dake" , meaning : "…only", type : "vocab" },
-{ japanese : "faasuto fuudo" , meaning : "fast food", type : "vocab" },
-
-
-{ japanese : "shiken" , meaning : "test, exam", type : "vocab" },
-{ japanese : "kantan" , meaning : "easy", type : "vocab" },
-{ japanese : "shinkansen" , meaning : "fast train", type : "vocab" },
-{ japanese : "futsuu densha" , meaning : "ordinary train", type : "vocab" },
-{ japanese : "zutto" , meaning : "much", type : "vocab" },
-{ japanese : "hansamu" , meaning : "handsome", type : "vocab" },
-{ japanese : "karee" , meaning : "curry", type : "vocab" },
-{ japanese : "karai" , meaning : "spicy", type : "vocab" },
-{ japanese : "haru" , meaning : "spring", type : "vocab" },
-{ japanese : "aki" , meaning : "autumn", type : "vocab" },
-{ japanese : "dochiramo" , meaning : "nothing", type : "vocab" },
-{ japanese : "yasashi" , meaning : "gentle, kind", type : "vocab" },
-
-
-{ japanese : "ikemen kareshi" , meaning : "cool boyfriend", type : "vocab" },
-{ japanese : "kankoku" , meaning : "korea", type : "vocab" },
-{ japanese : "onaka ga sukimashita" , meaning : "I'm hungry", type : "vocab" },
-{ japanese : "hanbaagaa" , meaning : "hamburger", type : "vocab" },
-{ japanese : "ryoushin" , meaning : "parents", type : "vocab" },
-{ japanese : "mukaemasu" , meaning : "to pick up (airport)", type : "vocab" },
-{ japanese : "yuki matsuri" , meaning : "snow festival", type : "vocab" },
-{ japanese : "maitoshi" , meaning : "every year", type : "vocab" },
-{ japanese : "sutoa" , meaning : "store", type : "vocab" },
-{ japanese : "mise" , meaning : "shop", type : "vocab" },
-{ japanese : "nodo ga kawakimashita" , meaning : "I'm thirsty", type : "vocab" },
-
-
-
-{ japanese : "kumori desu" , meaning : "cloudy", type : "vocab" },
-{ japanese : "ame desu" , meaning : "rainy", type : "vocab" },
-{ japanese : "isogimasu" , meaning : "to hurry", type : "vocab" },
-{ japanese : "nimotsu" , meaning : "luggage", type : "vocab" },
-{ japanese : "tetsudaimasu" , meaning : "to help, to assist", type : "vocab" },
-{ japanese : "kekkou desu" , meaning : "it is ok, alright, enough", type : "vocab" },
-{ japanese : "shitsurei desu" , meaning : "sorry for disturbing", type : "vocab" },
-{ japanese : "shio" , meaning : "salt", type : "vocab" },
-{ japanese : "toorimasu" , meaning : "to pass (the bread, salt)", type : "vocab" },
-{ japanese : "kaze ga fuite imasu" , meaning : "wind is blowing", type : "vocab" },
-
-
-
-{ japanese : "nimotsu" , meaning : "luggage", type : "vocab" },
-{ japanese : "okimasu" , meaning : "to put", type : "vocab" },
-{ japanese : "moraimasu" , meaning : "to receive, to keep", type : "vocab" },
-{ japanese : "karimasu" , meaning : "to borrow", type : "vocab" },
-{ japanese : "tomemasu" , meaning : "to park", type : "vocab" },
-{ japanese : "dame desu" , meaning : "forbidden", type : "vocab" },
-{ japanese : "mochimasu" , meaning : "to hold , to carry, ho have", type : "vocab" },
-{ japanese : "dokushin" , meaning : "single", type : "vocab" },
-{ japanese : "sutaa bakkusu" , meaning : "starbucks", type : "vocab" },
-{ japanese : "hashirimasu" , meaning : "to run", type : "vocab" },
-{ japanese : "denki seihin" , meaning : "electric products", type : "vocab" },
-{ japanese : "urimasu" , meaning : "to sell", type : "vocab" },
-{ japanese : "tsukurimasu" , meaning : "to make,  to produce", type : "vocab" },
-{ japanese : "denki jidousha" , meaning : "electric car", type : "vocab" },
-{ japanese : "shirimasu" , meaning : "know", type : "vocab" },
-{ japanese : "mada" , meaning : "still", type : "vocab" },
-
-
-{ japanese : "shawa o abimasu" , meaning : "to take a shower", type : "vocab" },
-{ japanese : "yuushoku" , meaning : "dinner", type : "vocab" },
-{ japanese : "norikaemasu" , meaning : "to transfer (bus, train etc)", type : "vocab" },
-{ japanese : "atama ga ii" , meaning : "smart", type : "vocab" },
-{ japanese : "suzushii" , meaning : "cool", type : "vocab" },
-{ japanese : "sugoku osusume" , meaning : "highly recommend", type : "vocab" },
-{ japanese : "omoshiroi mono" , meaning : "interesting things", type : "vocab" },
-{ japanese : "betonamu jin" , meaning : "vietnamese", type : "vocab" },
-{ japanese : "ryuugakusei" , meaning : "foreign student", type : "vocab" },
-{ japanese : "pairotto" , meaning : "pilot", type : "vocab" },
-{ japanese : "kangoshi" , meaning : "nurse", type : "vocab" },
-{ japanese : "kado" , meaning : "card", type : "vocab" },
-{ japanese : "iremasu" , meaning : "irete", type : "vocab" },
-{ japanese : "this button" , meaning : "kono botan", type : "vocab" },
-{ japanese : "oshiemasu" , meaning : "to press", type : "vocab" },
-{ japanese : "demasu" , meaning : "to graduate", type : "vocab" },
-{ japanese : "sekai" , meaning : "world", type : "vocab" },
-{ japanese : "owarimasu" , meaning : "to finish", type : "vocab" },
-{ japanese : "yamemasu" , meaning : "to quit, to resign", type : "vocab" },
-{ japanese : "kaigi" , meaning : "meeting", type : "vocab" },
-{ japanese : "me" , meaning : "eyes", type : "vocab" },
-{ japanese : "kami" , meaning : "hair", type : "vocab" },
-{ japanese : "senshu" , meaning : "player", type : "vocab" },
-{ japanese : "se ga hikui" , meaning : "short", type : "vocab" },
-{ japanese : "ashi ga hayai" , meaning : "fast", type : "vocab" },
-{ japanese : "sekaijuu de" , meaning : "all over the world", type : "vocab" },
-{ japanese : "douyatte" , meaning : "how", type : "vocab" },
-{ japanese : "jinja" , meaning : "shrine", type : "vocab" },
-{ japanese : "arukimasu" , meaning : "to walk", type : "vocab" },
-{ japanese : "jidouhanbaiki" , meaning : "vending machine", type : "vocab" },
-{ japanese : "mazu" , meaning : "first", type : "vocab" },
-{ japanese : "okane" , meaning : "money", type : "vocab" },
-{ japanese : "oshimasu" , meaning : "to push, to press", type : "vocab" },
-{ japanese : "oniisan" , meaning : "brother", type : "vocab" },
-
-
-{ japanese : "chiketto" , meaning : "ticket", type : "vocab" },
-{ japanese : "nakushimasu" , meaning : "to lose", type : "vocab" },
-{ japanese : "shinpai shimasu" , meaning : "to worry", type : "vocab" },
-{ japanese : "wasuremasu" , meaning : "to forget", type : "vocab" },
-{ japanese : "pasupooto" , meaning : "passport", type : "vocab" },
-{ japanese : "kaeshimasu" , meaning : "to return (book)", type : "vocab" },
-{ japanese : "raishuu" , meaning : "next week", type : "vocab" },
-{ japanese : "dekakemasu" , meaning : "to go out", type : "vocab" },
-{ japanese : "otto" , meaning : "husband", type : "vocab" },
-{ japanese : "haraimasu" , meaning : "to pay", type : "vocab" },
-{ japanese : "mottekimasu" , meaning : "to bring", type : "vocab" },
-{ japanese : "nugimasu" , meaning : "to take off (shoes, clothes)", type : "vocab" },
-{ japanese : "dashimasu" , meaning : "to submit, to hand in, to give out", type : "vocab" },
-{ japanese : "zangyoushimasu" , meaning : "to work late, overtime", type : "vocab" },
-
-
-{ japanese : "onrain" , meaning : "online", type : "vocab" },
-{ japanese : "yoyaku shimasu" , meaning : "to reserve", type : "vocab" },
-{ japanese : "porutogaru" , meaning : "portuguese", type : "vocab" },
-{ japanese : "kaemasu" , meaning : "to change (money)", type : "vocab" },
-{ japanese : "shumi" , meaning : "hobby", type : "vocab" },
-{ japanese : "tsuri" , meaning : "fishing", type : "vocab" },
-{ japanese : "konpyuutaa geemu" , meaning : "computer game", type : "vocab" },
-{ japanese : "atsumemasu" , meaning : "to collect, to gather", type : "vocab" },
-{ japanese : "araimasu" , meaning : "to wash", type : "vocab" },
-{ japanese : "te" , meaning : "hand", type : "vocab" },
-{ japanese : "hoteru no yoyaku" , meaning : "hotel reservation", type : "vocab" },
-{ japanese : "kakunin shimasu" , meaning : "to confirm", type : "vocab" },
-{ japanese : "shokuji" , meaning : "meal", type : "vocab" },
-{ japanese : "inori o shimasu" , meaning : "to pray", type : "vocab" },
-{ japanese : "shiryou" , meaning : "documents, materials", type : "vocab" },
-{ japanese : "kopii" , meaning : "copy", type : "vocab" },
-{ japanese : "nakanaka" , meaning : "quite, pretty, fairly", type : "vocab" },
-{ japanese : "tesuto" , meaning : "test", type : "vocab" },
-{ japanese : "oboemasu" , meaning : "to memorize, to remember", type : "vocab" },
-{ japanese : "suterumasu" , meaning : "to throw away, to dispose", type : "vocab" },
-{ japanese : "ooganiku sutoaa" , meaning : "organic store", type : "vocab" },
-{ japanese : "zehi" , meaning : "definitely", type : "vocab" },
-{ japanese : "asobi ni ikimasu" , meaning : "to go out to play", type : "vocab" },
-
-
-{ japanese : "noborimasu" , meaning : "to climb", type : "vocab" },
-{ japanese : "baniku" , meaning : "horse meat", type : "vocab" },
-{ japanese : "ikkai dake" , meaning : "once only", type : "vocab" },
-{ japanese : "ichidomo arimasen" , meaning : "not even once ", type : "vocab" },
-{ japanese : "sentaku shimasu" , meaning : "to do laundry", type : "vocab" },
-{ japanese : "sooji shimasu" , meaning : "to do cleaning", type : "vocab" },
-{ japanese : "tsuyoi" , meaning : "strong", type : "vocab" },
-{ japanese : "musuko" , meaning : "my son", type : "vocab" },
-{ japanese : "karada" , meaning : "health", type : "vocab" },
-{ japanese : "sashimi" , meaning : "raw fish", type : "vocab" },
-
-
-{ japanese : "tsukaremasu" , meaning : "to get tired", type : "vocab" },
-{ japanese : "kuni" , meaning : "country", type : "vocab" },
-
-
-{ japanese : "tarimasu" , meaning : "to be enough", type : "vocab" },
-{ japanese : "irimasu" , meaning : "to need", type : "vocab" },
-{ japanese : "jikan no muda" , meaning : "waste of time", type : "vocab" },
-{ japanese : "kachimasu" , meaning : "to win", type : "vocab" },
-{ japanese : "… ni suite" , meaning : "about …", type : "vocab" },
-{ japanese : "yakuni" , meaning : "helpful", type : "vocab" },
-{ japanese : "end of meal" , meaning : "shokuji no owari", type : "vocab" },
-{ japanese : "yotei" , meaning : "plan", type : "vocab" },
-{ japanese : "kakkoii" , meaning : "cool", type : "vocab" },
-{ japanese : "hontou ni" , meaning : "really, indeed", type : "vocab" },
-{ japanese : "konsaato" , meaning : "concert", type : "vocab" },
-{ japanese : "tsugi" , meaning : "next", type : "vocab" },
-{ japanese : "orinpikku" , meaning : "olympics", type : "vocab" },
-{ japanese : "jishin" , meaning : "earthquake", type : "vocab" },
-{ japanese : "iken" , meaning : "opinion", type : "vocab" },
-{ japanese : "matsuri" , meaning : "festival", type : "vocab" },
-{ japanese : "… demo" , meaning : "… etc", type : "vocab" },
-{ japanese : "ranchi" , meaning : "lunch", type : "vocab" },
-{ japanese : "sorosoro" , meaning : "almost", type : "vocab" },
-{ japanese : "mou" , meaning : "already", type : "vocab" },
-{ japanese : "saigo" , meaning : "last", type : "vocab" },
-{ japanese : "chansu" , meaning : "chance", type : "vocab" },
-
-
-{ japanese : "suteki-na" , meaning : "nice", type : "vocab" },
-{ japanese : "kaburimasu" , meaning : "to wear (hat, cap etc)", type : "vocab" },
-{ japanese : "tonari ni" , meaning : "next", type : "vocab" },
-{ japanese : "akarui" , meaning : "cheerful", type : "vocab" },
-{ japanese : "karimasu" , meaning : "to borrow", type : "vocab" },
-{ japanese : "kooto" , meaning : "coat", type : "vocab" },
-{ japanese : "umaremasu" , meaning : "to be born", type : "vocab" },
-{ japanese : "renshuu shimasu" , meaning : "to practise (speech etc)", type : "vocab" },
-{ japanese : "yakusoku" , meaning : "promise, arrangement, appointment", type : "vocab" },
-{ japanese : "tsuma" , meaning : "wife", type : "vocab" },
-{ japanese : "later" , meaning : "ato de", type : "vocab" },
-{ japanese : "omoidashimasu" , meaning : "to remember, to recall", type : "vocab" },
-{ japanese : "yotei" , meaning : "plan", type : "vocab" },
-{ japanese : "haisha" , meaning : "dentist", type : "vocab" },
-
-
-{ japanese : "shiyakusho" , meaning : "city hall", type : "vocab" },
-{ japanese : "zairyuu kaado" , meaning : "residence card", type : "vocab" },
-{ japanese : "motte kimasu" , meaning : "to bring", type : "vocab" },
-{ japanese : "ongaku" , meaning : "music", type : "vocab" },
-{ japanese : "onigiri" , meaning : "onigiri (a kind of meal)", type : "vocab" },
-{ japanese : "dekakemasu" , meaning : "to go out", type : "vocab" },
-{ japanese : "yoku" , meaning : "often, usually", type : "vocab" },
-{ japanese : "demasu" , meaning : "to come out", type : "vocab" },
-{ japanese : "oshiemasu" , meaning : "to press, to push", type : "vocab" },
-{ japanese : "mawashimasu" , meaning : "to turn, to rotate", type : "vocab" },
-{ japanese : "oto" , meaning : "sound, noise", type : "vocab" },
-{ japanese : "tsumami" , meaning : "knob (of the door etc)", type : "vocab" },
-{ japanese : "kousaten" , meaning : "intersection", type : "vocab" },
-{ japanese : "migi" , meaning : "right", type : "vocab" },
-{ japanese : "hidari" , meaning : "left", type : "vocab" },
-{ japanese : "magarimasu" , meaning : "to turn", type : "vocab" },
-{ japanese : "shingou" , meaning : "traffic light", type : "vocab" },
-{ japanese : "ukimasu" , meaning : "to work, to operate, to run", type : "vocab" },
-{ japanese : "otsuri" , meaning : "change", type : "vocab" },
-{ japanese : "sanpo shimasu" , meaning : "to take a walk, to stroll", type : "vocab" },
-{ japanese : "michi" , meaning : "road", type : "vocab" },
-{ japanese : "hashi" , meaning : "bridge", type : "vocab" },
-{ japanese : "watarimasu" , meaning : "to cross", type : "vocab" },
-
-
-
-{ japanese : "kuremasu" , meaning : "to give (to the receiver or family)", type : "vocab" },
-{ japanese : "ototo" , meaning : "brother", type : "vocab" },
-{ japanese : "oshiemasu" , meaning : "to teach", type : "vocab" },
-{ japanese : "ressun" , meaning : "lesson", type : "vocab" },
-{ japanese : "kashimasu" , meaning : "to lend", type : "vocab" },
-{ japanese : "ojiisan" , meaning : "grandpa", type : "vocab" },
-{ japanese : "iremasu" , meaning : "to make (tea, coffee etc)", type : "vocab" },
-{ japanese : "okurimasu" , meaning : "to send, to see off", type : "vocab" },
-{ japanese : "obaasan" , meaning : "grandma", type : "vocab" },
-{ japanese : "annai shimasu" , meaning : "to guide, to show the way", type : "vocab" },
-{ japanese : "ani" , meaning : "brother", type : "vocab" },
-{ japanese : "tsuremasu" , meaning : "to bring along someone, to take with", type : "vocab" },
-{ japanese : "shoukai shimasu" , meaning : "to introduce", type : "vocab" },
-{ japanese : "kotae" , meaning : "answer", type : "vocab" },
-{ japanese : "setsumei shimasu" , meaning : "to explain", type : "vocab" },
-{ japanese : "obentou" , meaning : "lunch", type : "vocab" },
-{ japanese : "ane" , meaning : "sister", type : "vocab" },
-{ japanese : "hikkoshi" , meaning : "moving", type : "vocab" },
-{ japanese : "junbi shimasu" , meaning : "to prepare", type : "vocab" },
-{ japanese : "mondai" , meaning : "trouble, problem", type : "vocab" },
-{ japanese : "yokattara " , meaning : "if you like", type : "vocab" },
-
-
-{ japanese : "toshi" , meaning : "age", type : "vocab" },
-{ japanese : "ooi" , meaning : "many", type : "vocab" },
-{ japanese : "sumaho" , meaning : "smart phone", type : "vocab" },
-{ japanese : "byouki" , meaning : "ill, sick", type : "vocab" },
-{ japanese : "jibun de" , meaning : "myself, in person, oneself", type : "vocab" },
-{ japanese : "tomarimasu" , meaning : "to stop", type : "vocab" },
-
-
-
-
-
-
-
-
-
-{ japanese : "watashi wa kuruma ga hoshii desu" , meaning : "araba istiyorum", type : "sentence" },
-{ japanese : "watashi wa kareshi ga hoshii desu" , meaning : "erkek arkadaş istiyorum", type : "sentence" },
-{ japanese : "watashi wa kuruma ga hoshikunai desu" , meaning : "araba istemiyorum", type : "sentence" },
-{ japanese : "watashi wa kareshi ga hoshikunai desu" , meaning : "erkek arkadaş istemiyorum", type : "sentence" },
-{ japanese : "anata wa kuruma ga hoshii desu ka" , meaning : "araba istiyor musun", type : "sentence" },
-{ japanese : "ja, nani ga hoshii desu ka" , meaning : "o zaman, ne istiyorsun", type : "sentence" },
-{ japanese : "donna kareshi ga hoshii desu ka" , meaning : "nasıl bir erkek arkadaş istiyorsun", type : "sentence" },
-{ japanese : "eeto ikemen kareshi ga ichiban hoshii desu" , meaning : "hot bir erkek arkadaş istiyorum", type : "sentence" },
-{ japanese : "watashi wa kuruma ga hoshikatta desu" , meaning : "araba istiyordum", type : "sentence" },
-{ japanese : "watashi wa kuruma ga hoshikunakatta desu, demo ima wa hoshii desu" , meaning : "araba istemiyordum ama şimdi istiyorum", type : "sentence" },
-{ japanese : "kare wa atarashii kuruma o hoshigatte imasu" , meaning : "o yeni bir araba istiyor", type : "sentence" },
-{ japanese : "koohii ga ikaga desu ka" , meaning : "kahve ister miydin (kahve nasıl olur)", type : "sentence" },
-{ japanese : "watashi wa kuruma ga/o kaitai desu" , meaning : "araba almak istiyorum", type : "sentence" },
-{ japanese : "watashi wa biyonse ni aitai desu" , meaning : "beyonce ile tanışmak istiyorum", type : "sentence" },
-{ japanese : "watashi wa kankoku e ikitai desu" , meaning : "koreye gitmek istiyorum", type : "sentence" },
-{ japanese : "onaka ga sukimashita hambaagaa ga/o tabetai desu" , meaning : "karnım acıktı hamburger yemek istiyorum", type : "sentence" },
-{ japanese : "watashi wa benkyoo o shitakunai desu" , meaning : "ders çalışmak istemiyorum", type : "sentence" },
-{ japanese : "watashi wa asobitakunai desu" , meaning : "oynamak istemiyorum", type : "sentence" },
-{ japanese : "watashi wa oyogitakunai desu" , meaning : "yüzmek istemiyorum", type : "sentence" },
-{ japanese : "watashi wa kekkon shitakunai desu" , meaning : "evlenmek istemiyorum", type : "sentence" },
-{ japanese : "anata wa nani o kaitai desu ka" , meaning : "ne satın almak istiyosun", type : "sentence" },
-{ japanese : "anata wa dare ni aitai desu ka" , meaning : "kimle buluşmak istiyosun", type : "sentence" },
-{ japanese : "anata wa doko e ikitai desu ka" , meaning : "nereye gitmek istiyosun", type : "sentence" },
-{ japanese : "anata wa itsu kankoku e ikitai desu ka" , meaning : "ne zaman koreye gitmek istiosun", type : "sentence" },
-{ japanese : "anata wa nani o shitai desu ka" , meaning : "ne yapmak istiyosun", type : "sentence" },
-{ japanese : "kankoku e ikitakatta desu" , meaning : "koreye gitmek istedim", type : "sentence" },
-{ japanese : "kekkon shitakunakatta desu" , meaning : "evelenmek istemedim", type : "sentence" },
-{ japanese : "kanojo wa roshia e ikitagatte imasu" , meaning : "o rusyaya gitmek istiyor", type : "sentence" },
-{ japanese : "koohii o nomimasen ka" , meaning : "kahve içelim mi", type : "sentence" },
-{ japanese : "koohii o nomitakunai desu ka" , meaning : "kehve içmek istemez miydin", type : "sentence" },
-{ japanese : "watashi wa honkon e kaimono ni ikimasu" , meaning : "hong konga alışverişe gidiyorum", type : "sentence" },
-{ japanese : "watashi wa nihon e benkyou ni kimashita" , meaning : "i came to japan to study", type : "sentence" },
-{ japanese : "watashi wa uchi e ryooshin ni ai ni kaerimashita" , meaning : "i went back home to see my parents", type : "sentence" },
-{ japanese : "tomodachi to sakkaa o shi ni ikimasu" , meaning : "arkadaşımla futbol oynamaya gidiyorum", type : "sentence" },
-{ japanese : "kazoku wa nihon de hajimete kara, kuukou e mukae ni ikimasu" , meaning : "ailem japonyaya ilk kez geldiğinden (başladığından), alana karşılamaya gidiyorum", type : "sentence" },
-{ japanese : "hokkaido e sukii ni ikimasu" , meaning : "hokkaidoya kayağa gidiyorum", type : "sentence" },
-{ japanese : "maitoshi sapporo no yuki matsuri ni ikimasu" , meaning : "her sene sapporo kar festivaline gidiyorum", type : "sentence" },
-{ japanese : "doko e benkyou ni ikimasu ka" , meaning : "nereye çalışmaya gidiyosun", type : "sentence" },
-{ japanese : "sutoa e nani o kaini ikimasu ka" , meaning : "dükkana ne almaya gidiosun", type : "sentence" },
-{ japanese : "dare ni ai ni kimashita ka" , meaning : "kimi görmeye (kimle buluşmaya) geldin", type : "sentence" },
-{ japanese : "nanji goro watashi o mukae ni kimasu ka" , meaning : "saat kaç civarı beni almaya (alandan) geleceksin", type : "sentence" },
-{ japanese : "anata wa nani o shi ni ikimasu ka" , meaning : "ne yapmaya gidiyosun", type : "sentence" },
-{ japanese : "ano mise ni hairimashou" , meaning : "o dükkana girelim", type : "sentence" },
-{ japanese : "kare wa shichiji goro uchi o demashita" , meaning : "saat 7'de evi terk etti (evden çıktı)", type : "sentence" },
-{ japanese : "densha ni norimasu" , meaning : "trene biniyor", type : "sentence" },
-{ japanese : "densha o orimasu" , meaning : "trenden iniyor", type : "sentence" },
-{ japanese : "nanika (o) tabemasen ka" , meaning : "(herhangi) bir şey yemez misin", type : "sentence" },
-{ japanese : "nodo ga kawakimashita nanika nomitai desu" , meaning : "susadım, bir şey içmek istiyorum", type : "sentence" },
-{ japanese : "kono shumatsu ni dokoka e asobimasu" , meaning : "bu hafta sonu biryerde eğleniyorum", type : "sentence" },
-{ japanese : "natsu yasumi wa dokoka ikimashita ka" , meaning : "yaz tatilinde biryere gittin mi", type : "sentence" },
-
-
-
-
-{ japanese : "sumimasen onamae o oshiete kudasai" , meaning : "afedersin ismi söyleyin lütfen", type : "sentence" },
-{ japanese : "samui kara mado o shimete kudasai" , meaning : "sağuk olduğundan pencereyi kapayın lütfen", type : "sentence" },
-{ japanese : "rozu to yonde kudasai" , meaning : "rose ile (ismi ile) çağırın lütfen)", type : "sentence" },
-{ japanese : "ashita koko ni kite kudasai" , meaning : "yarın buraya gelin lütfen", type : "sentence" },
-{ japanese : "isoide kudasai" , meaning : "acele edin lütfen", type : "sentence" },
-{ japanese : "ganbatte kudasai" , meaning : "gayret edin lütfen", type : "sentence" },
-{ japanese : "chotto matte kudasai" , meaning : "biraz bekleyin lütfen", type : "sentence" },
-{ japanese : "minnasan kiite kudasai" , meaning : "herkes dinlesin lütfen", type : "sentence" },
-{ japanese : "ame ga futte imasu" , meaning : "yağmur yağıyor", type : "sentence" },
-{ japanese : "tegami o kaite imasu" , meaning : "mektup yazıyor", type : "sentence" },
-{ japanese : "akachan ga nete imasu" , meaning : "bebek uyuyor", type : "sentence" },
-{ japanese : "yamadasan wa denwa o kakete imasu" , meaning : "yamadasan telefon açıyor", type : "sentence" },
-{ japanese : "ame ga futte imasu ka" , meaning : "yağmur yağıyor mu?", type : "sentence" },
-{ japanese : "nani o kaite imasu ka" , meaning : "ne yazıyorsun?", type : "sentence" },
-{ japanese : "anata wa kiite imasu ka" , meaning : "sen dinliyor musun?", type : "sentence" },
-{ japanese : "anata wa ima nani o shite imasu ka" , meaning : "sen şimdi ne yapıyorsun?", type : "sentence" },
-{ japanese : "ame ga futte imasen" , meaning : "yağmur yağmıyor", type : "sentence" },
-{ japanese : "watashi wa kiite imashita" , meaning : "dinliyordum", type : "sentence" },
-{ japanese : "watashi wa kinoo nani mo shite imasen deshita" , meaning : "dün hiçbirşey yapmıyordum", type : "sentence" },
-{ japanese : "nimotsu o mochimashou ka?" , meaning : "valizinizi taşıyayım mı?", type : "sentence" },
-{ japanese : "Atsukunai desu ka? Mado o akemashou ka? Soo desu ne. Sukoshi akete kudasai." , meaning : "sıcak değil mi? (sıcak olmadı mı?) Pencereyi açalım mı? Evet, öyle, biraz açın lütfen.", type : "sentence" },
-{ japanese : "shigoto o tetsudaimashou ka? İie, kekkoo desu." , meaning : "işe yardım edeyim mi? Hayır, gerek yok / böyle iyi", type : "sentence" },
-{ japanese : "nihon no tabemono wa oishii desu ga totemo takai desu" , meaning : "japon yemekleri lezzetli ama çok pahalı", type : "sentence" },
-{ japanese : "shitsurei desu ga, onamae wa?" , meaning : "rahatsız ediyorum ama isminiz?", type : "sentence" },
-{ japanese : "sumimasen ga, shio o totte kudasai?" , meaning : "afedersiniz, tuzu alabilir miyim lütfen?", type : "sentence" },
-{ japanese : "yuki ga futte imasu" , meaning : "kar yağıyor", type : "sentence" },
-{ japanese : "kaze ga fuite imasu" , meaning : "rüzgar esiyor", type : "sentence" },
-
-
-{ japanese : "watashi no pasokon o tsukatte mo ii desu" , meaning : "bnim bilgisayarımı kullansan olur", type : "sentence" },
-{ japanese : "asoko de suwatte mo ii desu" , meaning : "orada otursan olur", type : "sentence" },
-{ japanese : "sono heya no naka ni nimotsu o oite mo ii desu" , meaning : "şu odanın içine valizini koysan olur", type : "sentence" },
-{ japanese : "haitte mo ii desu" , meaning : "girsen olur", type : "sentence" },
-{ japanese : "tabako o sutte mo ii desu ka? Ee, ii desu, douzo / sumimasen, chotto" , meaning : "sigara içsem olur mu? Evet, olur buyur / afedersin, olmaz", type : "sentence" },
-{ japanese : "kono shashin o moratte mo ii desu ka?" , meaning : "bu resmi alsam olur mu?", type : "sentence" },
-{ japanese : "pen o karite mo ii desu ka?" , meaning : "kalem ödünç alsam olur mu?", type : "sentence" },
-{ japanese : "koko de tabako o sutte wa ikemasen" , meaning : "burada sigara içmek olmaz", type : "sentence" },
-{ japanese : "bijutsukan no naka de shashin o totte wa ikemasen" , meaning : "müzenin içinde foto çekmek olur mu? Hayır, olmaz / evet olur", type : "sentence" },
-{ japanese : "koko de kuruma o tomete mo ii desu ka? iie, ikemasen / iie, dame desu" , meaning : "burada araba parketmek olur mu? Hayır olmaz / hayır, yasak", type : "sentence" },
-{ japanese : "kare wa kekkon shite imasu" , meaning : "o evlidir (evli durumda)", type : "sentence" },
-{ japanese : "kazoku wa nagoya ni sunde imasu" , meaning : "ailem nagoya'da yaşamakta", type : "sentence" },
-{ japanese : "ninen nihongo o benkyou shite imasu" , meaning : "iki yıldır japonca çalışmaktayım", type : "sentence" },
-{ japanese : "iphone10 o motte imasu" , meaning : "iphone 10um var", type : "sentence" },
-{ japanese : "anata wa kekkon shite imasu ka? Hai, kekkon shite imasu / iie, dokushin desu" , meaning : "sen evli misin? Evet, evliyim / hayır bekarım", type : "sentence" },
-{ japanese : "doko ni sunde imasu ka? Saitama ken ni sunde imasu" , meaning : "nerede yaşamaktasın? Saitama semtinde yaşıyorum", type : "sentence" },
-{ japanese : "mainichi sutaa bakkusu no koohii o katte imasu" , meaning : "hergün starbucks kahvesi satın alıyorum", type : "sentence" },
-{ japanese : "maiasa hashitte imasu" , meaning : "her sabah koşuyorum", type : "sentence" },
-{ japanese : "oosaka no nippon bashi de yasui denki seihin o utte imasu" , meaning : "osaka nippon bashi'de ucuz elektronik ürünleri satın alıyorum", type : "sentence" },
-{ japanese : "tesla wa denki jidousha o tsukutte imasu." , meaning : "tesla elektrikli arama üretiyor", type : "sentence" },
-{ japanese : "nani o shite imasu ka" , meaning : "ne yapıyorsun? / ne iş yapıyorsun?", type : "sentence" },
-{ japanese : "o shigoto wa nan desu ka" , meaning : "işin nedir?", type : "sentence" },
-{ japanese : "guuguru de hataraite imasu" , meaning : "google'da çalışıyorum", type : "sentence" },
-{ japanese : "watashi wa toudai de benkyou shite imasu" , meaning : "tokyo üniversitesinde okuyorum", type : "sentence" },
-{ japanese : "enjiniabu no hashimotosan o shitte imasu ka? Hai, shitte imasu / iie, shirimasen" , meaning : "mühendislik bölümünden hashimotosanı tanıyo musun? Evet tanıyorum / hayır tanımıyorum.", type : "sentence" },
-{ japanese : "watashi no juusho o shitte imasu ka? Hai, shitte imasu / iie, shirimasen." , meaning : "benim adresimi biliyo musun? Evet biliyorum / hayır, bilmiyorum", type : "sentence" },
-{ japanese : "shuumatsu wa nani o shimasu ka? Kaimono ni ikimasu / eeto, mada wakarimasen. (shirimasen would be rude here)" , meaning : "haftasonu ne yapıyorsun? Alışverişe gidiyorum / hmm, hala bilmiyorum", type : "sentence" },
-{ japanese : "eigo ga wakarimasu ka? Hai, wakarimasu / iie, wakarimasen." , meaning : "ingilizce bilio musun? Evet biliyorum / hayır bilmiyorum", type : "sentence" },
-
-
-{ japanese : "asa (wa) shawa o abite, asagohan o tabete, shigoto o shimasu" , meaning : "sabah duş alıp, kahvaltı yiyip, iş yaparım", type : "sentence" },
-{ japanese : "shibuya de tomodachi ni atte, eiga o mite, yuushoku o tabemashita" , meaning : "shibuyada arkadaşla buluşup, film izleyip, akşam yemeği yedik", type : "sentence" },
-{ japanese : "yokohama eki kara, jr densha ni notte, shimbashi de orite, sorekara chikatetsu ni norikaete, ginza eki de orite kudasai" , meaning : "yokohama durağından jr trenine binip, shimbaşi'de inip, ondan sonra metroya geçip, ginza durağında inin lütfen", type : "sentence" },
-{ japanese : "otoosan wa yasashi kute atama ga ii hito desu" , meaning : "babam kibar ve zeki bir insandır", type : "sentence" },
-{ japanese : "hokkaido wa tenki ga yokute, suzushikatta desu" , meaning : "hokkaidoda hava güzel ve serindir", type : "sentence" },
-{ japanese : "tabemono wa oishikute, yasukute, sugoku osusume desu" , meaning : "yemek lezzetli ucuz ve tavsiye edilebilir", type : "sentence" },
-{ japanese : "kyooto wa kirei de, omoshiroi mono ga takusan arimasu" , meaning : "kyoto güzel ve ilginç şeyler çok vardır", type : "sentence" },
-{ japanese : "guensan wa betonamu jin de, ryuugakusei desu" , meaning : "nguyen vietnamlı ve yabancı öğrencidir", type : "sentence" },
-{ japanese : "chichi wa pairotto de, haha wa kangoshi desu" , meaning : "babam pilot annem ise hemşiredir", type : "sentence" },
-{ japanese : "shinkansen wa hayai desu ga, takai desu" , meaning : "hızlı tren hızlı ama pahalıdır", type : "sentence" },
-{ japanese : "kaado o irete kara, kono botan o oshite kudasai" , meaning : "kartı soktukan sonra, bu düğmeye basınız", type : "sentence" },
-{ japanese : "daigaku o dete kara, sekai o ryokou shimasu" , meaning : "üniversiteden mezun olduktan sonra, dünya seyahati yapıcam", type : "sentence" },
-{ japanese : "shigoto o owatte kara, biiru o nomimasen ka" , meaning : "iş bittikten sonra bira içmeyelim mi", type : "sentence" },
-{ japanese : "shigoto o yamete kara, nani o shimasu ka" , meaning : "işten ayrıldıktan sonra (quit), ne yapacaksın", type : "sentence" },
-{ japanese : "kyouto e itte (kara), nani o shimashita ka" , meaning : "kyotoya gidip ne yaptın", type : "sentence" },
-{ japanese : "kaigi ga owatte kare, dokoka e ikimasu ka" , meaning : "toplantı bittikten sonra, biryere gidiyor musun?", type : "sentence" },
-{ japanese : "annasan wa kami ga kurokute me ga ookii desu" , meaning : "anna'nın saçı siyah, gözleri büyüktür", type : "sentence" },
-{ japanese : "sono senshu wa se ga hikui desu ga ashi ga hayai desu" , meaning : "bu oyuncudun boyu kısa ama ayakları hızlıdır", type : "sentence" },
-{ japanese : "furansu (de)wa tabemono ga oishikute, wain ga sekaijuu de yuumei desu" , meaning : "fransız yemekleri lezzetli, şarabı da dünyaca ünlüdür", type : "sentence" },
-{ japanese : "gakkou made douyatte ikimasu ka? Eki kara ichiban no basu ni notte, jinja no mae de orimasu. Soko kara gakkou made gofun furai arukimasu. " , meaning : "okula kadar nasıl gidersin? Duraktan ilk önce otobüse binerim, tapınağın önünde inerim. Oradan okula 5 dakika yürürüm.", type : "sentence" },
-{ japanese : "kono jidouhanbaiki wa douyatte tsukaimasu ka" , meaning : "bu vending machine nasıl kullanılır?", type : "sentence" },
-{ japanese : "mazu okane o irete, suki na dorinku no botan o oshite kudasai" , meaning : "ilk önce parayı girip, sevdiğiniz içeceğin düğmesine basın lütfen", type : "sentence" },
-{ japanese : "oniisan wa dono hito desu ka? Ano ichiban se ga takai hito desu" , meaning : "ağbin hangi kişidir? O en uzun boylu olan kişidir", type : "sentence" },
-{ japanese : "anata no kuruma wa dono kuruma desu ka? Sono kuruma wa watashi no kuruma desu" , meaning : "senin araban hangi arabadır? Şu araba benim arabamdır", type : "sentence" },
-{ japanese : "anata no kuruma wa dore desu ka" , meaning : "senin araban hangisidir?", type : "sentence" },
-
-
-
-{ japanese : "chiketto o nakusanaide kudasai" , meaning : "biletleri kaybetme lütfen", type : "sentence" },
-{ japanese : "naka de shashin o toranaide kudasai" , meaning : "içerde foto çekme lütfen", type : "sentence" },
-{ japanese : "watashi wa daijoubu desu, shinpai shinaide kudasai" , meaning : "ben iyiyim, endişelenme lütfen", type : "sentence" },
-{ japanese : "anata no pasupooto o wasurenaide kudasai" , meaning : "pasaportunu unutma lütfen", type : "sentence" },
-{ japanese : "raishuu made ni kono hon o kaesana kereba narimasen" , meaning : "gelecek haftaya kadar bu kitabı iade etmezsem olmaz", type : "sentence" },
-{ japanese : "yasai o tabena kereba narimasen" , meaning : "sebze yemezsen olmaz", type : "sentence" },
-{ japanese : "otto to dekakemasu kara, hayaku kaerana kereba narimasen" , meaning : "kocamla dışarı çıktığımızdan, eve erken dönmezsem olmaz", type : "sentence" },
-{ japanese : "tabete kara kusuri o nomana kereba narimasen" , meaning : "yemekten itibaren (sonra) ilacını içmezsen olmaz", type : "sentence" },
-{ japanese : "raishuu made ni kono hon o kaesana kereba narimasen ka" , meaning : "bu kitabı haftaya kadar iade etmezsem olmaz mı?", type : "sentence" },
-{ japanese : "yasai o tabena kereba narimasen ka" , meaning : "sebze yemezsem olmaz mı?", type : "sentence" },
-{ japanese : "nanji ni kaerana kereba narimasen ka" , meaning : "saat kaçta dönmem lazım?", type : "sentence" },
-{ japanese : "nankai kusuri o nomana kereba narimasen ka" , meaning : "ilacı kaç kere almam lazım", type : "sentence" },
-{ japanese : "daijoubu, harawana kute mo ii desu" , meaning : "tamam, ödemesen de olur", type : "sentence" },
-{ japanese : "nani mo mottekona kute mo ii desu" , meaning : "hiçbişey almasan(getirmesen) da olur", type : "sentence" },
-{ japanese : "douzo oagari kudasai, kutsu o nogana kute mo ii desu" , meaning : "girin lütfen, ayakkabıları çıkarmasanız da olur", type : "sentence" },
-{ japanese : "ashita youji ga arimasu kara, watashi wa ikana kute mo ii desu ka" , meaning : "yarın yapacak işler olduğundan, gelmesem olur mu", type : "sentence" },
-{ japanese : "keeki wa tabenaide kudasai" , meaning : "keki (söz konusuysa) yemeyin lütfen", type : "sentence" },
-{ japanese : "repooto wa kinyobi made ni dashite kudasai" , meaning : "rapor (söz konusuysa) cumaya kadar teslim et lütfen", type : "sentence" },
-{ japanese : "getsuyoubi made ni kite kudasai" , meaning : "pazartesiye kadar gel lütfen", type : "sentence" },
-{ japanese : "paatii wa juuji made ni owarimasu" , meaning : "parti saat 10a kadar bitecek", type : "sentence" },
-{ japanese : "ashita made ni repooto o dasana kereba narimasen kara, zangyou shimasu" , meaning : "yarına kadar bu raporu teslim etmezsem olmayacağından, fazla mesai yapacağım", type : "sentence" },
-
-
-
-{ japanese : "lilisan wa utau koto ga dekimasu" , meaning : "lili şarkı söyleyebilir", type : "sentence" },
-{ japanese : "adamsan wa oyogu koto ga dekimasu" , meaning : "adam yüzme yapabilir", type : "sentence" },
-{ japanese : "natarisan wa kanji o yomu koto ga dekimasu" , meaning : "natali kanji okuyabilir", type : "sentence" },
-{ japanese : "onrain de chiketto o yoyakusuru koto ga dekimashita" , meaning : "online bilet reservasyonu yapabilirim", type : "sentence" },
-{ japanese : "watashi wa gorufu ga dekimasu" , meaning : "golf oynayabilirim", type : "sentence" },
-{ japanese : "otto wa ryouri ga jouzu ni dekimasu" , meaning : "kocam gerçekten iyi yemek yapabilir", type : "sentence" },
-{ japanese : "watashi wa piano ga dekimasu" , meaning : "piano çalabilirim", type : "sentence" },
-{ japanese : "watashi wa porutogarugo ga dekimasu" , meaning : "portkeizce konuşabilirim", type : "sentence" },
-{ japanese : "anata wa unten suru koto ga dekimasu ka" , meaning : "araba kullanabilir misin", type : "sentence" },
-{ japanese : "unten ga dekimasu ka? Hai, unten ga dekimasu / iie, unten ga dekimasen" , meaning : "araba kullanabilir misin", type : "sentence" },
-{ japanese : "kinoo (wa) benkyou ga dekimashita ka? Hai, dekimashita / iie, dekimasen deshita" , meaning : "dün ders çalışabildin mi? Evet çalışabildim / hayır çalışamadım", type : "sentence" },
-{ japanese : "watashi wa kuukoo de en o doru ni kaeru koto ga dekimasu ka? Hai, dekimasu yo" , meaning : "havalimanında yeni dolara çevirebilir miyim? Evet, yapabilirsin", type : "sentence" },
-{ japanese : "anata wa nan meetoru oyogu koto ga dekimasu ka? 50 meetoru gurai oyogu koto ga dekimasu" , meaning : "sen kaç metre yüzebilirsin? Yaklaşık 50 metre yüzebilirim", type : "sentence" },
-{ japanese : "anata wa nanigo o hanasu koto ga dekimasu ka? Porutogaru ga dekimasu" , meaning : "hangi dili konuşabilirsin? Portekizce konuşabilirim", type : "sentence" },
-{ japanese : "watashi no shumi wa  tsuri desu" , meaning : "hobim balık tutmaktır", type : "sentence" },
-{ japanese : "watashi no shumi wa konpyuutaa geemu desu" , meaning : "hobim bilgisayar oyunlarıdır", type : "sentence" },
-{ japanese : "watashi no shumi wa shashin o toru koto desu" , meaning : "hobim resim çekmektir", type : "sentence" },
-{ japanese : "watashi no shumi wa akushon figyua o atsumeru koto desu" , meaning : "hobim action figürleri biriktirmektir", type : "sentence" },
-{ japanese : "neru mae ni shawa o abimasu" , meaning : "uyumadan önce duş alacağım", type : "sentence" },
-{ japanese : "taberu mae ni te o aratte kudasai" , meaning : "yemekten önce elleri yıka lütfen", type : "sentence" },
-{ japanese : "gakkou e iku mae ni, inu no sanpo o shimasu" , meaning : "okula gitmeden önce köpeği yürüteceğim (köpeğin yürüyüşünü yapacağım)", type : "sentence" },
-{ japanese : "neru mae ni nani o shimasu ka" , meaning : "uyumadan önce ne yaparsın?", type : "sentence" },
-{ japanese : "ryoou no mae ni, hoteru no yoyaku o kakunin shimasu" , meaning : "geziden önce otel rezervasyonunu onaylıyorum", type : "sentence" },
-{ japanese : "shokuji no mae ni, inori o shimasu" , meaning : "yemekten önce dua ederim", type : "sentence" },
-{ japanese : "kaigi no mae ni, kono shiryou o kopii shite kudasai" , meaning : "toplantıdan önce bu dokümanı kopyapa lütfen", type : "sentence" },
-{ japanese : "watashi wa junen mae ni, amerika ni kimashita" , meaning : "10 yıl önce amerikaya geldim", type : "sentence" },
-{ japanese : "rokka-getsu mae ni kaisha o yamemashita" , meaning : "6 ay önce şirketten emekli oldum", type : "sentence" },
-{ japanese : "kusuri wa sanjuu-pun mae ni nomimashita" , meaning : "ilacı 30 dakika önce içtim", type : "sentence" },
-{ japanese : "keeki wa nakanaka oishii desu" , meaning : "kek oldukça/bayağı lezzetli", type : "sentence" },
-{ japanese : "kareshi wa nakanaka hansamu desu ne" , meaning : "erken arkadaşın bayağı/oldukça yakışıklı", type : "sentence" },
-{ japanese : "tesuto wa nakanaka muzukashikatta desu" , meaning : "test oldukça/bayağı zordu", type : "sentence" },
-{ japanese : "nakanaka hito no namae o oboeru koto ga dekimasen" , meaning : "insanların ismini hatırlamayı  pek beceremem", type : "sentence" },
-{ japanese : "nihon dewa nakanaka furui pasokon o suteru koto ga dekimasen" , meaning : "eski bilgisayarlardan kurtulmak biraz zordur (pek mümkün değildir)", type : "sentence" },
-{ japanese : "nihon dewa ooganiku sutoaa ga nakanaka arimasen" , meaning : "japonyada organik mağaza pek yoktur", type : "sentence" },
-{ japanese : "watashi wa hawai de zehi kekkon shitai desu" , meaning : "kesin hawaide evlenmeyi isterim", type : "sentence" },
-{ japanese : "watashi no tanjoubi desu kara, zehi paati ni kite kudasai ne" , meaning : "benim yaşgünüm olduğundan, kesin partime gelin.", type : "sentence" },
-{ japanese : "keeki o zehi tabete kudasai, oishii desu yo" , meaning : "kesin kekten yiyin, lezzetli ha", type : "sentence" },
-{ japanese : "issho ni asobi ni ikimasen ka? Ee, zehi" , meaning : "birlikte dışarı çıkalım mı (gezelim mi) ? Evet, kesin / mutlaka", type : "sentence" },
-
-
-
-
-{ japanese : "fujisan ni nobotta koto ga arimasu" , meaning : "fuji dağına (tepesine) tırmanmışlığım vardır", type : "sentence" },
-{ japanese : "itaria ni itta koto ga arimasu" , meaning : "italyaya gitmişliğim vardır", type : "sentence" },
-{ japanese : "baniku o tabeta koto ga arimasen" , meaning : "at eti yemişiğim yoktur", type : "sentence" },
-{ japanese : "pachinko o shita koto ga arimasen" , meaning : "pachinko çalmışlığım yoktur", type : "sentence" },
-{ japanese : "shinkansen o notta koto ga arimasu ka" , meaning : "hızlı trene binmişliğin var mıdır", type : "sentence" },
-{ japanese : "sushi o tabeta koto ga arimasu ka? Hai, ikkai dake arimasu / iie, ichidomo arimasen" , meaning : "sushi yemişlğin var mıdır? Evet, bir kere / hayır hiç yoktur", type : "sentence" },
-{ japanese : "shumatsu wa sentaku shitari, souji shitari, kaimono shitari shimasu" , meaning : "hafta sonu çamaşır yıkar, temizlik yapar, alışveriş yapar yaparım.", type : "sentence" },
-{ japanese : "toukyou e ittari, tomodachi to asondari, geemu o shitari shimashita" , meaning : "tokyoya gider, arkadaşlarla eğlenir, oyun oynar yaptım.", type : "sentence" },
-{ japanese : "anata wa atarashii kaban o kattari, hoteru no yoyaku o kakunishitari, puran o tsukuttari, shina kereba narimasen." , meaning : "yeni bir çanta satın alma, otel rezervasyonu yapma, gezi planı yapma, yapmazsan olmaz.", type : "sentence" },
-{ japanese : "watashi no shumi wa hon o yondari, ongaku o kiitari, geemu o shitari suru koto desu" , meaning : "hobilerim kitap okumak, müzik dinlemek, oyun oynamak yapmakdır", type : "sentence" },
-{ japanese : "watashi wa tsuyoku naritai desu" , meaning : "güçlü olmak istiyorum (güçlenmek)", type : "sentence" },
-{ japanese : "anata wa nihongo ga jouzu ni narimashita" , meaning : "japoncan iyileşmiş (gelişmiş)", type : "sentence" },
-{ japanese : "kotoshi 30 sai ni narimasu" , meaning : "bu yıl 30 yaşıma giriyorum", type : "sentence" },
-{ japanese : "musuko wa pairotto ni naritagatte imasu" , meaning : "oğlum pilot olmak istiyor", type : "sentence" },
-{ japanese : "tabako o suu koto ga karada ni yokunai desu yo. Sou desu ne" , meaning : "sigara içmek sağlığa iyi değil. Katılıyorum (evet öyle ya)", type : "sentence" },
-{ japanese : "mou osoku narimasu kaeranaito. Aa, sou desu ne." , meaning : "geç oldu dönmem lazım. Ya, öyle.", type : "sentence" },
-{ japanese : "aihon ten wa aihon eitto yori ii desu ne? Sou desu ne." , meaning : "iphone 10 iphone 8'den daha iyi di mi? Öyle.", type : "sentence" },
-{ japanese : "dochira mo tsukatta koto ga arimasen kara, wakarimasen" , meaning : "ikisini de kullanmışlığım olmadığından, bilmiyorum", type : "sentence" },
-
-
-
-{ japanese : "10ji ni nemasu / 10ji ni neru" , meaning : "saat 10da uyurum", type : "sentence" },
-{ japanese : "mainichi benkyou shimasen / mainichi benkyou shinai" , meaning : "hergün ders çalışıyorum", type : "sentence" },
-{ japanese : "asagohan o tamemashita / asagohan o tabeta" , meaning : "kahvaltıyı yedim", type : "sentence" },
-{ japanese : "asagohan o tabemasu ka? / asagohan o taberu ? Hai tabemasu / un taberu, iie, tabemasen / iie, tabenai" , meaning : "kahvaltı ediyor musun? Evet ediyorum / hayır etmiyorum", type : "sentence" },
-{ japanese : "kyoo hatarakimasen deshita / kyoo hatarakanakatta " , meaning : "dün çalışmadım", type : "sentence" },
-{ japanese : "issho ni biiru o nomimasen ka / issho ni biiru o nomanai  " , meaning : "birlikte bira içmeyelim mi", type : "sentence" },
-{ japanese : "ikimashou / ikou" , meaning : "gidelim", type : "sentence" },
-{ japanese : "tabemashou / tabeyou" , meaning : "yiyelim", type : "sentence" },
-{ japanese : "benkyou shimashou / benkyou shyou" , meaning : "ders yapalım", type : "sentence" },
-{ japanese : "kirei desu / kirei da" , meaning : "güzel", type : "sentence" },
-{ japanese : "ashita hima ja arimasen / ashita hima janai" , meaning : "yarın boş değilim", type : "sentence" },
-{ japanese : "kare wa yumei deshita / kare wa yumei datta" , meaning : "o ünlüydü", type : "sentence" },
-{ japanese : "suteki ja arimasen deshita / suteki ja nakatta" , meaning : "güzel değildi", type : "sentence" },
-{ japanese : "ii desu / ii" , meaning : "iyi", type : "sentence" },
-{ japanese : "yokunai desu / yokunai" , meaning : "iyiydi", type : "sentence" },
-{ japanese : "osihikatta desu / oishikatta" , meaning : "ilginçti", type : "sentence" },
-{ japanese : "omoshirokunakatta desu / omoshirokunakatta" , meaning : "ilginç değildi", type : "sentence" },
-{ japanese : "dou desu ka / dou" , meaning : "nasıl?", type : "sentence" },
-{ japanese : "dou deshita ka / dou datta" , meaning : "nasıldı?", type : "sentence" },
-{ japanese : "kamera ga arimasu / kamera ga aru" , meaning : "kamera var", type : "sentence" },
-{ japanese : "pasokon ga arimasen / pasokon ga nai" , meaning : "bilgisayar yok", type : "sentence" },
-{ japanese : "kuruma ga arimashita / kuruma ga atta" , meaning : "araba vardı", type : "sentence" },
-{ japanese : "wakarimashita / wakatta" , meaning : "anladım", type : "sentence" },
-{ japanese : "inu ga oshii desu / inu ga oshii" , meaning : "köpek istiyorum", type : "sentence" },
-{ japanese : "supein e ikitai desu / supein e ikitai" , meaning : "ispanyaya gitmek istiyorum", type : "sentence" },
-{ japanese : "koko ni kite kudasai / kochi ni kite" , meaning : "buraya gel", type : "sentence" },
-{ japanese : "wasurenaide kudasai / wasurenai de ne" , meaning : "unutma", type : "sentence" },
-{ japanese : "kore o tsukatte mo ii desu ka / kore o tsukatte ii" , meaning : "bunu kullanabilir miyim", type : "sentence" },
-{ japanese : "koko de tabako o sutte wa ikemasen / koko de tabako o sutte wa ikenai" , meaning : "burada sigara içmek olmaz", type : "sentence" },
-{ japanese : "ikana kereba narimasen / ikana kereba naranai" , meaning : "gitmezsek olmaz", type : "sentence" },
-{ japanese : "isogonaito ikemasen / isogonaito ikenai" , meaning : "acele etmezsek olmaz", type : "sentence" },
-{ japanese : "harawana kute mo ii desu / harawana kute mo ii" , meaning : "ödemezsen de olur", type : "sentence" },
-{ japanese : "unten ga dekimasu ka / unten ga dekiru? Hai dekimasu / un, dekiru" , meaning : "araba kullanabilir misin? Evet, kullanabilirim", type : "sentence" },
-{ japanese : "unten ga dekimasu ka / unten ga dekiru? İie dekimasen / uun, dekinai" , meaning : "araba kullanabilir misin? Hayır kullanamam", type : "sentence" },
-{ japanese : "fujisan ni nobotta koto ga arimasu ka / fujisan ni nobotta koto ga aru" , meaning : "fujisana çıkmışlığın (tepesine) var mı?", type : "sentence" },
-{ japanese : "hai nobotta koto ga arimasu / un, nobotta koto ga aru" , meaning : "evet çokmışlığım var", type : "sentence" },
-{ japanese : "iie nobotta koto ga arimasen / uun nobotta koto ga nai" , meaning : "hayır çıkmışlığım yok", type : "sentence" },
-{ japanese : "keeki o tabemasu ka / keeki o taberu" , meaning : "kek yer misin?", type : "sentence" },
-{ japanese : "hai tabemasu / iie tabemasen" , meaning : "yes i eat / no i dont eat", type : "sentence" },
-{ japanese : "un taberu / uun tabenai" , meaning : "yes i eat / no i dont eat", type : "sentence" },
-{ japanese : "ie ni dare ka arimasu ka / iie ni dare ka aru?" , meaning : "evde kimse var mı? ", type : "sentence" },
-{ japanese : "hai yuki ga imasu / iie dare mo imasen" , meaning : "evet yuki var / hayır kimse yok", type : "sentence" },
-{ japanese : "un, yuki ga iru (yo) / uun, dare mo inai" , meaning : "evet yuki var / hayır kimse yok", type : "sentence" },
-{ japanese : "doko ikimasu ka / doko iku?" , meaning : "where r u going?", type : "sentence" },
-{ japanese : "tokyou e ikimasu / tokyou e iku" , meaning : "tokyo'ya gidiyorum", type : "sentence" },
-{ japanese : "genki desu ka / genki ?" , meaning : "sağlıklı mi?", type : "sentence" },
-{ japanese : "hai genki desu / un, genki" , meaning : "evet sağlıklıyım", type : "sentence" },
-{ japanese : "iie, genki ja arimasen / uun, genki janai" , meaning : "hayır, sağlıklı değilim", type : "sentence" },
-{ japanese : "sou desu ka / souka" , meaning : "haa demek öyle", type : "sentence" },
-
-
-
-{ japanese : "kare de tariru to omoimasu" , meaning : "bu yeter diye düşünüyorum", type : "sentence" },
-{ japanese : "nihonjin wa bisa ga iranai to omoimasu" , meaning : "japon vizeye ihtiyaç yok diye düşünüyorum", type : "sentence" },
-{ japanese : "densha wa totemo benri da to omoimasu" , meaning : "tren çok pratiktir diye düşünüyorum", type : "sentence" },
-{ japanese : "terebi o miru koto wa jikan no muda da to omoimasu" , meaning : "tv izlemenin zaman kaybı olduğunu düşünüyorum", type : "sentence" },
-{ japanese : "soosharu media wa ii to omoimasu ka? Hai, ii to omoimasu / iie, yokunai to omoimasu" , meaning : "sosyal medyanın iyi olduğunu düşünüo musun? Evet, iyi olduğunu düşünüyorum / hayır kötü olduğunu düşünüyorum ", type : "sentence" },
-{ japanese : "jasutisu riigu to abenjaazu to dochira ga katsu to omoimasu ka? Abenjaazu ga katsu to omoimasu" , meaning : "justice league ve avengers arasından hangisi kazanır diye düşünüosun? Avnegers kazanır diye düşünüyorum", type : "sentence" },
-{ japanese : "firipinjin ni tsuite dou omoimasu ka" , meaning : "filipinliler hakkında ne/nasıl düşünüosun", type : "sentence" },
-{ japanese : "fakusuki ga yakunitatanaku natta to omoimasu! Watashi mo sou omoimasu / watashi wa sou omoimasen" , meaning : "faks makinesi gereksiz oldu diye düşünüyo musun? Evet, öyle düşünüyorum / hayır, öyle düşünmüyorum.", type : "sentence" },
-{ japanese : "nihonjin wa shokuji mae ni 'itadakimasu' to iimasu" , meaning : "japonlar yemek yemeden önce 'itadakimasu' derler", type : "sentence" },
-{ japanese : "shingusan wa 'mata atodo denwa shimasu' to iimashita" , meaning : "shingusan 'daha sonra tekrar ararım' diye söyledi.", type : "sentence" },
-{ japanese : "shingusan wa mata atodo denwa suru to iimashita" , meaning : "shingusan daha sonra tekrar ararım diye söyledi.", type : "sentence" },
-{ japanese : "shokuji no owari ni nan to iimasu ka" , meaning : "yemek bittikten sonra ne diye söylersin", type : "sentence" },
-{ japanese : "gochisou samadeshita to iimasu" , meaning : "gochisou samadeshita diye söylerim", type : "sentence" },
-{ japanese : "'you're welcome' wa nihongo de nan to iimasu ka? Dou itashimashite to iimasu" , meaning : "'you're welcome' japoncada nasıl söylenir? 'dou itashimashite' diye söylenir", type : "sentence" },
-{ japanese : "suuzii wa ashita no yotei ni tsuite nan to iimashita ka? Daijoubu da to iimashita" , meaning : "suzy yarının planı üzerine ne diye söylüyor? Tamam diye söylüyor.", type : "sentence" },
-{ japanese : "asatte yuki ga furu deshou?" , meaning : "yarın kar yağar di mi? (yağar mı)", type : "sentence" },
-{ japanese : "jettokoosutaa wa tanoshii deshou?" , meaning : "kaykay eğlenceli di mi?", type : "sentence" },
-{ japanese : "watashi no kanojo wa kirei deshou?" , meaning : "benim kız arkadaşım güzel di mi?", type : "sentence" },
-{ japanese : "jonsonsan wa daigakusei deshou?" , meaning : "jonson üniversite öğrencisi di mi?", type : "sentence" },
-{ japanese : "kyou wa yuki ga furu deshou" , meaning : "bugün kar yağabilir", type : "sentence" },
-{ japanese : "kare wa kakkoii. Kanojo ga mou iru deshou" , meaning : "o çok cool. Kız arkadaşı olmalı (vardır)", type : "sentence" },
-{ japanese : "juu-nen ni nihon ni sunde iru kara, anatawa hontou ni nihongo ga jouzu deshou" , meaning : "10 yıldır japonyada yaşadığından, senin gerçekten japoncan iyi olmalı.", type : "sentence" },
-{ japanese : "maitoshi sapporo de yuki matsuri ga arimasu" , meaning : "her sene sapporo'da kar festivali vardır", type : "sentence" },
-{ japanese : "teiraa suuifuto wa manira de konsaato ga arimashita" , meaning : "taylor swift manila'da konseri vardı", type : "sentence" },
-{ japanese : "nisen nijuu nen ni toukyou de tsugi no orinpikku ga arimasu" , meaning : "2020 yılında tokya'da gelecek olimpiyatlar var", type : "sentence" },
-{ japanese : "nijusan nen mae ni koube de ookii jishin ga arimashita" , meaning : "23 yıl önce kobe'de deprem olmuştu", type : "sentence" },
-{ japanese : "paatii de kare ni aimashita ka" , meaning : "partide onunla karşılaştım/tanıştım", type : "sentence" },
-{ japanese : "kaigi de iken o iimasu" , meaning : "toplantıda fikrimi söyleyeceğim", type : "sentence" },
-{ japanese : "omatsuri de kaimashita" , meaning : "festivalde satın aldım", type : "sentence" },
-{ japanese : "eiga demo mimasen ka" , meaning : "film falan izlemeyelim mi", type : "sentence" },
-{ japanese : "koohii demo nomimasen ka" , meaning : "kahve falan içmeyelim mi", type : "sentence" },
-{ japanese : "ranchi demo ikanai" , meaning : "öğle yemeğine falan gitmeyelim mi", type : "sentence" },
-{ japanese : "mou ikanaito" , meaning : "artık gitmem lazım", type : "sentence" },
-{ japanese : "sorosoro jikan da, shito o owaranai to" , meaning : "neredeyse zaman geldi, işi bitirmem lazım", type : "sentence" },
-{ japanese : "saigo no chansu da, ganbaranai to" , meaning : "en son şansım, elimden geleni yapmam lazım", type : "sentence" },
-
-
-
-{ japanese : "yuki no kaban" , meaning : "yukinin çantası", type : "sentence" },
-{ japanese : "suteki na kaban" , meaning : "güzel çanta", type : "sentence" },
-{ japanese : "furui kaban" , meaning : "eski çanta", type : "sentence" },
-{ japanese : "niku o taberu hito" , meaning : "et yiyen insan", type : "sentence" },
-{ japanese : "niku o tabenai hito" , meaning : "et yemeyen insan", type : "sentence" },
-{ japanese : "niku o tabeta hito" , meaning : "et yemiş olan insan", type : "sentence" },
-{ japanese : "niku o tabenakatta hito" , meaning : "et yememiş olan insan", type : "sentence" },
-{ japanese : "akai kooto o kite iru hito" , meaning : "kırmızı mont giymekte olan insan", type : "sentence" },
-{ japanese : "boushi o kabutte iru hito" , meaning : "şapka takmakta olan insan", type : "sentence" },
-{ japanese : "hon o yonde iru hito" , meaning : "kitap okumakta olan insan", type : "sentence" },
-{ japanese : "kimurasan no tonari ni iru hito" , meaning : "kimurusan'ın yanında (duran) insan", type : "sentence" },
-{ japanese : "akarukute ii hito" , meaning : "neşeli ve iyi insan", type : "sentence" },
-{ japanese : "kirei de yuumei na hito" , meaning : "güzel ve ünlü insan", type : "sentence" },
-{ japanese : "kyujuu-sai no hito" , meaning : "90 yaşındaki insan", type : "sentence" },
-{ japanese : "eigo no sensei" , meaning : "ingilizce öğretmeni", type : "sentence" },
-{ japanese : "watashi wa toshokan kara hon o karimashita" , meaning : "ben kütüphaneden kitap ödünç aldım", type : "sentence" },
-{ japanese : "watashi ga toshokan kara karita hon" , meaning : "kütüphaneden ödünç aldığım kitap", type : "sentence" },
-{ japanese : "chichi wa resutoran de hataraite imasu" , meaning : "babam restoranda çalışmaktadır", type : "sentence" },
-{ japanese : "chichi ga harataite iru resutoran" , meaning : "bababım çalışmakta olduğu restoran", type : "sentence" },
-{ japanese : "watashi wa dareka ni agemasu" , meaning : "ben birisine veriyorum", type : "sentence" },
-{ japanese : "watashi ga ageru hito" , meaning : "benim verdiğim insan", type : "sentence" },
-{ japanese : "akai kooto o kite iru hito wa jonson san desu" , meaning : "kırmızı mont giymekte olan insan jonsondur", type : "sentence" },
-{ japanese : "jonsonsan wa akai kooto o kite iru hito desu" , meaning : "jonson kırmızı mont giymekte olan insandır", type : "sentence" },
-{ japanese : "watashi wa watashi ga toshokan kara karita hon o nakushimashita" , meaning : "ben kütüphaneden ödünç aldığım kitabı kaybettim", type : "sentence" },
-{ japanese : "anata wa nisen nen ni umareta hito o shitte imasu ka" , meaning : "sen 2000 yıldında doğmuş birini tanıyo musun", type : "sentence" },
-{ japanese : "kimurasan no tonari ni iru hito wa dare desu ka" , meaning : "kimurusan'ın yanında (duran) insan kimdir?", type : "sentence" },
-{ japanese : "anata ga sunde ita apaato wa doko desu ka" , meaning : "senin yaşamış olduğun apartman nerededir?", type : "sentence" },
-{ japanese : "suki na kuruma ga dore desu ka" , meaning : "beğendiğin hoşuna giden araba hangisidir?", type : "sentence" },
-{ japanese : "kinoo mita eiga wa doo deshita ka" , meaning : "dün izlediğin film nasıldı", type : "sentence" },
-{ japanese : "watashi wa toshokan kara hon o karimashita" , meaning : "kütüphaneden kitap ödünç aldım", type : "sentence" },
-{ japanese : "watashi ga toshokan kara karita hon o nakushimashita" , meaning : "kütüphaneden ödünç aldığım kitabı kaybettim", type : "sentence" },
-{ japanese : "chichi wa resutoran de hataraite imasu" , meaning : "babam restoranda çalışmaktadır", type : "sentence" },
-{ japanese : "chichi ga harataite iru resutoran e ikimasu" , meaning : "babamın çalışmakta olduğu restorana gidiyorum", type : "sentence" },
-{ japanese : "anata wa byouin de umaremashita" , meaning : "sen hastanede doğdun", type : "sentence" },
-{ japanese : "anata ga umareta byouin o shitte imasu ka" , meaning : "sen doğduğun hastaneyi biliyor musun?", type : "sentence" },
-{ japanese : "supiichi o renshuusuru jikan ga arimasen" , meaning : "konuşma pratiği zamanı yoktur", type : "sentence" },
-{ japanese : "atode tsuma to shokujisuru yakusoku o omoidashimashita" , meaning : "sonra karımla yemek yeme sözümü hatırladım", type : "sentence" },
-{ japanese : "haisha ni iku yotei o wasurenaide" , meaning : "dişçiye gitme planını unutma", type : "sentence" },
-
-
-
-{ japanese : "shiyakusho ni iku toki, zairyuu kaado o mottekite" , meaning : "valiliğe gittiğin zaman, oturma izni kartını alıp git", type : "sentence" },
-{ japanese : "benkyou suru toki, ongaku o kikimasu" , meaning : "çalıştığım zaman, müzik dinlerim", type : "sentence" },
-{ japanese : "wakaranai koto ga aru toki, watashi ni kiite kudasai" , meaning : "anlamadığın birşey olduğu zaman, bana sor lütfen", type : "sentence" },
-{ japanese : "uchi de asagohan o taberu jikan ga nai toki, onigiri o densha de tabemasu" , meaning : "evde kahvaltı yeme zamanı olmadığı zaman, onigiriyi trende yerim", type : "sentence" },
-{ japanese : "samui toki, amari dekakemasen" , meaning : "soğuk olduğu zaman, pek dışarı çıkmam", type : "sentence" },
-{ japanese : "hima na toki, nomini ikimasu" , meaning : "boş olduğum zaman, içmeye giderim", type : "sentence" },
-{ japanese : "kodomo no toki, yoku anime o mimashita" , meaning : "çocuk zamanı, sık sık anime izlerdim", type : "sentence" },
-{ japanese : "yasumi no toki, nani o shimasu ka" , meaning : "tatil olduğu zaman, ne yaparsın?", type : "sentence" },
-{ japanese : "unten shite iru toki, keitai denwa o tsukaimasen" , meaning : "araba kullanıyor olduğum zaman, cep telefonu kullanmam", type : "sentence" },
-{ japanese : "nete iru toki, jishin ga arimashita" , meaning : "uyuyorken (uğuduğum esnada), deprem oldu", type : "sentence" },
-{ japanese : "uchi e kaeru toki, denwa shimashita" , meaning : "eve dönerken (varmadan önce), telefon ediyorum", type : "sentence" },
-{ japanese : "uchie e kaetta toki, denwa shimashita" , meaning : "eve döndüğümde (dönünce), telefon ettim", type : "sentence" },
-{ japanese : "kuni e kaetta toki, fuku o kaimasu" , meaning : "ülkeme döndüğümde, giysi satın alıcam", type : "sentence" },
-{ japanese : "taberu toki, 'itadakimasu' to iimasu" , meaning : "yemek yerken (öncesinde), 'itadakimasu' deriz", type : "sentence" },
-{ japanese : "tabeta toki, 'gochisousama deshita' to iimasu" , meaning : "yemek yediğimizde (sonrasında)'afiyet olsun' deriz.", type : "sentence" },
-{ japanese : "dekakeru toki, ittekimasu to iimasu" , meaning : "evi terkederken 'ittekimasu' deriz", type : "sentence" },
-{ japanese : "uchi e kaetta toki, tadaima to iimasu" , meaning : "eve geri geldiğimiz zaman 'tadaima' deriz", type : "sentence" },
-{ japanese : "akai botan o osu to, kaado ga demasu" , meaning : "kırmızı düğmeye basmanla, kart çıkar", type : "sentence" },
-{ japanese : "tsunami o hidari e mawasu to, oto ga ookiku narimasu" , meaning : "kolu sola döndürmenle ses büyük olur (ses yükselir)", type : "sentence" },
-{ japanese : "kousaten o migi e magaru to, shiyakusho ga arimasu" , meaning : "dört yol ağzında sola dönmenle, valiliği göreceksin (valilik var)", type : "sentence" },
-{ japanese : "asagohan o tabenai to, atama ga itakunaru" , meaning : "kahvaltıyı yememekle,başım ağırır", type : "sentence" },
-{ japanese : "shingou ga aka ni narimashita" , meaning : "trafik ışığı kırmızı oldu (kırmızı yandı)", type : "sentence" },
-{ japanese : "atama ga itai" , meaning : "başım ağrıyor", type : "sentence" },
-{ japanese : "tokei ga ugoite inai" , meaning : "saat hareket etmiyo (saat çalışmıyo)", type : "sentence" },
-{ japanese : "kono botan o osu to, otsuri ga demasu" , meaning : "bu düğmeye basmanla, bozuk çıkar (makineden)", type : "sentence" },
-{ japanese : "kouen o sampo shimasu" , meaning : "i take a stroll in the park", type : "sentence" },
-{ japanese : "michi o arukimasu" , meaning : "i walk along the road", type : "sentence" },
-{ japanese : "hashi o watarimasu" , meaning : "i go across the bridge", type : "sentence" },
-{ japanese : "kousaten o migi e magatte kudasai" , meaning : "turn right at the intersection", type : "sentence" },
-
-
-
-{ japanese : "ramasan wa watashi ni kono hon o kuremashita" , meaning : "ramasan bana bu kitabı verdi", type : "sentence" },
-{ japanese : "samitasan wa ototo ni kono hon o kuremashita" , meaning : "samitasan ağbime bu kitabı verdi", type : "sentence" },
-{ japanese : "obaasan wa watashi ni kono hon o kuremashita" , meaning : "büyükannem bana bu kitabı verdi", type : "sentence" },
-{ japanese : "ramasan wa samitasan ni kono hon o agemashita" , meaning : "ramasan samitasana bu kitabı verdi", type : "sentence" },
-{ japanese : "watashi wa ramsan ni kono hon o agemashita" , meaning : "ben ramsana bu kitabı verdim", type : "sentence" },
-{ japanese : "watashi wa ototo ni kono hon o agemashita" , meaning : "ben ağbime bu kitabı verdim", type : "sentence" },
-{ japanese : "sensei wa watashi ni ressun o oshiemashita" , meaning : "öğretmen bana ders verdi (öğretti anlamı)", type : "sentence" },
-{ japanese : "sensei wa watashi ni ressun o oshiete kuremashita / kureta" , meaning : "öğretmen bana ders verdi (ahlaki anlamda)", type : "sentence" },
-{ japanese : "amiru wa  yoshidasan ni kuruma o kashite agemasu" , meaning : "amir yoshidasana arabayı ödünç verdi", type : "sentence" },
-{ japanese : "watashi wa ojiichan ni koohii o irete agemashita" , meaning : "ben büyükbabaya kahve verdim", type : "sentence" },
-{ japanese : "watashi wa tanakasan o kuukoo e okutte agemasu" , meaning : "tanakasan'ı havalimanına götürdüm (geçirdim, yolcu ettim)", type : "sentence" },
-{ japanese : "tanakasan kuukoo e okurimashou ka" , meaning : "tanaksan (sizi) havalimanına götüreyim mi? (saygılı)", type : "sentence" },
-{ japanese : "obaachan kaban o motte ageru yo, omoi kara." , meaning : "büyükanne çantanı taşıyayım mı, ağır çünkü (olduğundan)", type : "sentence" },
-{ japanese : "watashi wa samita ni basu noriba made annaishite moraimashita" , meaning : "samita bana otobüs durağına kadar eşlik etti (verdi)", type : "sentence" },
-{ japanese : "watashi wa ani ni koko ni tsuretekite moraimashita" , meaning : "abim beni buraya getirdi (verdi)", type : "sentence" },
-{ japanese : "watashi wa tomodachi ni anime o shoukaishite moraimashita" , meaning : "arkadaşın beni animeyle tanıştırdı (verdi)", type : "sentence" },
-{ japanese : "sensei wa (watashi ni) kotae o setsumeishite kuremashita" , meaning : "öğretmen bana cevabı açıkladı", type : "sentence" },
-{ japanese : "haha wa mainichi obentou o tsukette kuremasu  " , meaning : "annem hergün yemeği bana hazırladı (yaptı)", type : "sentence" },
-{ japanese : "ane wa hikkoshi o tetsudatte kuremasu" , meaning : "kız kardeşim hareket etmeme yardım etti (verdi)", type : "sentence" },
-{ japanese : "watashi wa ane ni hikkoshi o tetsudatte moraimasu" , meaning : "ben kız kardeşimden hareket etmede yardımı aldım (verdim)", type : "sentence" },
-{ japanese : "ane wa watashi ni hikkoshi o tetsudatte kuremasu" , meaning : "kız kardeşim hareket etmeme yardım etti (verdi)", type : "sentence" },
-{ japanese : "okaasan ga katte kuremashita" , meaning : "annem (bana) satın aldı (satın alıp verdi)", type : "sentence" },
-{ japanese : "tanaka sensei ga oshiete kuremashita" , meaning : "tanaka hoca (bana) öğretti (verdi)", type : "sentence" },
-{ japanese : "dare ga anata ni kono hon o kuremashita ka / agemashita ka? Rama san ga kuremashita" , meaning : "kim sana bu kitabı verdi? ramasan verdi", type : "sentence" },
-{ japanese : "dare ga shiryou o junbishimasu ka? haradasan ga junbi shimasu" , meaning : "kim belgeleri hazırladı? Haradasan hazırladı", type : "sentence" },
-{ japanese : "dare ga barentain choko o moraimashita ka? Jon dake ga moraimashita" , meaning : "kim valentine çikolatası aldı? Jon sadece aldı", type : "sentence" },
-{ japanese : "dare ni/kara moraimashita ka?" , meaning : "kimden aldın?", type : "sentence" },
-{ japanese : "dare ni kono hon o moraimashita ka? " , meaning : "kimden bu kitabı aldın?", type : "sentence" },
-{ japanese : "dare ni eigo o oshiete moraimashita ka? Simusu sensei ni oshiete moraimashita" , meaning : "kimden ingilizce öğrendin (aldın)? Sumisu hocadan öğrendim", type : "sentence" },
-{ japanese : "dare kara/ni barentain choko o moraimashita ka? Maria kara moraimashita" , meaning : "kimden valentine çikolatası aldın? Maria'dan aldım", type : "sentence" },
-
-
-
-{ japanese : "ichi-oku en ga attara, shigoto o yamemasu" , meaning : "yüz milyon yenim olursa, işimi bırakacağım", type : "sentence" },
-{ japanese : "jikan ga nakattara, konakute mo ii desu" , meaning : "eğer zaman yoksa, gelmesen de olur", type : "sentence" },
-{ japanese : "yokattara, douzo" , meaning : "istersen buyur (al)", type : "sentence" },
-{ japanese : "hima dattara, asobimashou" , meaning : "eğer boşsan, dışarı çıkıp oynayalım", type : "sentence" },
-{ japanese : "genki ni nattara, ippai nomimashou" , meaning : "iylişence, bir kadeh içelim", type : "sentence" },
-{ japanese : "toshi o tottara, inaka ni sumitai" , meaning : "yaşım ilerleyince, kırsala (köye) yerleşmek istiyorum", type : "sentence" },
-{ japanese : "eki ni tsuitara, denwa shite kudasai" , meaning : "durağa vardığında, telefon aç lütfen", type : "sentence" },
-{ japanese : "shigoto ga owattara, kaette mo ii desu" , meaning : "işi bitirdikten sonra, eve gidebilirsin", type : "sentence" },
-{ japanese : "watashi wa benkyou shite mo, wakarimasen" , meaning : "çalışsam da, anlamıyorum", type : "sentence" },
-{ japanese : "yasukute mo watashi wa guruupu ryokou ga sukijanai" , meaning : "ucuz olsa da, grup seyahatlerini sevmiyorum", type : "sentence" },
-{ japanese : "benri demo sumaho o kaimasen" , meaning : "kullanışlı olsa da akıllı telefonları sevmiyorum", type : "sentence" },
-{ japanese : "yasumi demo, isogashi desu" , meaning : "tatil olsam da, meşgulum", type : "sentence" },
-{ japanese : "moshi ichi-oku en ga attara, shigoto o yamemasu" , meaning : "ola ki yüz milyon yenim olsa, işi terkederim", type : "sentence" },
-{ japanese : "moshi yokattara, douzo" , meaning : "ola ki istersen, buyur", type : "sentence" },
-{ japanese : "moshi nihon ni ittara, fankopoppu o katte kuremasen ka" , meaning : "ola ki japonyaya gittin, bana fankopop oyuncağı alıp vermez misin?", type : "sentence" },
-{ japanese : "ikura kangaete mo, kanojo no koto o omoida shimasen" , meaning : "ne kadar düşünsem de, onu hatırlayamıyorum", type : "sentence" },
-{ japanese : "ikura takakute mo anata ni katte agemasu" , meaning : "ne kadar pahalı olsa da, sana alıp vereceğim", type : "sentence" },
-{ japanese : "ikura benri demo, sumaho o kaimasen" , meaning : "ne kadar kullanışlı olsa da, akıllı telefon satın almıyorum", type : "sentence" },
-{ japanese : "migeru ga tsuitara, watashi ni oshiete kudasai" , meaning : "miguel vardığında, bana söyle lütfen (haber ver)", type : "sentence" },
-{ japanese : "sumaho ga benri demo, kaimasen" , meaning : "akıllı telefon kullanışlı olsa da, almıyorum", type : "sentence" },
-{ japanese : "okaasan ga byouki no toki, jibunde ryouri o shimasu" , meaning : "annem hasta olduğu zaman, ben kendim yemek yapıyorum", type : "sentence" },
-{ japanese : "yuki ga furu to, densha ga tomarimasu" , meaning : "kar yağmasıyla, trene bindik", type : "sentence" },
-{ japanese : "akachan ga umareru mae ni, iroiro junbi shinai to" , meaning : "bebeğim doğmasından önce, onubunu hazırlamak zorundayım", type : "sentence" },
+// verbs
 
 { japanese : "agemasu" , meaning : "to give", te : "agete", plain : "", nai : "agenai", type : "verb" },
 { japanese : "aimasu" , meaning : "to meet, to see", te : "atte", plain : "", nai : "awanai", type : "verb" },
 { japanese : "akemasu" , meaning : "to open", te : "akete", plain : "", nai : "akenai", type : "verb" },
-{ japanese : "arimasu" , meaning : "to be", te : "atte", plain : "", nai : "nai", type : "verb" },
+{ japanese : "akimasu" , meaning : "to be open", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "araimasu" , meaning : "to wash, clean", te : "aratte", plain : "", nai : "arawanai", type : "verb" },
+{ japanese : "arimasu" , meaning : "to be, to exist (inanimate)", te : "atte", plain : "", nai : "nai", type : "verb" },
 { japanese : "arukimasu" , meaning : "to walk", te : "aruite", plain : "", nai : "arukanai", type : "verb" },
+{ japanese : "asobimasu" , meaning : "to play, to enjoy", te : "asonde", plain : "", nai : "asobanai", type : "verb" },
+{ japanese : "atsumemasu" , meaning : "to collect, to gather", te : "atsumete", plain : "", nai : "atsumenai", type : "verb" },
 { japanese : "benkyoo o shimasu" , meaning : "to study", te : "benkyoo o shite", plain : "", nai : "benkyoo o shinai", type : "verb" },
 { japanese : "chigaimasu" , meaning : "to be wrong", te : "chigatte", plain : "", nai : "chigawanai", type : "verb" },
-{ japanese : "dekimasu" , meaning : "to be able to", te : "dekite", plain : "", nai : "dekinai", type : "verb" },
-{ japanese : "demasu" , meaning : "to leave, to graduate, to come out", te : "dete", plain : "", nai : "denai", type : "verb" },
+{ japanese : "dashimasu" , meaning : "to submit, to hand in, to give out", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "dekakemasu" , meaning : "to go out", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "dekimasu" , meaning : "to be able to, to be ready (finished, done)", te : "dekite", plain : "", nai : "dekinai", type : "verb" },
+{ japanese : "demasu" , meaning : "to leave, to graduate, to come out", te : "dete", plain : "", nai : "", type : "verb" },
+{ japanese : "denwa o shimasu" , meaning : "to make a call", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "erabimasu" , meaning : "to choose, to select", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "gambarimasu" , meaning : "to work hard", te : "gambatte", plain : "", nai : "gambaranai", type : "verb" },
+{ japanese : "go-shokai shimasu" , meaning : "to introduce", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "hairimasu" , meaning : "to enter", te : "haitte", plain : "", nai : "hairanai", type : "verb" },
-{ japanese : "iimasu" , meaning : "to say, to tell", te : "itte", plain : "", nai : "iwanai", type : "verb" },
+{ japanese : "hakimasu" , meaning : "to wear (lower)", te : "hakite", plain : "", nai : "", type : "verb" },
+{ japanese : "hanashimasu" , meaning : "to talk", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "haraimasu" , meaning : "to pay", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "hashirimasu" , meaning : "ro run", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "iimasu" , meaning : "to say, to tell", te : "itte", plain : "", nai : "", type : "verb" },
 { japanese : "ikimasu" , meaning : "to go", te : "itte", plain : "", nai : "ikanai", type : "verb" },
-{ japanese : "imasu" , meaning : "to be", te : "ite", plain : "", nai : "inai", type : "verb" },
+{ japanese : "imasu" , meaning : "to be, to exist (animate)", te : "ite", plain : "", nai : "inai", type : "verb" },
+{ japanese : "inori o shimasu" , meaning : "to pray, to save a prayer", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "irasshaimasu" , meaning : "to enter, to come (polite)", te : "irasshatte", plain : "", nai : "irassharanai", type : "verb" },
+{ japanese : "iremasu" , meaning : "to put in, to insert, to make (tea, coffee etc)", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "irimasu" , meaning : "to need", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "isogimasu" , meaning : "to hurry", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "itadakimasu" , meaning : "to eat (polite)", te : "itadaite", plain : "", nai : "itadakanai", type : "verb" },
+{ japanese : "jogingu o shimasu" , meaning : "to do jogging", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "kaburimasu" , meaning : "to wear (hat, cap etc)", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "kachimasu" , meaning : "to win", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "kaemasu" , meaning : "to change (money)", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "kaerimasu" , meaning : "to return, to come back", te : "kaette", plain : "", nai : "kaeranai", type : "verb" },
+{ japanese : "kaeshimasu" , meaning : "to return (book)", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "kaigi o shimasu" , meaning : "to do meeting", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "kaimasu" , meaning : "to buy", te : "katte", plain : "", nai : "kawanai", type : "verb" },
 { japanese : "kakarimasu" , meaning : "to take (time)", te : "kakatte", plain : "", nai : "kakaranai", type : "verb" },
-{ japanese : "kakemasu" , meaning : "to put on (glasses), to make (phone call), ", te : "kakete", plain : "", nai : "kakenai", type : "verb" },
+{ japanese : "kakemasu" , meaning : "to put on (glasses), to make (phone call), to take a seat ", te : "kakete", plain : "", nai : "kakenai", type : "verb" },
 { japanese : "kakimasu" , meaning : "to write", te : "kaite", plain : "", nai : "kakanai", type : "verb" },
+{ japanese : "kakunin shimasu" , meaning : "to make confirmation", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "kangaemasu" , meaning : "to think", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "karimasu" , meaning : "to borrow", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "katadukemasu" , meaning : "to tidy up, to order, to arrange", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "keshimasu" , meaning : "to turn off (power), to delete, to extinguish", te : "keshite", plain : "", nai : "kesanai", type : "verb" },
 { japanese : "ki o tsukemasu" , meaning : "to take care", te : "tsukete", plain : "", nai : "ki o tsukenai", type : "verb" },
 { japanese : "kikimasu" , meaning : "to hear, to listen, to ask", te : "kiite", plain : "", nai : "kikanai", type : "verb" },
+{ japanese : "kikoemasu" , meaning : "to be heard", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "kimasu" , meaning : "to come, to wear (over)", te : "kite", plain : "", nai : "konai", type : "verb" },
 { japanese : "komimasu" , meaning : "to be crowded", te : "konde", plain : "", nai : "komanai", type : "verb" },
-{ japanese : "machimasu" , meaning : "to hold, to carry, ", te : "matte", plain : "", nai : "matanai", type : "verb" },
+{ japanese : "kowaremasu" , meaning : "to be broken", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "machigaemasu" , meaning : "to be mistaken", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "machimasu" , meaning : "to wait", te : "matte", plain : "", nai : "matanai", type : "verb" },
 { japanese : "magarimasu" , meaning : "to turn", te : "magatte", plain : "", nai : "magaranai", type : "verb" },
-{ japanese : "mimasu" , meaning : "to look", te : "mite", plain : "", nai : "minai", type : "verb" },
+{ japanese : "mawashimasu" , meaning : "to turn, to rotate, to spin", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "miemasu" , meaning : "to be seen", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "mimasu" , meaning : "to look, to see", te : "mite", plain : "", nai : "minai", type : "verb" },
 { japanese : "misemasu" , meaning : "to show", te : "misete", plain : "", nai : "misenai", type : "verb" },
-{ japanese : "mochimasu" , meaning : "to take, to have, to hold", te : "motta", plain : "", nai : "motanai", type : "verb" },
+{ japanese : "mochimasu" , meaning : "to take, to have, to hold, to carry", te : "motta", plain : "", nai : "motanai", type : "verb" },
 { japanese : "moraimasu" , meaning : "to receive, to keep", te : "moratte", plain : "", nai : "morawanai", type : "verb" },
 { japanese : "mottekimasu" , meaning : "to bring with", te : "mottekite", plain : "", nai : "mottekonai", type : "verb" },
+{ japanese : "mukaemasu" , meaning : "to pick up (airport etc)", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "nakunarimasu" , meaning : "to be lost, to disappear, to die", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "nakushimasu" , meaning : "to lose", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "noborimasu" , meaning : "to climb", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "nomimasu" , meaning : "to drink", te : "node", plain : "", nai : "nomanai", type : "verb" },
+{ japanese : "norikaemasu" , meaning : "to transfer (bus, train etc)", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "norimasu" , meaning : "to get on (bus etc)", te : "notte", plain : "", nai : "noranai", type : "verb" },
-{ japanese : "okurimasu" , meaning : "to send, to give", te : "okutte", plain : "", nai : "okuranai", type : "verb" },
+{ japanese : "nugimasu" , meaning : "to take off (shoes, clothes)", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "oboemasu" , meaning : "to memorize, to remember", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "okimasu" , meaning : "to put", te : "", plain : "", nai : "okuranai", type : "verb" },
+{ japanese : "okuremasu" , meaning : "to be late", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "okurimasu" , meaning : "to send, to see off", te : "okutte", plain : "", nai : "", type : "verb" },
+{ japanese : "omoidashimasu" , meaning : "to remember, to recall", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "onegaishimasu" , meaning : "to request, to wish", te : "onegaishite", plain : "", nai : "onegaishinai", type : "verb" },
 { japanese : "orimasu" , meaning : "to get off (bus etc)", te : "orite", plain : "", nai : "orinai", type : "verb" },
-{ japanese : "oshiemasu" , meaning : "to teach", te : "oshiete", plain : "", nai : "oshienai", type : "verb" },
+{ japanese : "oshiemasu" , meaning : "to teach, to tell", te : "oshiete", plain : "", nai : "oshienai", type : "verb" },
 { japanese : "oshimasu" , meaning : "to push, to press, to recommend", te : "oshite", plain : "", nai : "osanai", type : "verb" },
-{ japanese : "owarimasu" , meaning : "to finish, to end", te : "owatte", plain : "", nai : "owaranai", type : "verb" },
+{ japanese : "otoshimasu" , meaning : "to drop", te : "", plain : "", nai : "owaranai", type : "verb" },
+{ japanese : "owarimasu" , meaning : "to finish, to end", te : "owatte", plain : "", nai : "", type : "verb" },
+{ japanese : "renshuu shimasu" , meaning : "to practise", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "sagashimasu" , meaning : "to search, to look for", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "sanpo o shimasu" , meaning : "to do walking", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "sentaku shimasu" , meaning : "to do laundry", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "shashin o torimasu" , meaning : "to take picture", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "shawa o abimasu" , meaning : "to take a shower", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "shigoto o shimasu" , meaning : "to do work", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "shimarimasu" , meaning : "to be closed", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "shimasu" , meaning : "to do", te : "shite", plain : "", nai : "shinai", type : "verb" },
 { japanese : "shimemasu" , meaning : "to close, to shut (door)", te : "shimete", plain : "", nai : "shimenai", type : "verb" },
+{ japanese : "shinpai shimasu" , meaning : "to worry", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "shirimasu" , meaning : "to know", te : "", plain : "", nai : "shiranai", type : "verb" },
 { japanese : "shitsureishimasu" , meaning : "to disturb, to be rude", te : "shitsureishite", plain : "", nai : "shitsureishinai", type : "verb" },
-{ japanese : "shitteimasu" , meaning : "to be aware, to know", te : "shitte", plain : "", nai : "shiranai", type : "verb" },
+{ japanese : "shitte imasu" , meaning : "to know, to be aware", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "shitteimasu" , meaning : "to be aware, to know", te : "shitte", plain : "", nai : "", type : "verb" },
+{ japanese : "shokuji o shimasu" , meaning : "to do homework", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "sooji shimasu" , meaning : "to do cleaning", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "suimasu" , meaning : "to smoke, to inhale", te : "sutte", plain : "", nai : "suwanai", type : "verb" },
 { japanese : "sumimasu" , meaning : "to live", te : "sunde", plain : "", nai : "sumanai", type : "verb" },
+{ japanese : "suterumasu" , meaning : "to throw away, to dispose", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "tabemasu" , meaning : "to eat", te : "tabete", plain : "", nai : "tabenai", type : "verb" },
+{ japanese : "tarimasu" , meaning : "to be enough", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "tetsudaimasu" , meaning : "to help, to assist", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "todokemasu" , meaning : "to deliver", te : "todokete", plain : "", nai : "todokenai", type : "verb" },
 { japanese : "tomemasu" , meaning : "to stop, to park (car)", te : "tomete", plain : "", nai : "tomenai", type : "verb" },
+{ japanese : "toorimasu" , meaning : "to pass (the bread, salt etc)", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "torimasu" , meaning : "to take (picture)", te : "totte", plain : "", nai : "toranai", type : "verb" },
 { japanese : "tsukaimasu" , meaning : "to use", te : "tsukatte", plain : "", nai : "tsukawanai", type : "verb" },
+{ japanese : "tsukaremasu" , meaning : "to get tired", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "tsukemasu" , meaning : "to turn on, to switch on", te : "tsukete", plain : "", nai : "tsukenai", type : "verb" },
 { japanese : "tsukimasu" , meaning : "to arrive", te : "tsuite", plain : "", nai : "tsukanai", type : "verb" },
-{ japanese : "tsukurimasu" , meaning : "to make, to produce", te : "tsukutte", plain : "", nai : "tsukuranai", type : "verb" },
-{ japanese : "tsutomemasu" , meaning : "to work for", te : "tsutomete", plain : "", nai : "tsutomete", type : "verb" },
+{ japanese : "tsukurimasu" , meaning : "to make, to produce, to form", te : "tsukutte", plain : "", nai : "tsutomete", type : "verb" },
+{ japanese : "tsutomemasu" , meaning : "to work for, to be employed", te : "tsutomete", plain : "", nai : "", type : "verb" },
+{ japanese : "ugokimasu" , meaning : "", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "umaremasu" , meaning : "to be born", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "urimasu" , meaning : "to sell", te : "utte", plain : "", nai : "uranai", type : "verb" },
-{ japanese : "wakarimasu" , meaning : "to know", te : "wakatte", plain : "", nai : "wakaranai", type : "verb" },
+{ japanese : "utaimasu" , meaning : "to sing", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "wakarimasu" , meaning : "to know, to understand", te : "wakatte", plain : "", nai : "wakaranai", type : "verb" },
+{ japanese : "waraimasu" , meaning : "to laugh", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "wasuremasu" , meaning : "to forget", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "watarimasu" , meaning : "to cross (street, bridge)", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "yaburemasu" , meaning : "to be torn", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "yamemasu" , meaning : "to quit, to resign", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "yarimasu" , meaning : "to perform, to undertake", te : "", plain : "", nai : "", type : "verb" },
 { japanese : "yobimsau" , meaning : "to call", te : "yonde", plain : "", nai : "yobanai", type : "verb" },
 { japanese : "yomimasu" , meaning : "to read", te : "yonde", plain : "", nai : "yomanai", type : "verb" },
-{ japanese : "hakimasu" , meaning : "to wear (lower)", te : "hakite", plain : "", nai : "hakanai", type : "verb" },
-{ japanese : "araimasu" , meaning : "to wash, clean", te : "aratte", plain : "", nai : "arawanai", type : "verb" },
-{ japanese : "asobimasu" , meaning : "to play, to enjoy", te : "asonde", plain : "", nai : "asobanai", type : "verb" },
-{ japanese : "atsumemasu" , meaning : "to collect, to gather", te : "atsumete", plain : "", nai : "atsumenai", type : "verb" },
+{ japanese : "yoyaku shimasu" , meaning : "to make a reservation", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "zangyoushimasu" , meaning : "to work late, to work overtime", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "abimasu" , meaning : "to dash water, to take a shower", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "ukimasu" , meaning : "to work, to operate, to run", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "kuremasu" , meaning : "to give (to the receiver or family)", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "kashimasu" , meaning : "to lend", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "tsuremasu" , meaning : "to bring along someone, to take", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "tomarimasu" , meaning : "to stop", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "nukanarimasu" , meaning : "to lose", te : "", plain : "", nai : "", type : "verb" },
+{ japanese : "kawakimasu" , meaning : "to get dry", te : "", plain : "", nai : "", type : "verb" },
 
 
 
 ];
 
 const vocab = data.filter(item => item.type === "vocab");
-const sentences = data.filter(item => item.type === "sentence")
+const sentences = data.filter(item => item.type === "sentence");
 const verbs = data.filter(item => item.type === "verb");
-const adjectives = data.filter(item => item.type === "adjective")
-const familyVocab = data.filter(item => item.type === "family")
-const exceptSentences = data.filter(item => item.type !== "sentence")
+const adjectives = data.filter(item => item.type === "adjective");
+const familyVocab = data.filter(item => item.type === "family");
+const exceptSentences = data.filter(item => item.type !== "sentence");
+
+
+console.log(verbs)
 
 
 
@@ -2148,10 +2234,10 @@ const exceptSentences = data.filter(item => item.type !== "sentence")
 
 // DOM ELEMENTS
 
-const inputWord = document.querySelector("#input-word")
-const buttonSwitch = document.querySelector("#button-switch")
-const divWords = document.querySelector("#div-words")
-const divSentences = document.querySelector("#div-sentences")
+const inputWord = document.querySelector("#input-word");
+const buttonSwitch = document.querySelector("#button-switch");
+const divWords = document.querySelector("#div-words");
+const divSentences = document.querySelector("#div-sentences");
 
 
 
@@ -2162,11 +2248,11 @@ function findWord (array, word) {
     let filterExactMatch = array.filter(item => item.japanese === word);
     let filterExactMatchSplit = array.filter(item => item.japanese.split(" ").includes(word));
     let filterIncluded = array.filter(item => item.japanese.includes(word));
-    let filterResult = [...filterExactMatch, ...filterExactMatchSplit,...filterIncluded].filter(item => item.type === "verb")
-    console.log(filterResult)
+    let filterResult = [...filterExactMatch, ...filterExactMatchSplit,...filterIncluded].filter(item => item.type === "verb");
+    console.log(filterResult);
     
     } else if (buttonSwitch.textContent === "en -> jp") {
-        let filtered = array.filter(item => item.meaning.split(" ").includes(word))
+        let filtered = array.filter(item => item.meaning.split(" ").includes(word));
         console.log(filtered);
     }
 }
@@ -2182,19 +2268,31 @@ function findWord (array, word) {
 function renderWords (array) {
     divWords.innerHTML = ""
     array.forEach(item => {
-        let element = document.createElement("h4");
-        element.textContent = `${item.japanese} : ${item.meaning}`
-        divWords.append(element)
-    })
+        if(item.type === "verb") {
+       let element = document.createElement("h4");
+        element.innerHTML = `${item.japanese} <span id="form"> ${item.te} ${item.nai}</span> : ${item.meaning}`;
+        divWords.append(element);
+        
+        } else {
+       
+                let line1 = document.createElement("h4");
+                
+                line1.textContent = `${item.japanese} : ${item.meaning}`
+                
+                divWords.append(line1);
+
+    }
+    });
 
 }
 
+
 function renderSentences (array) {
-    divSentences.innerHTML = ""
+    divSentences.innerHTML = "";
     array.forEach(item => {
         let element = document.createElement("p");
-        element.textContent = `${item.japanese} : ${item.meaning}`
-        divSentences.append(element)
+        element.textContent = `${item.japanese}  :  ${item.meaning}`;
+        divSentences.append(element);
     })
 
 }
@@ -2207,7 +2305,7 @@ function renderSentences (array) {
 
 buttonSwitch.addEventListener("click", function(){
     if(buttonSwitch.textContent === "jp -> en") {
-        buttonSwitch.textContent = "en -> jp"
+        buttonSwitch.textContent = "en -> jp";
     } else if(buttonSwitch.textContent === "en -> jp") {
         buttonSwitch.textContent = "jp -> en"
     }
@@ -2236,21 +2334,23 @@ inputWord.addEventListener("input", function(e){
     divWords.innerHTML = "";
     divSentences.innerHTML = "";
 
-    let sliceCounter = e.target.value.length
+    let sliceCounter = e.target.value.length;
 
 
 
 
     // 1st option for words, NOT for sentences
-    let filteredWords1 = exceptSentences.filter(item => item.japanese.slice(0,sliceCounter) === e.target.value) 
-    console.log(filteredWords1)
+    let filteredWords1 = exceptSentences.filter(item => item.japanese.slice(0,sliceCounter) === e.target.value);
+    console.log(filteredWords1);
    // if there is no match for the first characters of ONE/FIRST word input
 
     // 2nd option for words, 1st option for sentences, searches exact match anywhere in the word/sentence
-    let filteredWords2 = exceptSentences.filter(item => item.japanese.split(" ").includes(e.target.value))
+    let filteredWords2 = exceptSentences.filter(item => item.japanese.split(" ").includes(e.target.value));
     console.log(filteredWords1)
 
     let wordsToDisplay = filteredWords1 || filteredWords2;
+
+    wordsToDisplay.sort((a,b) => a.japanese.length - b.japanese.length);
 
     renderWords(wordsToDisplay)
    
@@ -2269,7 +2369,7 @@ inputWord.addEventListener("input", function(e){
    
     renderSentences(sentencesToDisplay)
 
-    if(inputWord.value === "") {
+    if (inputWord.value === "") {
         divWords.innerHTML = "";
         divSentences.innerHTML = "";   
      }
@@ -2286,17 +2386,33 @@ inputWord.addEventListener("input", function(e){
     
         // 1st option for words, NOT for sentences
         let filteredWords1 = exceptSentences.filter(item => item.meaning.slice(0,sliceCounter) === e.target.value) 
-        console.log(filteredWords1)
+        
        // if there is no match for the first characters of ONE/FIRST word input
     
         // 2nd option for words, 1st option for sentences, searches exact match anywhere in the word/sentence
         let filteredWords2 = exceptSentences.filter(item => item.meaning.split(" ").includes(e.target.value))
-        console.log(filteredWords1)
-    
+     
+
+        let filteredSentences3 = exceptSentences.filter(item => item.meaning.includes(e.target.value))
+       
+
         let wordsToDisplay = [...filteredWords1, ...filteredWords2];
+
+        if (wordsToDisplay.length === 0) {
+            wordsToDisplay = filteredSentences3
+        }
+
+
+
+
+        wordsToDisplay.sort((a,b) => a.meaning.length - b.meaning.length);
     
         renderWords(wordsToDisplay)
-        
+
+        if (inputWord.value === "") {
+            divWords.innerHTML = "";
+            divSentences.innerHTML = "";   
+         }
         
     }
   
@@ -2309,7 +2425,9 @@ inputWord.addEventListener("input", function(e){
 
 
         let word = e.target.textContent.split(" ")[0]
+      
 
+       
 
         divWords.innerHTML = "";
         divSentences.innerHTML = "";
@@ -2342,7 +2460,10 @@ inputWord.addEventListener("input", function(e){
         // NOT for words (may use but not so necessary), 2nd option for sentences
         let filteredSentences2 = sentences.filter(item => item.japanese.includes(word)) 
         console.log(filteredSentences2)
-    
+
+       
+
+
         let sentencesToDisplay = [...filteredSentences1]
        
         renderSentences(sentencesToDisplay)
