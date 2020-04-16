@@ -25,9 +25,16 @@ body {
 #div-sentences {
     margin-top: 5%;
     margin-right: 10%;
+    word-break: break-word;
     
 }
 
 #buttons-menu {
     margin-bottom: 5%;
+    
+}
+
+#form {
+    font-style: italic;
+    font-size: 0.8em;
 }
